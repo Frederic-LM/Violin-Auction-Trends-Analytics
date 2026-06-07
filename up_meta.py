@@ -53,19 +53,30 @@ def save_makers(makers):
         print(f"[ERROR] Writing JSON failed: {e}")
 
 def calculate_century(birth, death):
+    """
+    Applies the generalized century classification rule across all eras:
+    If born in the second half of any century (XX50), they belong to century (XX+2)
+    UNLESS they passed away before the turn of that century (XX+1 * 100).
+    """
     b_val = safe_int(birth)
     d_val = safe_int(death)
     
     if not b_val:
         return "Unknown"
         
-    # Rule: Born after 1950 is 21st Century unless died before 2000
-    if b_val > 1950:
-        if d_val and d_val < 2000:
-            return "20"
-        return "21"
+    xx = b_val // 100
+    mid_century = xx * 100 + 50
+    turn_of_century = (xx + 1) * 100
+    
+    if b_val > mid_century:
+        if d_val and d_val < turn_of_century:
+            target_century = xx + 1  # Standard birth century
+        else:
+            target_century = xx + 2  # Subsequent century
+    else:
+        target_century = xx + 1      # Standard birth century
         
-    return str(int((b_val + 35) // 100 + 1))
+    return str(target_century)
 
 def main():
     print("=" * 55)
@@ -123,6 +134,7 @@ def main():
         if not bio and existing_record: 
             bio = old_bio
 
+        # Compute century using the generalized logic
         century = calculate_century(birth, death)
 
         # Build clean JSON record
