@@ -1,4 +1,4 @@
-# Ana.py
+# violin_analytics.py
 # Copyright (C) 2026 Frédéric Levi Mazloum
 # This Source Code Form is subject to the terms of the Mozilla Public
 # License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -98,7 +98,6 @@ def get_index_value(year, index_dict):
 def format_century_label(c):
     try:
         val = int(float(c))
-        # Determine the correct English ordinal suffix
         suffix = "th"
         j = val % 10
         k = val % 100
@@ -113,60 +112,83 @@ def format_century_label(c):
         return str(c)
 
 # ==========================================
-# 1. DATA LOADING & PROCESSING (STREAMLINED)
+# DATA LOADING & PROCESSING
 # ==========================================
 def load_and_process_data():
     print("[SYSTEM] Loading and cleaning data...")
     
-    csv_file = 'all_violin_sales_combined_namefixed.csv'
-    if os.path.exists('auction_data_enhanced.csv'):
-        csv_file = 'auction_data_enhanced.csv'
-        print(f"[SYSTEM] Enhanced Excel CSV detected. Loading: {csv_file}")
+    # Establish fallback rules as implemented in lyze.py
+    csv_file = None
+    possible_csvs = ['auction_data_enhanced.csv', 'all_violin_sales.csv', 'auction_data.csv']
+    for candidate in possible_csvs:
+        if os.path.exists(candidate):
+            csv_file = candidate
+            print(f"[SYSTEM] CSV Transaction file detected: {csv_file}")
+            break
+
+    if not csv_file:
+        print("\n[ERROR] Could not find any transaction CSV file.")
+        print("Please ensure one of these files is present in your folder:")
+        print(" - auction_data_enhanced.csv\n - all_violin_sales.csv\n - auction_data.csv")
+        sys.exit(1)
+        
+    if not os.path.exists('makers_meta.json'):
+        print("\n[ERROR] 'makers_meta.json' is missing from this folder.")
+        sys.exit(1)
         
     try:
-        auctions = pd.read_csv(csv_file, encoding='utf-8-sig')
+        df_csv = pd.read_csv(csv_file, encoding='utf-8-sig')
         with open('makers_meta.json', 'r', encoding='utf-8') as f:
-            makers = pd.DataFrame(json.load(f))
+            makers_df = pd.DataFrame(json.load(f))
     except Exception as e:
         print(f"Error loading files: {e}")
         sys.exit(1)
 
-    # Prevent suffix collisions (_x, _y) if loading an already-enhanced CSV
-    metadata_cols = ['maker_name', 'country', 'century', 'birth', 'death', 'Is_Dead', 'Start_Active', 'End_Active']
-    auctions = auctions.drop(columns=[col for col in metadata_cols if col in auctions.columns], errors='ignore')
+    # Standardize maker_id types to prevent numeric/string merge mismatches
+    df_csv['maker_id'] = pd.to_numeric(df_csv['maker_id'], errors='coerce')
+    makers_df['maker_id'] = pd.to_numeric(makers_df['maker_id'], errors='coerce')
+    
+    df_csv = df_csv.dropna(subset=['maker_id'])
+    makers_df = makers_df.dropna(subset=['maker_id'])
+    
+    df_csv['maker_id'] = df_csv['maker_id'].astype(int)
+    makers_df['maker_id'] = makers_df['maker_id'].astype(int)
 
-    # Currency selection (Prefer USD)
-    target_currency = 'USD' if 'USD' in auctions.columns else 'EUR' if 'EUR' in auctions.columns else None
+    # Prevent suffix collisions by dropping metadata columns if using an enhanced CSV
+    metadata_cols = ['maker_name', 'country', 'century', 'birth', 'death', 'Is_Dead', 'Start_Active', 'End_Active']
+    df_csv = df_csv.drop(columns=[col for col in metadata_cols if col in df_csv.columns], errors='ignore')
+
+    # Filter out bow instruments as handled in lyze.py
+    if 'Type' in df_csv.columns:
+        df_csv = df_csv[~df_csv['Type'].astype(str).str.lower().str.contains('bow', na=False)]
+
+    # Currency selection (Prefer USD over EUR)
+    target_currency = 'USD' if 'USD' in df_csv.columns else 'EUR' if 'EUR' in df_csv.columns else None
     if not target_currency:
         print("Error: Could not find USD or EUR columns in auction data.")
         sys.exit(1)
         
     print(f"[SYSTEM] Primary Currency locked to: {target_currency}")
 
-    auctions['PRICE'] = auctions[target_currency].astype(str).str.replace(',', '', regex=False).str.replace(' ', '', regex=False)
-    auctions['PRICE'] = pd.to_numeric(auctions['PRICE'], errors='coerce')
-    auctions = auctions.dropna(subset=['PRICE'])
-    auctions = auctions[auctions['PRICE'] > 0]
+    df_csv['PRICE'] = df_csv[target_currency].astype(str).str.replace(',', '', regex=False).str.replace(' ', '', regex=False)
+    df_csv['PRICE'] = pd.to_numeric(df_csv['PRICE'], errors='coerce')
+    df_csv = df_csv.dropna(subset=['PRICE'])
+    df_csv = df_csv[df_csv['PRICE'] > 0]
     
-    # 1. Look for whichever date column exists (Sale Date, Date, or Sortable Date)
-    possible_date_columns = ['Sale Date', 'Date', 'Sortable Date']
-    date_col = next((col for col in possible_date_columns if col in auctions.columns), None)
+    possible_dates = ['Sale Date', 'Date', 'Sortable Date']
+    date_col = next((col for col in possible_dates if col in df_csv.columns), None)
     
     if not date_col:
-        print("Error: Could not find a date column. Please name your column 'Sale Date' or 'Date'.")
+        print("Error: Could not find a valid date column.")
         sys.exit(1)
 
-    # 2. Try standard Python Date parsing first
-    auctions['Sale Year'] = pd.to_datetime(auctions[date_col], errors='coerce').dt.year
-    
-    # 3. If standard parsing fails, scan the text for a 4-digit year
-    if auctions['Sale Year'].isna().any():
-        fallback_years = auctions[date_col].astype(str).str.extract(r'(18\d{2}|19\d{2}|20\d{2})')[0]
-        auctions['Sale Year'] = auctions['Sale Year'].fillna(pd.to_numeric(fallback_years, errors='coerce'))
+    df_csv['Sale Year'] = pd.to_datetime(df_csv[date_col], errors='coerce').dt.year
+    if df_csv['Sale Year'].isna().any():
+        fallback_years = df_csv[date_col].astype(str).str.extract(r'(18\d{2}|19\d{2}|20\d{2})')[0]
+        df_csv['Sale Year'] = df_csv['Sale Year'].fillna(pd.to_numeric(fallback_years, errors='coerce'))
 
-    # Clean up empty rows
-    auctions = auctions.dropna(subset=['Sale Year'])
-    auctions['Sale Year'] = auctions['Sale Year'].astype(int)
+    df_csv = df_csv.dropna(subset=['Sale Year'])
+    df_csv['Sale Year'] = df_csv['Sale Year'].astype(int)
 
     # Lifespan Logic
     def process_lifespan(row):
@@ -183,41 +205,37 @@ def load_and_process_data():
             is_dead = (birth + 85) < 2026
         return pd.Series({'Start_Active': start_active, 'End_Active': end_active, 'Is_Dead': is_dead})
 
-    lifespan_df = makers.apply(process_lifespan, axis=1)
+    lifespan_df = makers_df.apply(process_lifespan, axis=1)
     
-    if 'Start_Active' in makers.columns:
-        makers = makers.drop(columns=['Start_Active', 'End_Active', 'Is_Dead'], errors='ignore')
+    if 'Start_Active' in makers_df.columns:
+        makers_df = makers_df.drop(columns=['Start_Active', 'End_Active', 'Is_Dead'], errors='ignore')
         
-    makers = pd.concat([makers, lifespan_df], axis=1)
+    makers_df = pd.concat([makers_df, lifespan_df], axis=1)
 
-    # Calculate Century for EVERYONE first (before filtering dead/alive)
-    birth_years = pd.to_numeric(makers['birth'], errors='coerce')
+    # Calculate Century for everyone
+    birth_years = pd.to_numeric(makers_df['birth'], errors='coerce')
     derived_century = birth_years.apply(lambda b: int((b + 35) // 100 + 1) if not pd.isna(b) and b > 0 else np.nan)
     
-    if 'century' not in makers.columns:
-        makers['century'] = np.nan
+    if 'century' not in makers_df.columns:
+        makers_df['century'] = np.nan
         
-    makers['century'] = pd.to_numeric(makers['century'], errors='coerce')
-    makers['century'] = makers['century'].fillna(derived_century)
-    
-    makers['century'] = makers['century'].apply(
+    makers_df['century'] = pd.to_numeric(makers_df['century'], errors='coerce')
+    makers_df['century'] = makers_df['century'].fillna(derived_century)
+    makers_df['century'] = makers_df['century'].apply(
         lambda c: str(int(c)) if not pd.isna(c) and c > 0 else "Unknown"
     )
 
-    # --- THE LIVING & 21st  ---
+    # Historical Filtering Logic
     if INCLUDE_21ST_CENTURY:
-        # DISABLE the Alive filter: Keep living makers so contemporary 21st C. makers can enter
-        deceased_makers = makers.copy()
+        deceased_makers = makers_df.copy()
     else:
-        # STRICT historical mode: Must be deceased AND must not be 21st century
-        deceased_makers = makers[(makers['Is_Dead'] == True) & (makers['century'] != "21")].copy()
-    # --------------------------------------------
+        deceased_makers = makers_df[(makers_df['Is_Dead'] == True) & (makers_df['century'] != "21")].copy()
 
-    df_raw_merged = pd.merge(auctions, deceased_makers, on='maker_id', how='inner')
+    df_raw_merged = pd.merge(df_csv, deceased_makers, on='maker_id', how='inner')
     df_raw_merged = df_raw_merged[df_raw_merged['Sale Year'] >= df_raw_merged['Start_Active']]
     sale_counts_per_maker = df_raw_merged['maker_id'].value_counts()
 
-    # Calculate constant currency "Real Price" for OLS fitting
+    # Calculate constant currency "Real Price" using selected inflation index
     dict_to_use = CPI_INDEX if ADJUSTMENT_INDEX == "CPI" else LABOR_INDEX
     def calculate_real_price(row):
         if ADJUSTMENT_INDEX == "NONE":
@@ -233,14 +251,13 @@ def load_and_process_data():
     # Filter out makers who fail to meet strict N and holding span requirements
     maker_groups = df_raw_merged.groupby('maker_id')
     qualifying_maker_ids = []
-    
     for m_id, group in maker_groups:
         n_sales = len(group)
         span = group['Sale Year'].max() - group['Sale Year'].min()
         if n_sales >= MIN_SALES_REQUIRED and span >= MIN_SPAN_REQUIRED:
             qualifying_maker_ids.append(m_id)
 
-    # Fit OLS slope on ln(Real Price) vs Sale Year to find real growth
+    # Fit OLS slope on ln(Real Price) vs Sale Year to find real/nominal growth rates
     maker_growth_records = []
     for m_id in qualifying_maker_ids:
         group = df_raw_merged[df_raw_merged['maker_id'] == m_id]
@@ -262,17 +279,23 @@ def load_and_process_data():
             'maker_name': first_row['maker_name'],
             'country': first_row['country'],
             'century': first_row['century'],
-            'Is_Dead': first_row['Is_Dead'],  # <--- ADD THIS LINE
+            'Is_Dead': first_row['Is_Dead'],
             'First_Year': int(x.min()),
             'Last_Year': int(x.max()),
             'Years_Between': int(x.max() - x.min()),
             'Nominal_Growth_%': nominal_growth_rate,
             'Annual_Growth_%': real_growth_rate,
-            'N_Sales': len(group)
+            'N_Sales': len(group),
+            # Aliases below to maintain backward compatibility with lyze.py metrics:
+            'Span_Years': int(x.max() - x.min()),
+            'First_Sale': int(x.min()),
+            'Last_Sale': int(x.max()),
+            'Real_CAGR_%': real_growth_rate
         })
 
     active_growth = pd.DataFrame(maker_growth_records) if qualifying_maker_ids else pd.DataFrame(columns=[
-        'maker_id', 'maker_name', 'country', 'century', 'First_Year', 'Last_Year', 'Years_Between', 'Nominal_Growth_%', 'Annual_Growth_%', 'N_Sales'
+        'maker_id', 'maker_name', 'country', 'century', 'Is_Dead', 'First_Year', 'Last_Year', 'Years_Between', 
+        'Nominal_Growth_%', 'Annual_Growth_%', 'N_Sales', 'Span_Years', 'First_Sale', 'Last_Sale', 'Real_CAGR_%'
     ])
 
     # Methodological regional groupings
@@ -294,27 +317,19 @@ def load_and_process_data():
         }
         active_growth['country'] = active_growth['country'].replace(regional_mapping)
 
-    # =====================================================================
-    # REST OF WORLD (LOW-N) GROUPING LOGIC
-    # =====================================================================
+    # Rest of World Grouping logic
     if GROUP_LOW_N_COUNTRIES and not active_growth.empty:
-        # Count the active pool size for each country/regional group [1]
         counts = active_growth['country'].value_counts()
-        
-        # Identify any groups with fewer than 10 total makers [1]
         low_n_countries = counts[counts < 10].index
-        
-        # Merge those low-volume groups into "Rest of World" [1]
         if len(low_n_countries) > 0:
             active_growth['country'] = active_growth['country'].replace(
                 {c: 'World (Rest of)' for c in low_n_countries}
             )
-    # =====================================================================
     
-    return active_growth, deceased_makers, sale_counts_per_maker, MIN_SALES_REQUIRED, makers, target_currency
+    return active_growth, deceased_makers, sale_counts_per_maker, MIN_SALES_REQUIRED, makers_df, target_currency
 
 # ==========================================
-# 2. LEDGER & MARKDOWN EXPORTER
+# LEDGER & GENERAL REPORT EXPORTER
 # ==========================================
 def display_statistics_ledger(maker_growth, deceased_makers, sale_counts_per_maker, min_sales, currency):
     makers_with_auction_prices = deceased_makers[deceased_makers['maker_id'].isin(sale_counts_per_maker.index)]
@@ -329,7 +344,7 @@ def display_statistics_ledger(maker_growth, deceased_makers, sale_counts_per_mak
     print(f"      MARKET DEMOGRAPHICS SUMMARY (N = {min_sales})")
     print("=" * 50)
     print(f"Index Active: {ADJUSTMENT_INDEX}")
-    print(f"Regional Grouping: {'Enabled (Central Europe & Benelux)' if GROUP_REGIONS else 'Disabled (Separate)'}")
+    print(f"Regional Grouping: {'Enabled' if GROUP_REGIONS else 'Disabled'}")
     print(f"Total Deceased Violin Makers in DB:    {len(deceased_makers)}")
     print(f"Makers with ANY Auction Activity:      {len(makers_with_auction_prices)}")
     print(f"Makers with ZERO Auction Activity:     {len(makers_without_auction_prices)}")
@@ -341,12 +356,10 @@ def display_statistics_ledger(maker_growth, deceased_makers, sale_counts_per_mak
     if not maker_growth.empty:
         print(maker_growth[['maker_name', 'First_Year', 'Last_Year', 'Years_Between', 'Nominal_Growth_%', 'Annual_Growth_%']].head().to_string())
 
-    # Compile medians and counts
     century_grp = maker_growth.groupby('century')['Annual_Growth_%'].agg(['median', 'count']) if not maker_growth.empty else pd.DataFrame()
     country_grp = maker_growth.groupby('country')['Annual_Growth_%'].agg(['median', 'count']) if not maker_growth.empty else pd.DataFrame()
     combined_grp = maker_growth.groupby(['country', 'century'])['Annual_Growth_%'].agg(['median', 'count']).reset_index() if not maker_growth.empty else pd.DataFrame()
 
-    # Print medians with strict n < 10 suppression guards
     print("\n--- ANALYSIS BY CENTURY (MEDIAN REAL GROWTH %) ---")
     for cent, row in century_grp.iterrows():
         med_val = f"{row['median']:.3f}%" if row['count'] >= 10 else "Insuff. Data (n < 10)"
@@ -357,7 +370,6 @@ def display_statistics_ledger(maker_growth, deceased_makers, sale_counts_per_mak
         med_val = f"{row['median']:.3f}%" if row['count'] >= 10 else "Insuff. Data (n < 10)"
         print(f"{country:<15} | Median: {med_val:<22} | n: {int(row['count'])}")
     
-    # Calculate Performance brackets
     lost_c = len(maker_growth[maker_growth['Annual_Growth_%'] < -1.0]) if not maker_growth.empty else 0
     held_c = len(maker_growth[(maker_growth['Annual_Growth_%'] >= -1.0) & (maker_growth['Annual_Growth_%'] <= 1.0)]) if not maker_growth.empty else 0
     gained_c = len(maker_growth[maker_growth['Annual_Growth_%'] > 1.0]) if not maker_growth.empty else 0
@@ -370,7 +382,6 @@ def display_statistics_ledger(maker_growth, deceased_makers, sale_counts_per_mak
     makers_zero_auction = len(makers_without_auction_prices)
     makers_cut_by_N = len(makers_filtered_out_by_N)
     
-    # Write to Markdown File
     md_filename = "violin_market_statistics.md"
     try:
         with open(md_filename, 'w', encoding='utf-8') as f:
@@ -393,7 +404,7 @@ def display_statistics_ledger(maker_growth, deceased_makers, sale_counts_per_mak
             f.write("## 2. Market Performance Universes\n\n")
             f.write("These metrics represent how the active traded makers perform, scaled against different structural assumptions of the global market size.\n\n")
             
-            # Context A Table
+            # Context A
             f.write(f"### Context A: Active Traded Pool (N={active_total})\n")
             f.write("Measuring performance strictly within the liquid auction market.\n\n")
             f.write("| Performance Bracket | Count | Percentage |\n")
@@ -405,7 +416,7 @@ def display_statistics_ledger(maker_growth, deceased_makers, sale_counts_per_mak
             f.write(f"| **Roughly Held Value** (-1.0% to 1.0% Real CAGR) | {held_c} | {pct_held:.2f}% |\n")
             f.write(f"| **Gained Real Value** (> 1.0% Real CAGR) | {gained_c} | {pct_gained:.2f}% |\n\n")
             
-            # Context B Table
+            # Context B
             f.write(f"### Context B: Database Total Pool (N={db_total})\n")
             f.write("Measuring performance relative to all deceased makers in your local metadata file.\n\n")
             f.write("| Performance Bracket | Count | Percentage |\n")
@@ -415,9 +426,9 @@ def display_statistics_ledger(maker_growth, deceased_makers, sale_counts_per_mak
             f.write(f"| **Gained Real Value** | {gained_c} | {gained_c/db_total*100:.2f}% |\n")
             f.write(f"| **Graveyard / Illiquid** (Untraded or filtered) | {db_total-active_total} | {(db_total-active_total)/db_total*100:.2f}% |\n\n")
             
-            # Context C Table
+            # Context C
             f.write(f"### Context C: Projected Historical Universe (N={hist_total})\n")
-            f.write("Measuring performance against the estimated global history of individual violin makers (low-ball dictionary baseline).\n\n")
+            f.write("Measuring performance against the estimated global history of individual violin makers.\n\n")
             f.write("| Performance Bracket | Count | Percentage |\n")
             f.write("| :--- | :---: | :---: |\n")
             f.write(f"| **Lost Real Value** | {lost_c} | {lost_c/hist_total*100:.2f}% |\n")
@@ -458,8 +469,84 @@ def display_statistics_ledger(maker_growth, deceased_makers, sale_counts_per_mak
 
     input("\nPress Enter to return to menu...")
 
+# =====================================================================
+# RANKINGS & CSV MASTER LIST EXPORTER (Integrated from Lyse.py)
+# =====================================================================
+def export_gainers_losers_report(maker_growth):
+    """
+    Generates a master CSV of all growth profiles and outputs a 
+    markdown file showing top 10 (gainers) and bottom 10 (losers) for
+    each region and historical century.
+    """
+    print("\n[SYSTEM] Generating Master CSV and Gainer/Loser rankings...")
+
+    if maker_growth.empty:
+        print("[WARNING] Active maker growth pool is empty. Export canceled.")
+        input("\nPress Enter to return to menu...")
+        return
+
+    # Keep exact columns used by lyze.py for master list matching
+    export_cols = [
+        'maker_id', 'maker_name', 'country', 'century', 
+        'N_Sales', 'Span_Years', 'First_Sale', 'Last_Sale', 'Real_CAGR_%', 'Is_Dead'
+    ]
+    df_export = maker_growth[export_cols].copy()
+
+    # Save complete raw data to CSV for web use
+    csv_out = "maker_cagr_master_list.csv"
+    df_export.sort_values(
+        by=['country', 'century', 'Real_CAGR_%'], 
+        ascending=[True, True, False]
+    ).to_csv(csv_out, index=False, encoding='utf-8-sig')
+    
+    # Generate the Rankings Markdown Report
+    md_out = "market_report.md"
+    try:
+        with open(md_out, 'w', encoding='utf-8') as f:
+            f.write("# Violin Maker OLS Growth Rankings\n")
+            f.write(f"Parameters: N >= {MIN_SALES_REQUIRED} sales, Span >= {MIN_SPAN_REQUIRED} years. Deflated by {ADJUSTMENT_INDEX}.\n\n")
+            
+            countries = sorted(df_export['country'].dropna().unique())
+            for country in countries:
+                f.write(f"## Region: {country}\n\n")
+                df_c = df_export[df_export['country'] == country]
+                centuries = sorted(df_c['century'].dropna().unique())
+                
+                for cent in centuries:
+                    df_cent = df_c[df_c['century'] == cent].sort_values(by='Real_CAGR_%', ascending=False)
+                    if len(df_cent) == 0: 
+                        continue
+                    
+                    f.write(f"### Century: {format_century_label(cent)} (Total Active Makers: {len(df_cent)})\n")
+                    
+                    # TOP 10 (Gainers)
+                    top = df_cent.head(10)
+                    f.write("**🏆 Top Performers (Best Real CAGR)**\n")
+                    f.write("| Rank | Maker Name | Real CAGR | N Sales | Span |\n")
+                    f.write("| :--- | :--- | :---: | :---: | :---: |\n")
+                    for i, (_, row) in enumerate(top.iterrows(), 1):
+                        f.write(f"| {i} | {row['maker_name']} | **{row['Real_CAGR_%']:.2f}%** | {row['N_Sales']} | {row['First_Sale']}-{row['Last_Sale']} |\n")
+                    f.write("\n")
+                    
+                    # BOTTOM 10 (Losers)
+                    bottom = df_cent.tail(10).iloc[::-1]
+                    f.write("**🔻 Bottom Performers (Worst Real CAGR)**\n")
+                    f.write("| Rank | Maker Name | Real CAGR | N Sales | Span |\n")
+                    f.write("| :--- | :--- | :---: | :---: | :---: |\n")
+                    for i, (_, row) in enumerate(bottom.iterrows(), 1):
+                        f.write(f"| {i} | {row['maker_name']} | **{row['Real_CAGR_%']:.2f}%** | {row['N_Sales']} | {row['First_Sale']}-{row['Last_Sale']} |\n")
+                    f.write("\n")
+                    f.write("---\n\n")
+
+        print(f"[SUCCESS] Exported complete Master List CSV: {os.path.abspath(csv_out)}")
+        print(f"[SUCCESS] Exported Top/Bottom Rankings Report: {os.path.abspath(md_out)}")
+    except Exception as e:
+         print(f"[SYSTEM] Notice: Could not export ranking files: {e}")
+
+    input("\nPress Enter to return to menu...")
+
 # ==========================================
-# 3. GRAPHS
+# GRAPHS
 # ==========================================
 def plot_consolidated_histogram(maker_growth, deceased_makers, currency):
     plt.style.use('dark_background')
@@ -517,7 +604,6 @@ def plot_distribution_by_category(maker_growth, category):
     df_clean = maker_growth.dropna(subset=[category, 'Annual_Growth_%', 'Is_Dead'])
     counts = df_clean[category].value_counts()
     
-    # Strictly raise violin plot category filters to counts >= 10
     valid_groups = counts[counts >= 10].index
     df_clean = df_clean[df_clean[category].isin(valid_groups)]
 
@@ -528,13 +614,12 @@ def plot_distribution_by_category(maker_growth, category):
     groups = sorted(df_clean[category].unique())
     data_to_plot = [df_clean[df_clean[category] == g]['Annual_Growth_%'].values for g in groups]
 
-    # Plot medians strictly to combat fat-tail CAGR outliers
     parts = ax.violinplot(data_to_plot, showmeans=False, showmedians=True)
 
     for pc in parts['bodies']:
         pc.set_facecolor('#7570b3')
         pc.set_edgecolor('white')
-        pc.set_alpha(0.5)  # Slightly more transparent to see the dots
+        pc.set_alpha(0.5)
     
     parts['cmedians'].set_color('#1b9e77')
     parts['cmins'].set_color('#4d4d4d')
@@ -543,21 +628,18 @@ def plot_distribution_by_category(maker_growth, category):
 
     ax.axhline(0, color='#d95f02', linestyle='--', linewidth=1, alpha=0.8)
 
-    # --- ADD THE SCATTER OVERLAY FOR LIVING VS DEAD ---
     for i, g in enumerate(groups):
         df_g = df_clean[df_clean[category] == g]
         dead_y = df_g[df_g['Is_Dead'] == True]['Annual_Growth_%'].values
         liv_y = df_g[df_g['Is_Dead'] == False]['Annual_Growth_%'].values
         
         x_pos = i + 1
-        # Add random horizontal jitter so dots don't stack perfectly on top of each other
         jitter_dead = np.random.normal(0, 0.04, size=len(dead_y))
         jitter_liv = np.random.normal(0, 0.04, size=len(liv_y))
         
         ax.scatter(x_pos + jitter_dead, dead_y, color='white', alpha=0.3, s=15, zorder=3)
         if len(liv_y) > 0:
             ax.scatter(x_pos + jitter_liv, liv_y, color='#e7298a', alpha=0.9, s=35, marker='o', edgecolors='white', linewidth=0.5, zorder=4)
-    # --------------------------------------------------
 
     ax.set_xticks(np.arange(1, len(groups) + 1))
     ax.set_xticklabels(groups, fontsize=12)
@@ -577,9 +659,6 @@ def plot_distribution_by_category(maker_growth, category):
     plt.tight_layout()
     plt.show()
 
-# ==========================================
-# 4. UNIFIED GRID OF ALL COUNTRIES BY CENTURY
-# ==========================================
 def plot_all_countries_by_century(maker_growth):
     plt.style.use('dark_background')
     
@@ -600,14 +679,15 @@ def plot_all_countries_by_century(maker_growth):
         return
         
     max_cents = max([len(cents) for _, cents in valid_countries])
-        
     ncols = 3
     nrows = int(np.ceil(num_countries / ncols))
     
     fig, axes = plt.subplots(nrows, ncols, figsize=(6 * ncols, 4.5 * nrows), sharey=True)
     
-    if num_countries == 1: axes = np.array([axes])
-    else: axes = axes.flatten()
+    if num_countries == 1: 
+        axes = np.array([axes])
+    else: 
+        axes = axes.flatten()
         
     for idx, (country, valid_centuries) in enumerate(valid_countries):
         ax = axes[idx]
@@ -632,7 +712,6 @@ def plot_all_countries_by_century(maker_growth):
         
         ax.axhline(0, color='#d95f02', linestyle='--', linewidth=1, alpha=0.7)
         
-        # --- ADD THE SCATTER OVERLAY ---
         for i, cent in enumerate(valid_centuries):
             df_g = df_plot[df_plot['century'] == cent]
             dead_y = df_g[df_g['Is_Dead'] == True]['Annual_Growth_%'].values
@@ -645,7 +724,6 @@ def plot_all_countries_by_century(maker_growth):
             ax.scatter(x_pos + jitter_dead, dead_y, color='white', alpha=0.3, s=10, zorder=3)
             if len(liv_y) > 0:
                 ax.scatter(x_pos + jitter_liv, liv_y, color='#e7298a', alpha=0.9, s=25, marker='o', edgecolors='white', linewidth=0.5, zorder=4)
-        # -------------------------------
 
         ax.set_xticks(np.arange(1, len(valid_centuries) + 1))
         ax.set_xticklabels([format_century_label(c) for c in valid_centuries], fontsize=10)
@@ -678,28 +756,33 @@ def main():
         print("\n" + "=" * 50)
         print("      CONSTANT CURRENCY MARKET ANALYSIS MENU")
         print("=" * 50)
-        print("--- ANALYSIS ---")
-        print("1. Display Market Statistics Ledger (Text Form + MD Export)")
-        print("2. Display Consolidated Histogram (Real Constant %)")
-        print("3. Display Growth Distribution by Country (Violin Plot)")
-        print("4. Display Growth Distribution by Century (Violin Plot)")
-        print("5. Display Century Distributions for All Countries (Violin Plot Grid)")
-        print("6. Exit")
+        print("--- EXPORTS & REPORT GENERATION ---")
+        print("1. Export Market Demographics (Text + violin_market_statistics.md)")
+        print("2. Export Growth Rankings & Master CSV (market_report.md + maker_cagr_master_list.csv)")
+        print("\n--- VISUAL ANALYSIS (PLOTS) ---")
+        print("3. Display Consolidated Histogram (Real Constant %)")
+        print("4. Display Growth Distribution by Country (Violin Plot)")
+        print("5. Display Growth Distribution by Century (Violin Plot)")
+        print("6. Display Century Distributions for All Countries (Violin Plot Grid)")
+        print("\n--- EXIT ---")
+        print("7. Exit")
         print("=" * 50)
         
-        choice = input("Select an option (1-6): ").strip()
+        choice = input("Select an option (1-7): ").strip()
         
         if choice == '1':
             display_statistics_ledger(maker_growth, deceased_makers, sale_counts_per_maker, min_sales, currency)
         elif choice == '2':
-            plot_consolidated_histogram(maker_growth, deceased_makers, currency)
+            export_gainers_losers_report(maker_growth)
         elif choice == '3':
-            plot_distribution_by_category(maker_growth, 'country')
+            plot_consolidated_histogram(maker_growth, deceased_makers, currency)
         elif choice == '4':
-            plot_distribution_by_category(maker_growth, 'century')
+            plot_distribution_by_category(maker_growth, 'country')
         elif choice == '5':
-            plot_all_countries_by_century(maker_growth)
+            plot_distribution_by_category(maker_growth, 'century')
         elif choice == '6':
+            plot_all_countries_by_century(maker_growth)
+        elif choice == '7':
             print("Exiting...")
             break
         else:
