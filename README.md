@@ -1,6 +1,6 @@
 # Violin Auction Trends Analytics
 
-Companion code and data for the paper *The Verdict Never Rendered: Construct Validity, Non-Stationarity, and Selection in Two Centuries of Old-Versus-New Violin Trials* (F. Levi Mazloum, submitted per review, 2026). Interactive results: https://www.ruederome.com/trend.php
+Interactive results: https://www.ruederome.com/trend.php
 
 This repository provides the estimator, the derived per-maker results, and a data template for measuring the long-run real price performance of historical violin makers. It is designed so that any reader can reproduce the analysis from publicly available auction records.
 
