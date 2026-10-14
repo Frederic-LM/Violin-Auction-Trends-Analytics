@@ -1,42 +1,42 @@
-﻿maker_id,maker_name,Sale Date Standard,USD,EUR,GBP,Type,Auction House,Hammer Price,Currency
-337,Franz Joseph Koch,02/10/2026,2829,2520,,Violin,Tarisio Berlin,2100,EUR
-10245,Fritz Mönnig,02/10/2026,2649,2360,,Violin,Tarisio Berlin,2000,EUR
-2036,Antonio Mario Gazzola,02/10/2026,3311,2950,,Violin,Tarisio Berlin,2500,EUR
-1781,Pierluigi Galetti,02/10/2026,4714,4200,,Violin,Tarisio Berlin,3500,EUR
-900001,"Prilipko, Valery",02/10/2026,7285,6490,,Violin,Tarisio Berlin,5500,EUR
-11564,Lucien André Ragot I,02/10/2026,3974,3540,,Violin,Tarisio Berlin,3000,EUR
-2827,Charles Jean-Baptiste Collin-Mézin III,02/10/2026,9429,8400,,Violin,Tarisio Berlin,7000,EUR
-838,Aldo Zani,02/10/2026,7285,6490,,Violin,Tarisio Berlin,5500,EUR
-15417,Paolo Fanfani,02/10/2026,5629,5015,,Violin,Tarisio Berlin,4250,EUR
-15511,Samuele Ciappelli,02/10/2026,3974,3540,,Violin,Tarisio Berlin,3000,EUR
-852,Laberte-Humbert Frères Firm,02/10/2026,3974,3540,,Violin,Tarisio Berlin,3000,EUR
-15617,Jean-Baptiste Léonidas Nadegini,02/10/2026,4378,3900,,Violin,Tarisio Berlin,3250,EUR
-2008,Settimo Melloni,02/10/2026,4041,3600,,Violin,Tarisio Berlin,3000,EUR
-1615,Thomas Kennedy,02/10/2026,5298,4720,,Violin,Tarisio Berlin,4000,EUR
-357,Umberto Lanaro,02/10/2026,5960,5310,,Violin,Tarisio Berlin,4500,EUR
-15273,Franco Forcellini,02/10/2026,8082,7200,,Violin,Tarisio Berlin,6000,EUR
-40,Silvio Barbieri,02/10/2026,5298,4720,,Violin,Tarisio Berlin,4000,EUR
-15344,Vladimir Pilar,02/10/2026,9934,8850,,Violin,Tarisio Berlin,7500,EUR
-1200,Gio Battista Morassi,02/10/2026,13470,12000,,Violin,Tarisio Berlin,10000,EUR
-1832,Guglielmo Rossi,02/10/2026,9272,8260,,Violin,Tarisio Berlin,7000,EUR
-1681,Domingos Ferreira Capela,02/10/2026,7947,7080,,Violin,Tarisio Berlin,6000,EUR
-121,Vincenzo Cavani,02/10/2026,10102,9000,,Violin,Tarisio Berlin,7500,EUR
-1076,Emil Hjorth & Sons,02/10/2026,9272,8260,,Violin,Tarisio Berlin,7000,EUR
-133,Charles Jean-Baptiste Collin-Mézin père,02/10/2026,10596,9440,,Violin,Tarisio Berlin,8000,EUR
-922,Antonio Capela,02/10/2026,10776,9600,,Violin,Tarisio Berlin,8000,EUR
-2299,Cesare Castelli,02/10/2026,13246,11800,,Violin,Tarisio Berlin,10000,EUR
-1079,Émile Germain,02/10/2026,10596,9440,,Violin,Tarisio Berlin,8000,EUR
-1551,Přemysl Otakar Spidlen,02/10/2026,20205,18000,,Violin,Tarisio Berlin,15000,EUR
-424,Enrico Marchetti,02/10/2026,18858,16800,,Violin,Tarisio Berlin,14000,EUR
-1854,Silverio Ortega,02/10/2026,19868,17700,,Violin,Tarisio Berlin,15000,EUR
-507,Pierre Pacherele,02/10/2026,19868,17700,,Violin,Tarisio Berlin,15000,EUR
-401,Giuseppe Lucci,02/10/2026,21552,19200,,Violin,Tarisio Berlin,16000,EUR
-807,Sebastien Vuillaume,02/10/2026,25593,22800,,Violin,Tarisio Berlin,19000,EUR
-1161,Gabriel (Gábor) Lemböck,02/10/2026,19868,17700,,Violin,Tarisio Berlin,15000,EUR
-1162,Gand & Bernardel Firm,02/10/2026,22899,20400,,Violin,Tarisio Berlin,17000,EUR
-431,Tetsuo Matsuda,02/10/2026,37042,33000,,Violin,Tarisio Berlin,27500,EUR
-376,Giuseppe Bernardo Lecchi,02/10/2026,26940,24000,,Violin,Tarisio Berlin,20000,EUR
-501,Giuseppe Ornati,02/10/2026,87555,78000,,Violin,Tarisio Berlin,65000,EUR
-190,Gennaro Gagliano,02/10/2026,132455,118000,,Violin,Tarisio Berlin,100000,EUR
-809,Jean-Baptiste Vuillaume,02/10/2026,215520,192000,,Violin,Tarisio Berlin,160000,EUR
-620,Giuseppe Antonio Rocca,02/10/2026,264910,236000,,Violin,Tarisio Berlin,200000,EUR
+﻿maker_id,maker_name,Sale Date Standard,USD,EUR,GBP,Type,Auction House,Hammer Price,Currency,Comment
+337,Franz Joseph Koch,2026-10-02,2829,2520,,Violin,Tarisio Berlin,2100,EUR,[T3246-L63] | lot 63 | est 2000-3000 EUR | premium 420 | back 36.3 cm
+10245,Fritz Mönnig,2026-10-02,2649,2360,,Violin,Tarisio Berlin,2000,EUR,[T3246-L64] | lot 64 | est 2000-3000 EUR | premium 360 | back 35.7 cm
+2036,Antonio Mario Gazzola,2026-10-02,3311,2950,,Violin,Tarisio Berlin,2500,EUR,[T3246-L65] | lot 65 | est 2500-4000 EUR | premium 450 | back 35.3 cm
+1781,Pierluigi Galetti,2026-10-02,4714,4200,,Violin,Tarisio Berlin,3500,EUR,[T3246-L67] | lot 67 | est 3000-5000 EUR | premium 700 | back 35.6 cm
+900001,"Prilipko, Valery",2026-10-02,7285,6490,,Violin,Tarisio Berlin,5500,EUR,"[T3246-L68] | lot 68 | TEMP ID | est 3000-5000 EUR | premium 990 | back 35.4 cm | cert: Certificate : Valery Prilipko, Ponte Nossa"
+11564,Lucien André Ragot I,2026-10-02,3974,3540,,Violin,Tarisio Berlin,3000,EUR,"[T3246-L69] | lot 69 | est 3000-5000 EUR | premium 540 | back 35.5 cm | cert: Certificate : Lucien André Ragot, Ceret FR, Apr 12 1954"
+2827,Charles Jean-Baptiste Collin-Mézin III,2026-10-02,9429,8400,,Violin,Tarisio Berlin,7000,EUR,[T3246-L70] | lot 70 | est 3000-5000 EUR | premium 1400 | back 35.6 cm
+838,Aldo Zani,2026-10-02,7285,6490,,Violin,Tarisio Berlin,5500,EUR,[T3246-L71] | lot 71 | est 3000-5000 EUR | premium 990 | back 35.9 cm
+15417,Paolo Fanfani,2026-10-02,5629,5015,,Violin,Tarisio Berlin,4250,EUR,[T3246-L72] | lot 72 | est 3000-5000 EUR | premium 765 | back 35.3 cm | cert: Certificate : Paolo Fanfani
+15511,Samuele Ciappelli,2026-10-02,3974,3540,,Violin,Tarisio Berlin,3000,EUR,"[T3246-L74] | lot 74 | est 3000-5000 EUR | premium 540 | back 36.0 cm | cert: Certificate : Samuele Ciappelli, Aug 6 2020"
+852,Laberte-Humbert Frères Firm,2026-10-02,3974,3540,,Violin,Tarisio Berlin,3000,EUR,[T3246-L75] | lot 75 | est 3000-5000 EUR | premium 540 | back 35.9 cm
+15617,Jean-Baptiste Léonidas Nadegini,2026-10-02,4378,3900,,Violin,Tarisio Berlin,3250,EUR,"[T3246-L76] | lot 76 | est 3000-5000 EUR | premium 650 | back 35.1 cm | cert: Certificate : Jean-Jacques Rampal, Paris, Oct 7 2020 original forthcoming"
+2008,Settimo Melloni,2026-10-02,4041,3600,,Violin,Tarisio Berlin,3000,EUR,"[T3246-L77] | lot 77 | est 3000-5000 EUR | premium 600 | back 36.3 cm | cert: Certificate : Michael Baumgartner, Basel, Jan 8 2004"
+1615,Thomas Kennedy,2026-10-02,5298,4720,,Violin,Tarisio Berlin,4000,EUR,[T3246-L80] | lot 80 | est 4000-6000 EUR | premium 720 | back 35.8 cm
+357,Umberto Lanaro,2026-10-02,5960,5310,,Violin,Tarisio Berlin,4500,EUR,[T3246-L81] | lot 81 | est 4000-6000 EUR | premium 810 | back 35.6 cm
+15273,Franco Forcellini,2026-10-02,8082,7200,,Violin,Tarisio Berlin,6000,EUR,"[T3246-L82] | lot 82 | est 4000-6000 EUR | premium 1200 | back 35.2 cm | cert: Certificate : Franco Forcellini, Mantua"
+40,Silvio Barbieri,2026-10-02,5298,4720,,Violin,Tarisio Berlin,4000,EUR,[T3246-L83] | lot 83 | est 4000-6000 EUR | premium 720 | back 35.6 cm
+15344,Vladimir Pilar,2026-10-02,9934,8850,,Violin,Tarisio Berlin,7500,EUR,"[T3246-L84] | lot 84 | est 4000-6000 EUR | premium 1350 | back 35.5 cm | cert: Letter certificate : Vladimir Pilar, Hradec Králové, Nov 20 1990"
+1200,Gio Battista Morassi,2026-10-02,13470,12000,,Violin,Tarisio Berlin,10000,EUR,"[T3246-L85] | lot 85 | est 5000-8000 EUR | premium 2000 | back 25.8 cm | cert: Certificate : Eric Blot, Cremona, Mar 6 2026"
+1832,Guglielmo Rossi,2026-10-02,9272,8260,,Violin,Tarisio Berlin,7000,EUR,"[T3246-L86] | lot 86 | est 5000-8000 EUR | premium 1260 | back 35.4 cm | cert: Certificate : Carlson & Neumann, Cremona, Jul 20 2025"
+1681,Domingos Ferreira Capela,2026-10-02,7947,7080,,Violin,Tarisio Berlin,6000,EUR,"[T3246-L87] | lot 87 | est 6000-9000 EUR | premium 1080 | back 35.9 cm | cert: Certificate : Hieronymus Köstler, Stuttgart, Dec 17 2025"
+121,Vincenzo Cavani,2026-10-02,10102,9000,,Violin,Tarisio Berlin,7500,EUR,"[T3246-L89] | lot 89 | est 6000-9000 EUR | premium 1500 | back 35.6 cm | cert: Certificate : Eric Blot, Cremona, May 23 2023"
+1076,Emil Hjorth & Sons,2026-10-02,9272,8260,,Violin,Tarisio Berlin,7000,EUR,[T3246-L90] | lot 90 | est 7000-10000 EUR | premium 1260 | back 35.8 cm
+133,Charles Jean-Baptiste Collin-Mézin père,2026-10-02,10596,9440,,Violin,Tarisio Berlin,8000,EUR,[T3246-L92] | lot 92 | est 7000-10000 EUR | premium 1440 | back 35.5 cm
+922,Antonio Capela,2026-10-02,10776,9600,,Violin,Tarisio Berlin,8000,EUR,[T3246-L94] | lot 94 | est 8000-12000 EUR | premium 1600 | back 35.7 cm
+2299,Cesare Castelli,2026-10-02,13246,11800,,Violin,Tarisio Berlin,10000,EUR,"[T3246-L95] | lot 95 | est 8000-12000 EUR | premium 1800 | back 35.4 cm | cert: Certificate : Eric Blot, Cremona, Sep 27 2025"
+1079,Émile Germain,2026-10-02,10596,9440,,Violin,Tarisio Berlin,8000,EUR,[T3246-L96] | lot 96 | est 8000-12000 EUR | premium 1440 | back 35.7 cm
+1551,Přemysl Otakar Spidlen,2026-10-02,20205,18000,,Violin,Tarisio Berlin,15000,EUR,"[T3246-L98] | lot 98 | est 10000-15000 EUR | premium 3000 | back 35.4 cm | cert: Certificate : Přemysl O. Spidlen, Prague, Apr 3 1977"
+424,Enrico Marchetti,2026-10-02,18858,16800,,Violin,Tarisio Berlin,14000,EUR,"[T3246-L99] | lot 99 | est 12000-18000 EUR | premium 2800 | back 35.4 cm | cert: Certificate : Florian Leonhard Fine Violins, Nov 13 2025"
+1854,Silverio Ortega,2026-10-02,19868,17700,,Violin,Tarisio Berlin,15000,EUR,"[T3246-L102] | lot 102 | est 15000-22000 EUR | premium 2700 | back 30.5 cm | cert: Proforma Certificate : Jason Price, New York, NY, Sep 16 2026"
+507,Pierre Pacherele,2026-10-02,19868,17700,,Violin,Tarisio Berlin,15000,EUR,"[T3246-L103] | lot 103 | est 15000-22000 EUR | premium 2700 | back 35.4 cm | cert: Proforma Certificate : Jason Price, New York, NY, Sep 16 2026"
+401,Giuseppe Lucci,2026-10-02,21552,19200,,Violin,Tarisio Berlin,16000,EUR,"[T3246-L104] | lot 104 | est 15000-22000 EUR | premium 3200 | back 35.5 cm | cert: Certificate : Rudolfo Marchini, Jun 25 2012 | Proforma Certificate : Jason Price, New York, NY, Sep 16 2026"
+807,Sebastien Vuillaume,2026-10-02,25593,22800,,Violin,Tarisio Berlin,19000,EUR,"[T3246-L105] | lot 105 | est 15000-22000 EUR | premium 3800 | back 35.8 cm | cert: Certificate : Mathias Niessen, Aachen, Jan 21 1964 | Proforma Certificate : Jason Price, New York, NY, Sep 16 2026"
+1161,Gabriel (Gábor) Lemböck,2026-10-02,19868,17700,,Violin,Tarisio Berlin,15000,EUR,"[T3246-L106] | lot 106 | est 15000-22000 EUR | premium 2700 | back 36.2 cm | cert: Proforma Certificate : Jason Price, New York, NY, Sep 16 2026"
+1162,Gand & Bernardel Firm,2026-10-02,22899,20400,,Violin,Tarisio Berlin,17000,EUR,"[T3246-L107] | lot 107 | est 15000-22000 EUR | premium 3400 | back 35.8 cm | cert: Proforma Certificate : Jason Price, New York, NY, Sep 16 2026"
+431,Tetsuo Matsuda,2026-10-02,37042,33000,,Violin,Tarisio Berlin,27500,EUR,"[T3246-L108] | lot 108 | est 15000-22000 EUR | premium 5500 | back 35.2 cm | cert: Certificate : Bein & Fushi, Inc, Chicago, IL, Mar 16 1988 | Certificate : Andreas Woywod, London, Apr 6 1995 | Letter : Tetsuo Matsuda, Barrington, IL, Jul 11 1995 | Proforma Certificate : Jason Price, New York, NY, Sep 16 2026"
+376,Giuseppe Bernardo Lecchi,2026-10-02,26940,24000,,Violin,Tarisio Berlin,20000,EUR,"[T3246-L109] | lot 109 | est 20000-30000 EUR | premium 4000 | back 35.5 cm | cert: Proforma Certificate : Jason Price, New York, NY, Sep 16 2026"
+501,Giuseppe Ornati,2026-10-02,87555,78000,,Violin,Tarisio Berlin,65000,EUR,"[T3246-L113] | lot 113 | est 60000-90000 EUR | premium 13000 | back 35.6 cm | cert: Certificate : Étienne Vatelot, Paris, Sep 10 1973 | Letter certificate : Giuseppe Ornati, Milan, May 7 1960 | Proforma Certificate : Jason Price, New York, NY, Sep 16 2026"
+190,Gennaro Gagliano,2026-10-02,132455,118000,,Violin,Tarisio Berlin,100000,EUR,"[T3246-L116] | lot 116 | est 100000-150000 EUR | premium 18000 | back 35.4 cm | cert: Certificate : Eric Blot, Cremona, Sep 24 2024 | Proforma Certificate : Jason Price, New York, NY, Sep 16 2026"
+809,Jean-Baptiste Vuillaume,2026-10-02,215520,192000,,Violin,Tarisio Berlin,160000,EUR,"[T3246-L118] | lot 118 | est 150000-220000 EUR | premium 32000 | back 35.9 cm | cert: Certificate : Jean-Jacques Rampal, Paris, Feb 28 2012 | Proforma Certificate : Jason Price, New York, NY, Sep 16 2026"
+620,Giuseppe Antonio Rocca,2026-10-02,264910,236000,,Violin,Tarisio Berlin,200000,EUR,"[T3246-L119] | lot 119 | est 200000-300000 EUR | premium 36000 | back 35.5 cm | cert: Certificate : Max Möller & Son, Amsterdam, Nov 15 1976 | Letter certificate : John & Arthur Beare, London, May 1 1963 | Proforma Certificate : Jason Price, New York, NY, Sep 16 2026"
