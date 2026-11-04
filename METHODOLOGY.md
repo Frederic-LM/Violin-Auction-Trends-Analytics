@@ -313,7 +313,7 @@ Each version of the data is frozen, never changed afterwards, and tagged; result
 |---|---|---|---|---|
 | 1 | 20 Oct 2026 | first freeze | 706 | 0.47 |
 | 1.2 | 21 Oct 2026 | lots with no house not counted | 617 | 0.56 |
-| 1.3 | 22 Oct 2026 | yearbooks 1993–1999 added; sources closed | 632 | 0.58 |
+| 1.3 | 22 Oct 2026 | the 1993–1999 yearbooks added to cross-check the other records; sources closed | 632 | 0.58 |
 | 1.9 | 23 Oct 2026 | the same lot counted twice removed | 629 | 0.53 |
 | 1.12 | 2 Nov 2026 | sales from 1975 on for every maker | 638 | 0.57 |
 | 1.17 | 3 Nov 2026 | house names cleaned | 639 | 0.58 |
