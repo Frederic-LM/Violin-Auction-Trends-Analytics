@@ -16,6 +16,7 @@ import os
 # ==========================================
 MIN_SALES_REQUIRED = 10          # Requires N >= 10 sales
 MIN_SPAN_REQUIRED = 15           # Requires Span >= 15 years
+SALES_FROM_YEAR = 1975           # Growth window: only sales from this year on (same years for every maker); None = every sale
 PROJECTED_TOTAL_MAKERS = 9200    # Reconciled Vannes baseline
 
 # Choose "CPI", "LABOR", or "NONE"
@@ -162,10 +163,10 @@ def load_and_process_data():
     if 'Type' in df_csv.columns:
         df_csv = df_csv[~df_csv['Type'].astype(str).str.lower().str.contains('bow', na=False)]
 
-    # Currency selection (Prefer USD over EUR)
-    target_currency = 'USD' if 'USD' in df_csv.columns else 'EUR' if 'EUR' in df_csv.columns else None
+    # Currency: USD only (prices are deflated with the US CPI, which is valid for US dollars only)
+    target_currency = 'USD' if 'USD' in df_csv.columns else None
     if not target_currency:
-        print("Error: Could not find USD or EUR columns in auction data.")
+        print("Error: the auction data need a USD column (prices are deflated with the US CPI).")
         sys.exit(1)
         
     print(f"[SYSTEM] Primary Currency locked to: {target_currency}")
@@ -189,6 +190,9 @@ def load_and_process_data():
 
     df_csv = df_csv.dropna(subset=['Sale Year'])
     df_csv['Sale Year'] = df_csv['Sale Year'].astype(int)
+    if SALES_FROM_YEAR:
+        df_csv = df_csv[df_csv['Sale Year'] >= SALES_FROM_YEAR]
+        print(f"[SYSTEM] Growth window: sales from {SALES_FROM_YEAR} on")
 
     # Lifespan Logic
     def process_lifespan(row):
@@ -265,8 +269,13 @@ def load_and_process_data():
         
         # Real OLS Fit
         y_real = np.log(group['Real_Price'].values)
-        slope_real, _ = np.polyfit(x, y_real, 1)
+        slope_real, icpt_real = np.polyfit(x, y_real, 1)
         real_growth_rate = (np.exp(slope_real) - 1) * 100
+        # Standard error of the slope (usual OLS formula), brought to the growth-rate scale (delta method)
+        resid = y_real - (slope_real * x + icpt_real)
+        sxx = ((x - x.mean()) ** 2).sum()
+        se_slope = np.sqrt((resid @ resid) / (len(x) - 2) / sxx) if len(x) > 2 and sxx > 0 else np.nan
+        real_growth_se = np.exp(slope_real) * se_slope * 100
         
         # Nominal OLS Fit
         y_nom = np.log(group['PRICE'].values)
@@ -290,12 +299,14 @@ def load_and_process_data():
             'Span_Years': int(x.max() - x.min()),
             'First_Sale': int(x.min()),
             'Last_Sale': int(x.max()),
-            'Real_CAGR_%': real_growth_rate
+            'Real_CAGR_%': real_growth_rate,
+            'Real_CAGR_SE': real_growth_se
         })
 
     active_growth = pd.DataFrame(maker_growth_records) if qualifying_maker_ids else pd.DataFrame(columns=[
         'maker_id', 'maker_name', 'country', 'century', 'Is_Dead', 'First_Year', 'Last_Year', 'Years_Between', 
-        'Nominal_Growth_%', 'Annual_Growth_%', 'N_Sales', 'Span_Years', 'First_Sale', 'Last_Sale', 'Real_CAGR_%'
+        'Nominal_Growth_%', 'Annual_Growth_%', 'N_Sales', 'Span_Years', 'First_Sale', 'Last_Sale', 'Real_CAGR_%',
+        'Real_CAGR_SE'
     ])
 
     # Methodological regional groupings
@@ -305,6 +316,7 @@ def load_and_process_data():
             'Czech Republic': 'Central Europe',
             'Germany': 'Central Europe',
             'Hungary': 'Central Europe',
+            'Switzerland': 'Central Europe',
             'Belgium': 'Benelux',
             'Netherlands': 'Benelux',
             'Great Britain': 'UK & Ireland',
@@ -381,6 +393,7 @@ def display_statistics_ledger(maker_growth, deceased_makers, sale_counts_per_mak
     makers_with_auction = len(makers_with_auction_prices)
     makers_zero_auction = len(makers_without_auction_prices)
     makers_cut_by_N = len(makers_filtered_out_by_N)
+    rarely_total = makers_with_auction - active_total       # sold, too rarely to measure
     
     md_filename = "violin_market_statistics.md"
     try:
@@ -424,7 +437,8 @@ def display_statistics_ledger(maker_growth, deceased_makers, sale_counts_per_mak
             f.write(f"| **Lost Real Value** | {lost_c} | {lost_c/db_total*100:.2f}% |\n")
             f.write(f"| **Roughly Held Value** | {held_c} | {held_c/db_total*100:.2f}% |\n")
             f.write(f"| **Gained Real Value** | {gained_c} | {gained_c/db_total*100:.2f}% |\n")
-            f.write(f"| **Graveyard / Illiquid** (Untraded or filtered) | {db_total-active_total} | {(db_total-active_total)/db_total*100:.2f}% |\n\n")
+            f.write(f"| **Rarely sold** (too rarely to measure) | {rarely_total} | {rarely_total/db_total*100:.2f}% |\n")
+            f.write(f"| **Absent from the market** (no sale under their name in the data) | {db_total-active_total-rarely_total} | {(db_total-active_total-rarely_total)/db_total*100:.2f}% |\n\n")
             
             # Context C
             f.write(f"### Context C: Projected Historical Universe (N={hist_total})\n")
@@ -434,7 +448,8 @@ def display_statistics_ledger(maker_growth, deceased_makers, sale_counts_per_mak
             f.write(f"| **Lost Real Value** | {lost_c} | {lost_c/hist_total*100:.2f}% |\n")
             f.write(f"| **Roughly Held Value** | {held_c} | {held_c/hist_total*100:.2f}% |\n")
             f.write(f"| **Gained Real Value** | {gained_c} | {gained_c/hist_total*100:.2f}% |\n")
-            f.write(f"| **Graveyard / Illiquid** | {hist_total-active_total} | {(hist_total-active_total)/hist_total*100:.2f}% |\n\n")
+            f.write(f"| **Rarely sold** (too rarely to measure) | {rarely_total} | {rarely_total/hist_total*100:.2f}% |\n")
+            f.write(f"| **Absent from the market** (no sale under their name in the data) | {hist_total-active_total-rarely_total} | {(hist_total-active_total-rarely_total)/hist_total*100:.2f}% |\n\n")
             
             # Section 3
             f.write("## 3. Real Performance by Historical Century\n\n")
@@ -488,7 +503,7 @@ def export_gainers_losers_report(maker_growth):
     # Keep exact columns used by lyze.py for master list matching
     export_cols = [
         'maker_id', 'maker_name', 'country', 'century', 
-        'N_Sales', 'Span_Years', 'First_Sale', 'Last_Sale', 'Real_CAGR_%', 'Is_Dead'
+        'N_Sales', 'Span_Years', 'First_Sale', 'Last_Sale', 'Real_CAGR_%', 'Is_Dead', 'Real_CAGR_SE'
     ]
     df_export = maker_growth[export_cols].copy()
 
@@ -578,9 +593,9 @@ def plot_consolidated_histogram(maker_growth, deceased_makers, currency):
         f"1. Active Traded Pool (N={active_total})\n"
         f"   Lost: {lost_c/active_total*100:.1f}% | Held: {held_c/active_total*100:.1f}% | Gained: {gained_c/active_total*100:.1f}%\n\n"
         f"2. Database Total Pool (N={db_total})\n"
-        f"   Lost: {lost_c/db_total*100:.1f}% | Held: {held_c/db_total*100:.1f}% | Gained: {gained_c/db_total*100:.1f}% | Graveyard: {(db_total-active_total)/db_total*100:.1f}%\n\n"
+        f"   Lost: {lost_c/db_total*100:.1f}% | Held: {held_c/db_total*100:.1f}% | Gained: {gained_c/db_total*100:.1f}% | Rarely sold or absent: {(db_total-active_total)/db_total*100:.1f}%\n\n"
         f"3. Projected Historical Universe (N={hist_total})\n"
-        f"   Lost: {lost_c/hist_total*100:.1f}% | Held: {held_c/hist_total*100:.1f}% | Gained: {gained_c/hist_total*100:.1f}% | Graveyard: {(hist_total-active_total)/hist_total*100:.1f}%"
+        f"   Lost: {lost_c/hist_total*100:.1f}% | Held: {held_c/hist_total*100:.1f}% | Gained: {gained_c/hist_total*100:.1f}% | Rarely sold or absent: {(hist_total-active_total)/hist_total*100:.1f}%"
     )
 
     plt.text(0.02, 0.75, legend_text, transform=ax.transAxes, fontsize=10, 

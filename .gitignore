@@ -1,0 +1,12 @@
+# Python caches
+__pycache__/
+*.pyc
+
+# Local previews of the Markdown pages (GitHub shows the .md files)
+*.html
+
+# Files analyze.py writes when run here
+all_violin_sales.csv
+violin_market_statistics.md
+market_report.md
+*.png
