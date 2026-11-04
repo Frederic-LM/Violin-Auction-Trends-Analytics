@@ -1,640 +1,640 @@
-﻿maker_id,maker_name,country,century,N_Sales,Span_Years,First_Sale,Last_Sale,Real_CAGR_%,Is_Dead
-1476,"Hofmans, Matthias III",Benelux,17,12,44,1977,2021,3.561680671528622,True
-309,"Jacobs, Hendrik",Benelux,17,22,36,1983,2019,2.0660675099680725,True
-2599,"De Comble, Ambroise",Benelux,18,12,47,1977,2024,1.936363117892781,True
-1338,"Cuypers, Johannes Theodorus",Benelux,18,77,48,1978,2026,0.7954892040155537,True
-469,"Mougenot, Georges",Benelux,19,40,49,1977,2026,1.0733017325002203,True
-148,"Darche, Hilaire",Benelux,19,29,39,1987,2026,-0.39438223970618136,True
-145,"Cuypers, Johannes Bernardus",Benelux,19,14,33,1992,2025,-0.661813126620181,True
-1638,"Kunze, Wilhelm Paul",Benelux,20,16,41,1984,2025,1.029843780533013,True
-1482,"Möller, Max Sr.",Benelux,20,20,40,1985,2025,0.9523866556239824,True
-1479,"Bourguignon, Maurice",Benelux,20,10,38,1986,2024,0.880789597081888,True
-1415,"Mougenot-Gauche, Léon",Benelux,20,23,50,1975,2025,-0.9794449988992704,True
-950,"Falisse, Auguste",Benelux,20,35,39,1986,2025,-1.0209409059189434,True
-900,"van Hoof, Alphonse",Benelux,20,12,25,1999,2024,-1.9227084114571968,True
-1276,"Stainer, Jacob",Central Europe,17,35,49,1975,2024,2.62517520024812,True
-1331,"Ficker, Johann Gottlob",Central Europe,18,21,37,1984,2021,3.538607907315927,True
-536,"Pfretzschner, Carl Friedrich I",Central Europe,18,10,40,1976,2016,2.6809575458728974,True
-1136,"Geissenhof, Franz",Central Europe,18,49,44,1982,2026,2.5934298065293904,True
-1160,"Buchstetter, Gabriel David",Central Europe,18,15,34,1985,2019,2.50679002882781,True
-1471,"Thir, Mathias",Central Europe,18,19,36,1987,2023,2.318535606388661,True
-1330,"Thir, Johann Georg",Central Europe,18,43,42,1984,2026,1.5561053518947654,True
-1322,"Klotz, Johann Carl",Central Europe,18,28,42,1979,2021,1.5076888465627603,True
-2966,"Klotz, Georg Karl II",Central Europe,18,38,39,1985,2024,1.2697214174318017,True
-1165,"Kloz, Georg I",Central Europe,18,17,49,1976,2025,1.2191323364953766,True
-1595,"Dallinger, Sebastian",Central Europe,18,21,50,1975,2025,0.9168883775967585,True
-389,"Lippold, Carl Friedrich",Central Europe,18,10,44,1981,2025,0.8028164296434159,True
-254,"Hamm, Johann Gottfried",Central Europe,18,32,47,1976,2023,0.7802178409236582,True
-1375,"Klotz, Joseph Thomas",Central Europe,18,26,35,1985,2020,0.7094751966983504,True
-1333,"Eberle, Johann Ulrich",Central Europe,18,25,46,1975,2021,0.6517367201752222,True
-1324,"Ficker, Johann Christian II",Central Europe,18,33,49,1975,2024,0.5108110000903832,True
-333,"Klotz, Aegidius Sebastian",Central Europe,18,77,47,1978,2025,0.4760868927170092,True
-2256,"Leeb, Johann Georg",Central Europe,18,11,49,1975,2024,0.41897638547019334,True
-824,"Widhalm, Leopold I",Central Europe,18,72,49,1977,2026,0.3268968336125333,True
-8551,"Klotz, Matthias I",Central Europe,18,10,20,1985,2005,0.2437106634210373,True
-8558,"Klotz, Sebastian I",Central Europe,18,71,50,1975,2025,-0.0009415659716571767,True
-484,"Neuner, Mathias II",Central Europe,18,53,45,1977,2022,-0.18698421560044975,True
-381,"Leidolff, Johann Christoph",Central Europe,18,27,42,1983,2025,-0.2722986078580236,True
-911,"Mayr, Andreas Ferdinand",Central Europe,18,14,46,1979,2025,-0.42977473897869434,True
-2654,"Kloz, Aegidius",Central Europe,18,10,43,1978,2021,-0.6595010888557185,True
-292,"Hopf, David Christian",Central Europe,18,17,48,1976,2024,-0.7213620309334479,True
-1417,"Maussiell, Leonhard",Central Europe,18,10,39,1985,2024,-0.7448510570484346,True
-918,"Jais, Anton",Central Europe,18,12,41,1980,2021,-0.7760841079146652,True
-1470,"Hornsteiner, Mathias II",Central Europe,18,20,39,1984,2023,-0.7881611286443158,True
-825,"Widhalm, Martin Leopold (Leopold II)",Central Europe,18,29,28,1987,2015,-0.881977583777005,True
-661,"Schönfelder, Johann Georg",Central Europe,18,25,41,1978,2019,-1.418435319288469,True
-1332,"Stadlmann, Johann Josef",Central Europe,18,11,39,1984,2023,-1.702251742230243,True
-1334,"Fichtl, Johann Ulrich",Central Europe,18,10,28,1984,2012,-3.036776386610396,True
-1161,"Lemböck, Gabriel (Gábor)",Central Europe,19,27,50,1976,2026,3.552158232881153,True
-1374,"Hornsteiner, Joseph",Central Europe,19,11,27,1986,2013,3.382815327143529,True
-999,"Dvorák, Carolus Boromäus",Central Europe,19,11,34,1983,2017,2.3803297037698234,True
-1234,"Schwarz, Heinrich",Central Europe,19,10,41,1980,2021,2.3545560514447894,True
-210,"Glass, Johann",Central Europe,19,14,34,1985,2019,2.2510166211274774,True
-265,"Heberlein, Heinrich Theodore Jr.",Central Europe,19,23,44,1977,2021,1.969239004657397,True
-486,"Neuner, Ludwig",Central Europe,19,10,34,1984,2018,1.956492192757464,True
-1516,"Möckel, Otto",Central Europe,19,21,38,1986,2024,1.7553110962845286,True
-1518,"Seifert, Otto",Central Europe,19,14,47,1975,2022,1.722204635417679,True
-799,"Voigt, Arnold",Central Europe,19,30,45,1977,2022,1.4799330747398143,True
-2762,"Todt, Heinrich Hermann",Central Europe,19,13,34,1988,2022,1.352498287423054,True
-1449,"Glaesel, Ludwig I",Central Europe,19,13,38,1983,2021,1.3263387008617178,True
-398,"Lowendall, Louis",Central Europe,19,201,51,1975,2026,1.309500017448939,True
-12533,"Schmidt, Ernst Reinhold",Central Europe,19,85,50,1975,2025,1.1930880471261451,True
-352,"Kulik, Johann",Central Europe,19,17,41,1984,2025,1.1581716606804626,True
-893,"Moritz, Alfred",Central Europe,19,49,42,1975,2017,1.0624919522949305,True
-1401,"Hofner, Karl",Central Europe,19,23,37,1984,2021,1.0624894491970238,True
-447,"Migge, Otto",Central Europe,19,11,49,1976,2025,0.999423830918289,True
-578,"Prokop, Ladislav",Central Europe,19,25,23,1994,2017,0.9021631397611252,True
-12671,"Schuster, Carl Friedrich",Central Europe,19,13,43,1977,2020,0.8927005062256299,True
-1298,"Dvorak, Jan Baptista",Central Europe,19,16,34,1991,2025,0.7180455800107843,True
-1246,"Dolling, Hermann Moritz I",Central Europe,19,14,41,1984,2025,0.5627377164310943,True
-1488,"Strobl, Michael",Central Europe,19,25,39,1985,2024,0.5021187191420751,True
-1150,"Glass, Friedrich August I",Central Europe,19,10,50,1975,2025,0.4840573332153264,True
-266,"Heberlein, Heinrich Theodore",Central Europe,19,67,41,1984,2025,0.4708646300298769,True
-956,"Szepessy, Béla",Central Europe,19,66,45,1978,2023,0.344955477244957,True
-1394,"Zimmermann, Julius Heinrich",Central Europe,19,16,49,1977,2026,0.16278026094442843,True
-971,"Wolff, Brothers",Central Europe,19,193,50,1975,2025,0.031301926601634555,True
-11195,"Pilát, Paul (Pál) I",Central Europe,19,23,41,1983,2024,0.02409500370423867,True
-1634,"Durrschmidt, Wilhelm August",Central Europe,19,12,34,1991,2025,-0.10728470087500996,True
-1096,"Gartner, Eugen",Central Europe,19,18,39,1985,2024,-0.23715857009868335,True
-1496,Neuner & Hornsteiner,Central Europe,19,172,50,1975,2025,-0.2770473611682478,True
-270,"Heinicke, Mathias",Central Europe,19,45,49,1976,2025,-0.5775205614034551,True
-1270,"Schult, Johann Heinrich",Central Europe,19,11,39,1985,2024,-0.7069163119726385,True
-829,"Winterling, Georg",Central Europe,19,42,41,1985,2026,-1.1380897017467806,True
-1247,"Schlosser, Herrmann",Central Europe,19,21,49,1975,2024,-1.4345179827177423,True
-1440,"Otto, Louis",Central Europe,19,10,29,1989,2018,-1.565064304044661,True
-1107,"Homolka, Ferdinand August Vincenz",Central Europe,19,14,30,1987,2017,-1.6085720153807603,True
-403,"Lutschg, Gustav",Central Europe,19,15,34,1990,2024,-1.6169035364243745,True
-1637,"Hammig, Wilhelm Hermann",Central Europe,19,15,42,1980,2022,-1.803570116547737,True
-794,"Viertel, Holm",Central Europe,19,13,39,1984,2023,-1.809218867725082,True
-211,"Glier, Robert C. I",Central Europe,19,17,21,1998,2019,-2.971148806788504,True
-1818,"Drozen, Frantisek Xavier",Central Europe,20,10,40,1978,2018,4.205770373708684,True
-1207,Glaesel & Mossner,Central Europe,20,35,15,1976,1991,2.6922102306773166,True
-628,"Roth, Ernst Heinrich",Central Europe,20,300,50,1975,2025,2.5475315325250714,True
-757,"Tóth, Johannes (János)",Central Europe,20,14,38,1983,2021,2.374726198894317,True
-1551,"Spidlen, Premysl Otakar",Central Europe,20,12,42,1984,2026,1.8709195640247867,True
-1215,"Ficker, Gustav August",Central Europe,20,14,38,1988,2026,1.5013509835674288,True
-917,"Hertel, Anton",Central Europe,20,12,22,1978,2000,1.3042171602100305,True
-704,"Spiegel, János",Central Europe,20,20,38,1987,2025,0.48843914044209846,True
-1531,"Knorr, Paul",Central Europe,20,45,38,1988,2026,0.4650365571874371,True
-1519,"Viener, Otto",Central Europe,20,10,38,1981,2019,0.30551993724097226,True
-1633,"Duerer, Wilhelm",Central Europe,20,17,34,1982,2016,0.19605437193435105,True
-456,"Moennig, Fritz",Central Europe,20,22,34,1986,2020,0.12143696590454223,True
-10900,"Paulus, Albin Ludwig",Central Europe,20,22,39,1980,2019,0.08859519056738652,True
-663,"Schuster, Hans",Central Europe,20,10,47,1978,2025,-0.027473149210699432,True
-3029,"Schuster, Edouard",Central Europe,20,12,48,1977,2025,-0.22040391012940752,True
-337,"Koch, Franz Joseph",Central Europe,20,22,34,1992,2026,-0.3593989041386414,True
-275,"Herclik, Josef Bohumil",Central Europe,20,10,32,1989,2021,-0.5209058947527434,True
-11435,"Prokop, Ladislav F.",Central Europe,20,12,24,1985,2009,-0.9187639429810601,True
-837,"Zach, Carl",Central Europe,20,11,28,1996,2024,-0.9417103280016437,True
-1091,"Glaesel, Ernst",Central Europe,20,39,47,1977,2024,-0.9751648634238719,True
-988,"Meyer, Carl",Central Europe,20,12,43,1977,2020,-1.1475386753276307,True
-597,"Reichert, Eduard",Central Europe,20,11,22,1995,2017,-1.4998948244144716,True
-1307,"Werro, Jean",Central Europe,20,15,30,1985,2015,-1.575302169378734,True
-783,"Vávra, Karel",Central Europe,20,11,33,1988,2021,-1.6426827788769138,True
-249,"Gütter, Kurt Arno",Central Europe,20,23,31,1989,2020,-1.784762321149691,True
-8303,"Juzek, Jan (John)",Central Europe,20,44,37,1982,2019,-2.172183584213483,True
-1757,"Fuchs, Wenzl",Central Europe,20,20,33,1986,2019,-4.036284125173983,True
-1393,"Hubicka, Julius A.",Central Europe,20,13,31,1992,2023,-4.119182703785795,True
-924,"Galla, Anton",Central Europe,20,12,29,1995,2024,-4.747122269474502,True
-1400,"Herrmann, Karl",Central Europe,20,18,19,2002,2021,-4.812075751383659,True
-1264,"Baader & Co., J. A.",Central Europe,20,22,24,1988,2012,-5.699940490420941,True
-1436,"Guersan, Louis",France,18,54,42,1984,2026,2.9362012407325278,True
-641,"Salomon, Jean Baptiste Deshayes",France,18,34,42,1983,2025,2.703625647492136,True
-2161,"Boquay, Jacques",France,18,46,44,1977,2021,2.1873348454835018,True
-958,"Fleury, Benoit",France,18,17,40,1985,2025,2.0123160009648533,True
-1122,"Pique, François-Louis",France,18,40,41,1984,2025,1.925797487301395,True
-1387,"LeClerc, Joseph Nicolas",France,18,12,38,1987,2025,1.35936993831538,True
-1507,"Chappuy, Nicolas Augustin",France,18,163,48,1977,2025,1.1139205848280875,True
-1119,"Lupot, François I",France,18,23,46,1978,2024,0.8974858356487037,True
-1308,"Aldric, Jean-François",France,18,31,49,1976,2025,0.8452587753174479,True
-1028,"Vuillaume, Claude-François IV",France,18,21,34,1986,2020,0.8116841712047185,True
-112,"Castagneri, Andrea",France,18,49,47,1978,2025,0.5284062519663069,True
-402,"Lupot, Nicolas",France,18,49,50,1975,2025,0.5138615562409354,True
-43,"Bassot, Joseph",France,18,17,46,1978,2024,0.3526231696866722,True
-1371,"Gaffino, Joseph",France,18,10,42,1980,2022,0.34234441820619743,True
-1117,"Fent, François",France,18,12,42,1978,2020,0.19867305227214693,True
-1312,"Lambert, Jean Nicolas",France,18,11,42,1983,2025,0.15905494242032248,True
-1025,"Pierray, Claude",France,18,36,51,1975,2026,0.1438447503936624,True
-1006,"Claudot, Charles I",France,18,18,37,1986,2023,-0.006919559279450205,True
-487,"Nicolas, Didier l'aîné",France,18,304,51,1975,2026,-0.09968749928869203,True
-1311,"Remy, Jean Mathurin",France,18,11,49,1975,2024,-0.21966711892241753,True
-2342,"Gavinies, François",France,18,13,38,1985,2023,-0.5717418472927616,True
-1505,"Mathieu, Nicolas",France,18,35,38,1984,2022,-0.6264284651846141,True
-1313,"Frebrunet, Jean-Baptiste",France,18,29,38,1987,2025,-0.7916494678161912,True
-2236,"Mast, Jean Laurent",France,18,17,40,1984,2024,-1.0976180602280894,True
-14239,"Vissenaire, Louis Nicolas",France,19,16,37,1985,2022,5.060444874873071,True
-10077,Joseph Mougel,France,19,10,49,1975,2024,4.135586730803209,True
-196,"Gaillard, Charles",France,19,26,39,1985,2024,3.6080457472613903,True
-1302,"Gosselin, Jean",France,19,14,33,1984,2017,3.1111269831915367,True
-1004,"Boullangier, Charles",France,19,48,45,1981,2026,3.027658375048481,True
-809,"Vuillaume, Jean-Baptiste",France,19,344,51,1975,2026,2.904492694121852,True
-1597,"Deroux, Sébastien Auguste",France,19,12,35,1987,2022,2.858193182429636,True
-221,"Grandjon, Jules Joseph",France,19,68,50,1976,2026,2.777756183154634,True
-6284,"Fischesser, Léon",France,19,10,29,1995,2024,2.6994833574259802,True
-1012,"Maucotel, Charles",France,19,15,23,1983,2006,1.8762005899666034,True
-1459,"Couturieux, Michel",France,19,42,48,1976,2024,1.8738016601435925,True
-2544,"Vuillaume (St. Cecile mark), Jean-Baptiste & Nicolas",France,19,11,41,1983,2024,1.6856582471564074,True
-1027,"Miremont, Claude Augustin",France,19,44,41,1984,2025,1.650526927955287,True
-2238,"Mauchant, Nicolas",France,19,14,42,1983,2025,1.509033340432464,True
-1116,"Chanot, François",France,19,10,43,1976,2019,1.3737144969604431,True
-806,"Vuillaume, Nicolas François",France,19,65,50,1975,2025,1.21174818278027,True
-1555,"Cabasse, Prosper II",France,19,14,32,1990,2022,1.1996757069761887,True
-1437,"Joly, Louis",France,19,18,47,1975,2022,1.1907665025407743,True
-128,"Chanot, Georges I",France,19,84,43,1983,2026,1.179214351040514,True
-887,"Delanoy, Alexandre",France,19,13,40,1985,2025,1.1784746075826247,True
-22,"Audinot, Nestor Dominique",France,19,79,51,1975,2026,1.0826930776042687,True
-158,"Derazey, Honoré (Jean-Joseph)",France,19,230,51,1975,2026,1.0737408855851838,True
-438,"Mennesson, Emile",France,19,86,42,1982,2024,1.0001073886751533,True
-1115,"Caussin, François",France,19,120,49,1976,2025,0.8999347277662828,True
-317,"Jombar, Paul",France,19,29,46,1979,2025,0.8910037467066534,True
-807,"Vuillaume, Sebastien",France,19,19,46,1980,2026,0.8504992361680674,True
-1265,"Grand-Gérard, Jean-Baptiste",France,19,20,48,1977,2025,0.7844612749755564,True
-810,"Vuillaume, Nicolas III",France,19,77,42,1984,2026,0.7840615995384548,True
-30,"Bailly, Paul",France,19,229,50,1976,2026,0.6485034908335408,True
-547,"Pirot, Claude",France,19,32,38,1987,2025,0.6467015687531497,True
-356,"Thibouville-Lamy, Jérôme Firm",France,19,1408,50,1975,2025,0.618981034721422,True
-1250,"Silvestre, Hippolyte Chrétien",France,19,70,51,1975,2026,0.5412608804745034,True
-134,"Collin-Mézin, Charles fils",France,19,235,49,1977,2026,0.49942462027130485,True
-159,"Derazey, Justin Amedée",France,19,109,46,1979,2025,0.4943047177094817,True
-1281,"Thibout, Jacques-Pierre",France,19,33,43,1981,2024,0.47187034797513405,True
-133,"Collin-Mézin, Charles Jean-Baptiste père",France,19,283,51,1975,2026,0.41564785621233113,True
-1172,"Lotte, Georges",France,19,21,47,1977,2024,0.3779682763343839,True
-1533,"Mangenot, Paul Alexandre",France,19,60,46,1980,2026,0.352067939862466,True
-1506,"Morlot, Nicolas",France,19,31,47,1978,2025,0.32865389169520753,True
-1020,"Gand, Charles François père",France,19,32,40,1985,2025,0.3112594227254739,True
-848,"Chipot-Vuillaume, Jean-Baptiste",France,19,122,50,1975,2025,0.2825069103969735,True
-1123,"Salzard, François",France,19,31,47,1977,2024,0.16943331159091635,True
-683,"Silvestre, Pierre & Hippolyte",France,19,31,43,1979,2022,0.13152178514450608,True
-1388,"Gaillard-Lajoue, Jules",France,19,20,19,2006,2025,0.10798099582609577,True
-1438,"Moitessier, Louis",France,19,48,48,1977,2025,0.10523554717405403,True
-950012,"Pailliot, Paul François",France,19,20,29,1995,2024,0.0171583732889502,True
-682,"Silvestre, Pierre",France,19,51,41,1985,2026,0.00034495271457046783,True
-871,"Caressa, Albert",France,19,15,36,1990,2026,-0.03888435951492353,True
-1431,"Collenot, Louis",France,19,36,46,1979,2025,-0.07022175315886114,True
-81,"Boulangeot, Jules Camille (Gabriel)",France,19,10,32,1993,2025,-0.07262034320156818,True
-1023,"Chevrier, Claude",France,19,39,40,1985,2025,-0.09487830274077513,True
-1768,"Nicolas, Joseph (fils)",France,19,11,40,1985,2025,-0.11613804142232009,True
-63,"Bernardel, Gustave Adolphe",France,19,67,51,1975,2026,-0.11917840482902342,True
-28,"Bailly, Jenny",France,19,62,45,1981,2026,-0.16284686846216312,True
-1813,"Claudot, Charles II",France,19,16,37,1988,2025,-0.1794311718930075,True
-1094,"Perrin, Étienne",France,19,10,39,1985,2024,-0.18241245532393258,True
-93,"Buthod, Charles",France,19,66,50,1975,2025,-0.19850483566157262,True
-64,"Bernardel, Léon",France,19,86,50,1975,2025,-0.2273065809643926,True
-1121,"Pillement, François",France,19,49,50,1975,2025,-0.24561663092940167,True
-86,"Breton, François",France,19,98,51,1975,2026,-0.3337321593378073,True
-440,"Mermillot, Maurice",France,19,47,40,1985,2025,-0.3390556647708043,True
-199,"Gand, Charles Adolphe",France,19,18,37,1987,2024,-0.36228205319023266,True
-2577,Gand Frères Firm,France,19,34,38,1988,2026,-0.38620059912741755,True
-1494,"Florentin, Nicolas",France,19,10,39,1986,2025,-0.4390680149378601,True
-1263,"Mast, Joseph Laurent",France,19,10,42,1983,2025,-0.444101953241538,True
-951,"Bernardel, Auguste Sébastien Philippe père",France,19,93,49,1977,2026,-0.45846855481926907,True
-116,"Caussin, Nicolas",France,19,11,28,1996,2024,-0.5056900239860718,True
-149,"Darte, Jean-Auguste",France,19,23,38,1987,2025,-0.5224158414732671,True
-1005,"Brugère, Charles Georges",France,19,59,40,1985,2025,-0.5587682964764529,True
-949,"Delivet, Auguste",France,19,35,49,1977,2026,-0.5744719174860524,True
-1369,"Aubry, Joseph",France,19,34,43,1981,2024,-0.6090180714742432,True
-311,"Jacquot, Charles",France,19,36,37,1988,2025,-0.6260627399042873,True
-1162,Gand & Bernardel Firm,France,19,117,45,1981,2026,-0.632636922665264,True
-1465,"Didier, Marius",France,19,26,40,1986,2026,-0.6655220041142162,True
-1079,"Germain, Émile",France,19,54,41,1985,2026,-0.675824357885646,True
-12975,"Simonin, Charles II",France,19,20,41,1985,2026,-0.7458719789545709,True
-2574,"Silvestre, Hippolyte",France,19,10,45,1978,2023,-0.8097080061709394,True
-1838,"Hel, Pierre Joseph",France,19,159,49,1977,2026,-0.8884311064346839,True
-749,"Thouvenel, Charles",France,19,11,38,1987,2025,-1.0124118773027435,True
-367,"Laurent, Émile père",France,19,36,38,1985,2023,-1.0347465406413625,True
-77,"Blanchard, Paul Francois",France,19,127,46,1980,2026,-1.0839900089681387,True
-154,"Deblaye, Albert",France,19,177,49,1977,2026,-1.0924201509467713,True
-37,"Barbé, François",France,19,33,41,1981,2022,-1.0931614550624191,True
-1259,"Charotte-Millot, Joseph",France,19,11,31,1987,2018,-1.1450699675052967,True
-1054,"Salzard, Dominique",France,19,20,38,1984,2022,-1.1555331223108811,True
-10093,"Mougenot, Léon Victor",France,19,301,49,1976,2025,-1.3344512734629221,True
-8754,"L'Humbert, Emile",France,19,15,40,1986,2026,-1.447194086745096,True
-1184,"Cunault, Georges",France,19,23,39,1986,2025,-1.4788145570598488,True
-23,"Audinot, Victor",France,19,44,37,1987,2024,-1.59618962980419,True
-288,"Holder, Thomas James",France,19,10,31,1988,2019,-1.6697260335234554,True
-687,"Simoutre, Nicolas",France,19,13,33,1985,2018,-1.8380530293228725,True
-2303,"Charotte, Joseph",France,19,12,36,1989,2025,-1.9903405243392291,True
-409,"Magniere, Gabriel",France,19,39,37,1981,2018,-2.07463848310927,True
-555,"Poirson, Elophe",France,19,29,28,1998,2026,-2.2311739113920592,True
-1241,"Thouvenel, Nicolas Henry dit Paganini",France,19,13,36,1989,2025,-2.308903413034036,True
-1390,"Remy, Jules",France,19,12,37,1988,2025,-2.5179018939500586,True
-952,"Claudot, Augustin",France,19,24,36,1989,2025,-2.6801698221400105,True
-2227,"Jacquot, Pierre Charles",France,19,10,17,2007,2024,-2.738132933396975,True
-1395,"Maucotel, Justin",France,19,11,41,1985,2026,-2.8283610130608094,True
-4871,"Caussin, François Hippolyte",France,19,28,18,2007,2025,-3.0696345754328003,True
-675,"Serdet, Paul",France,19,22,38,1988,2026,-3.4771777308755025,True
-507,"Pacherele, Pierre",France,19,14,39,1987,2026,-3.7152466743837764,True
-1924,"Delignon, Louis",France,20,10,29,1997,2026,1.6475326965774917,True
-15617,"Nadegini, Jean-Baptiste Léonidas",France,20,20,39,1987,2026,1.5864324414718078,True
-1003,Chardon & Fils. Firm,France,20,14,39,1986,2025,1.3469207690230522,True
-950008,"Cune, René",France,20,12,29,1995,2024,1.332038399785218,True
-186,"Gaggini, Pierre",France,20,37,50,1975,2025,1.044539391956123,True
-5062,"Clotelle, H.",France,20,14,38,1984,2022,0.8099174705940682,True
-1599,Silvestre & Maucotel,France,20,29,51,1975,2026,0.704490911685185,True
-780,"Vautrin, Joseph",France,20,31,40,1985,2025,0.5578935997329948,True
-660,"Schmitt, Lucien",France,20,43,37,1988,2025,0.539556530629004,True
-1260,"Didelot, J.",France,20,14,38,1984,2022,0.5127023726325675,True
-1671,"Laurent, Émile fils",France,20,13,33,1988,2021,0.3847826418688971,True
-3763,"Barzoni, François",France,20,141,44,1975,2019,0.3746090998659968,True
-1152,"Cerpi, G.",France,20,12,25,1976,2001,0.3161327256951063,True
-83,"Boulangeot, Emile",France,20,35,38,1985,2023,0.31220460491030444,True
-449,"Millant, Roger & Max Firm",France,20,42,43,1983,2026,0.19301138984857413,True
-418,"Mangenot, Amati",France,20,33,41,1984,2025,0.09424949644656344,True
-797,"Villaume, Gustave",France,20,75,45,1981,2026,0.08037099622311139,True
-1008,"Drouin, Charles",France,20,19,46,1978,2024,0.053307262847646086,True
-2191,"Charotte, Victor Joseph",France,20,20,30,1996,2026,-0.02087066859806086,True
-2041,"Mortin, Leon",France,20,10,40,1986,2026,-0.02307708944389031,True
-372,"Le Lyonnais, Charles",France,20,20,36,1985,2021,-0.09203673333086915,True
-872,"Claudot, Albert",France,20,13,37,1986,2023,-0.19933517678821788,True
-569,"Pouzol, Émile",France,20,11,27,1994,2021,-0.3027380775819988,True
-2827,"Collin-Mézin, Charles Jean-Baptiste III",France,20,143,46,1980,2026,-0.5245646854899699,True
-1432,"Courtier, Louis Charles",France,20,22,40,1985,2025,-0.5910586031839582,True
-19,"Apparut, Georges",France,20,178,43,1983,2026,-0.6022391106366931,True
-168,"Enel, Charles",France,20,26,40,1985,2025,-0.6025842612830346,True
-1099,"Marchand, Eugène",France,20,11,45,1980,2025,-0.660584815551013,True
-281,"Hilaire, Paul",France,20,21,34,1991,2025,-0.7074421186480717,True
-903,"Dieudonné, Amédée",France,20,312,42,1984,2026,-0.7296836926051764,True
-1568,"Morizot, René",France,20,36,41,1984,2025,-0.8293831497166337,True
-1039,"Moinel, Daniel",France,20,11,31,1994,2025,-0.9012964208084728,True
-727,"Striebig, Jean",France,20,54,34,1991,2025,-0.9111266104926852,True
-1125,"Maline, François Alexandre",France,20,12,38,1986,2024,-0.9135249944348334,True
-985,Caressa & Français Firm,France,20,55,41,1985,2026,-0.9158780572945724,True
-1534,"Chipot, Paul Jean Baptiste",France,20,22,42,1984,2026,-0.9372964997565569,True
-310,"Jacquemin, Rene",France,20,15,41,1984,2025,-0.9636468563066658,True
-1812,"Résuche, Charles",France,20,25,41,1984,2025,-0.9813821280631796,True
-1214,"Bazin, Gustave",France,20,50,49,1976,2025,-1.0059700791811177,True
-2799,"Billottet, Louis Fernand",France,20,11,40,1985,2025,-1.0111115762030054,True
-852,Laberte-Humbert Frères Firm,France,20,771,51,1975,2026,-1.0151310484949327,True
-135,"Cone, Georges",France,20,17,31,1994,2025,-1.0176563594428867,True
-271,"Hel, Pierre Jean Henri",France,20,35,36,1988,2024,-1.0723740848721852,True
-1481,"Millant, Max",France,20,12,24,1999,2023,-1.1183997872421636,True
-29,"Bailly, Charles",France,20,85,47,1979,2026,-1.240584847218884,True
-11564,"Ragot, Lucien André I",France,20,16,37,1989,2026,-1.2530502864810389,True
-1430,"Cherpitel, Louis",France,20,11,37,1985,2022,-1.2593701394566947,True
-1492,Moinel & Cherpitel Firm,France,20,15,38,1987,2025,-1.2989656465401622,True
-8755,"L'Humbert, Lucien",France,20,11,31,1991,2022,-1.3102854282095788,True
-1299,"Bauer, Jean",France,20,23,29,1996,2025,-1.3358617471380563,True
-79,"Blondelet, Hugues Emile",France,20,179,49,1976,2025,-1.3377281952388298,True
-1530,"Didier, Paul",France,20,12,41,1985,2026,-1.5859897664775469,True
-1769,"Delprato, François Joseph",France,20,13,41,1984,2025,-1.7848578989422048,True
-369,"Lavest, Jules",France,20,75,36,1989,2025,-1.804187284363734,True
-322,"Kaul, Paul",France,20,83,41,1985,2026,-1.8131836773467414,True
-1532,"Lorange, Paul II",France,20,22,37,1989,2026,-1.974444190580349,True
-1218,"Denis, H.",France,20,11,49,1976,2025,-2.010658649963837,True
-1009,"Fétique, Charles Claude",France,20,10,33,1989,2022,-2.256116661491936,True
-1303,"Larcher, Jean",France,20,15,31,1992,2023,-2.3475392907848835,True
-11516,"Quenoil, Victor",France,20,13,35,1990,2025,-2.384709999538015,True
-1529,"Bisch, Paul",France,20,29,40,1985,2025,-2.4587430312078107,True
-1566,"Bailly, René",France,20,15,35,1990,2025,-2.816364095210977,True
-1527,"Beuscher, Paul",France,20,10,31,1988,2019,-2.8539955391641447,True
-975,"Olivier & Bisch, Christian & Paul",France,20,17,27,1997,2024,-3.0368020230304826,True
-360,"Langonet, Eugene",France,20,21,34,1992,2026,-3.1172997674137726,True
-722,"Stradivari, Antonio",Italy,17,84,49,1976,2025,5.983906466460387,True
-1674,"Rugeri, Vincenzo",Italy,17,12,35,1988,2023,4.442101572676016,True
-220,"Grancino, Giovanni Battista I",Italy,17,55,48,1978,2026,3.9714600918627774,True
-1383,"Guarneri, Giuseppe 'filius Andreae'",Italy,17,32,48,1975,2023,2.56452159711662,True
-187,"Gagliano, Alessandro",Italy,17,33,51,1975,2026,2.5123420771730576,True
-8,"Amati, Antonio & Girolamo",Italy,17,41,49,1976,2025,2.4666156614303825,True
-1475,"Albani, Matthias II",Italy,17,30,45,1978,2023,2.403253549174811,True
-737,"Tecchler, David",Italy,17,35,48,1977,2025,2.1568894487020707,True
-756,"Tononi, Giovanni",Italy,17,25,47,1979,2026,2.0648794921031666,True
-741,"Testore, Carlo Giuseppe",Italy,17,33,48,1978,2026,1.8899400550501655,True
-1852,"Mariani, Antonio",Italy,17,10,46,1980,2026,1.830414710777939,True
-241,"Guarneri, Andrea",Italy,17,60,48,1976,2024,1.4981075924192844,True
-407,"Maggini, Giovanni Paolo",Italy,17,23,43,1976,2019,1.4346708591135293,True
-1547,"Guarneri, Pietro of Mantua",Italy,17,28,49,1976,2025,1.0365382538624734,True
-623,"Rogeri, Giovanni Battista",Italy,17,31,49,1976,2025,0.9940409468943256,True
-12,"Amati, Nicolò",Italy,17,60,51,1975,2026,0.8800882419524481,True
-636,"Rugeri, Francesco",Italy,17,42,50,1975,2025,0.7040701413363104,True
-10,"Marchioni, Don Nicola 'Don Nicolo Amati'",Italy,17,18,48,1976,2024,0.4494835610075132,True
-1473,"Goffriller, Matteo",Italy,17,31,48,1975,2023,-0.20636738398318588,True
-1195,"Cappa, Gioffredo",Italy,17,48,49,1975,2024,-0.23554696043016632,True
-1202,"Celoniato, Giovanni Francesco",Italy,18,11,42,1978,2020,4.564516076510894,True
-193,"Gagliano, Raffaele & Antonio",Italy,18,25,45,1980,2025,4.151760950313532,True
-443,"Mezzadri, Alessandro",Italy,18,10,33,1983,2016,4.068391579933817,True
-191,"Gagliano, Giovanni I",Italy,18,16,37,1977,2014,3.982031058428581,True
-1164,"Vinaccia, Gennaro",Italy,18,12,42,1983,2025,3.9351732023162,True
-240,"Guarneri, Bartolomeo Giuseppe 'del Gesù'",Italy,18,15,49,1976,2025,3.756268640040683,True
-720,"Storioni, Lorenzo",Italy,18,38,46,1978,2024,3.4252639205795132,True
-235,"Guadagnini, Giuseppe I",Italy,18,11,50,1975,2025,3.136103922847422,True
-1621,"Balestrieri, Tommaso",Italy,18,43,49,1976,2025,3.1252165167157786,True
-126,"Ceruti, Giovanni Battista",Italy,18,26,48,1978,2026,3.0146607365022726,True
-234,"Guadagnini, Giovanni Battista",Italy,18,92,51,1975,2026,2.5236813827638205,True
-1497,"Gagliano, Nicolò",Italy,18,132,51,1975,2026,2.3812256345540517,True
-104,"Carcassi, Tomaso",Italy,18,15,43,1980,2023,2.378046571380832,True
-218,"Gragnani, Antonio",Italy,18,62,50,1975,2025,2.252407603441564,True
-359,"Landolfi, Carlo Ferdinando",Italy,18,50,50,1976,2026,2.231977753318426,True
-189,"Gagliano, Ferdinando",Italy,18,62,49,1977,2026,2.2117741588654427,True
-242,"Guarneri, Pietro of Venice",Italy,18,11,46,1977,2023,2.1001328355114923,True
-190,"Gagliano, Gennaro",Italy,18,56,49,1977,2026,1.984620990864716,True
-551,"Platner, Michele",Italy,18,13,44,1975,2019,1.91830679237317,True
-742,"Testore, Paolo Antonio",Italy,18,24,45,1979,2024,1.914330580818735,True
-192,"Gagliano, Giuseppe",Italy,18,71,50,1976,2026,1.8939452573190074,True
-98,"Camilli, Camillo",Italy,18,36,51,1975,2026,1.8559986076358115,True
-114,"Castello, Paolo",Italy,18,27,48,1976,2024,1.8329310330831072,True
-743,"Testore, Carlo Antonio",Italy,18,86,49,1976,2025,1.7116913007802603,True
-1426,"Carcassi, Lorenzo & Tomaso",Italy,18,67,48,1975,2023,1.5987241934297458,True
-105,"Carcassi, Lorenzo",Italy,18,17,45,1979,2024,1.5908421262329275,True
-155,"Deconet, Michele",Italy,18,33,46,1978,2024,1.212306219737358,True
-1594,"Serafin, Santo",Italy,18,26,36,1986,2022,1.208793126861396,True
-515,"Panormo, Vincenzo Trusiano",Italy,18,52,46,1978,2024,1.0722713418152008,True
-167,"Eberle, Tomaso",Italy,18,44,48,1975,2023,1.0576942886116436,True
-1549,"Dalla Costa, Pietro Antonio",Italy,18,11,36,1988,2024,1.0286691823285121,True
-1820,"Odoardi, Giuseppe",Italy,18,10,42,1975,2017,0.8960163109802854,True
-1548,"Landolfi, Pietro Antonio",Italy,18,18,46,1978,2024,0.8308245466599029,True
-1851,"Calvarola, Bartolomeo",Italy,18,12,46,1978,2024,0.7923343456408327,True
-1112,"Gobetti, Francesco",Italy,18,10,36,1988,2024,0.778006134557474,True
-97,"Calcagno, Bernardo",Italy,18,30,48,1975,2023,0.6142947074593952,True
-1201,"Guidanti, Giovanni",Italy,18,22,47,1977,2024,0.5383522564584853,True
-183,"Gabrielli, Giovanni Battista",Italy,18,55,49,1975,2024,0.3817565407790324,True
-1052,"Montagnana, Domenico",Italy,18,19,49,1977,2026,0.3758760429499741,True
-147,"Dall'Aglio, Giuseppe",Italy,18,16,44,1980,2024,0.27487620860164874,True
-755,"Tononi, Carlo Annibale",Italy,18,19,46,1979,2025,0.07942889325023295,True
-701,"Sorsana, Spirito",Italy,18,16,44,1979,2023,-0.5791090486675476,True
-17,"Antoniazzi, Gaetano",Italy,19,10,27,1991,2018,5.685665996298961,True
-160,"D'Espine, Alessandro",Italy,19,12,36,1978,2014,5.30682244129006,True
-177,"Fiorini, Giuseppe",Italy,19,34,47,1978,2025,5.132653251713082,True
-16,"Antoniazzi, Riccardo",Italy,19,45,42,1980,2022,4.107512306028016,True
-653,"Scarampella, Stefano",Italy,19,71,50,1976,2026,3.9739403402674567,True
-620,"Rocca, Giuseppe Antonio",Italy,19,58,50,1976,2026,3.7350033042282904,True
-232,"Guadagnini, Francesco",Italy,19,13,29,1983,2012,3.593232000190749,True
-497,"Oddone, Carlo Giuseppe",Italy,19,53,42,1981,2023,3.5838016149396967,True
-153,"De Zorzi, Valentino",Italy,19,14,27,1993,2020,3.5761003671542335,True
-678,"Sgarbi, Antonio",Italy,19,13,43,1980,2023,3.4670446613012995,True
-548,"Pistucci, Giovanni",Italy,19,40,48,1977,2025,3.464325111929667,True
-619,"Rocca, Enrico",Italy,19,29,37,1986,2023,3.1224669954667883,True
-573,"Pressenda, Giovanni Francesco",Italy,19,78,50,1975,2025,3.0139062587447585,True
-74,"Bisiach, Leandro I",Italy,19,103,51,1975,2026,2.9764184730336707,True
-18,"Antoniazzi, Romeo",Italy,19,68,45,1979,2024,2.9633603984707158,True
-734,"Tarasconi, Giuseppe",Italy,19,30,36,1990,2026,2.9618660361199867,True
-170,"Fagnola, Annibale",Italy,19,114,50,1976,2026,2.7092296215786904,True
-1206,"Gagliano, Giuseppe & Antonio",Italy,19,37,45,1975,2020,2.544433305320415,True
-12714,"Schwarz, Giovanni",Italy,19,16,38,1984,2022,2.4759068998184253,True
-156,"Degani, Eugenio",Italy,19,117,49,1976,2025,2.465149226547858,True
-433,"Maurizi, Francesco",Italy,19,14,41,1980,2021,2.38764617911873,True
-424,"Marchetti, Enrico",Italy,19,71,45,1981,2026,2.2900123700170694,True
-109,"Carletti, Carlo",Italy,19,32,36,1988,2024,2.2219924305304284,True
-120,"Cavani, Giovanni",Italy,19,17,38,1986,2024,2.1812473164824153,True
-563,"Postiglione, Vincenzo II",Italy,19,57,49,1975,2024,2.0593682214928855,True
-1106,"Ferroni, Fernandino",Italy,19,13,32,1978,2010,2.0336194132399843,True
-202,"Gatti, Giorgio",Italy,19,24,36,1985,2021,2.0229918611779585,True
-611,"Marengo Rinaldi, Romano",Italy,19,12,37,1977,2014,1.5736742504218748,True
-124,"Ceruti, Enrico",Italy,19,24,45,1980,2025,1.4558729024573003,True
-119,"Cavalli, Aristide",Italy,19,57,50,1975,2025,1.4543479098995782,True
-182,"Fredi, Rodolfo",Italy,19,15,47,1977,2024,1.4134527071659075,True
-101,"Candi, Cesare",Italy,19,36,46,1980,2026,1.3609065429176281,True
-788,"Ventapane, Lorenzo",Italy,19,50,51,1975,2026,1.3186952274785613,True
-437,"Melegari, Enrico Clodoveo",Italy,19,24,48,1975,2023,1.2327235677842552,True
-471,"Mozzani, Luigi",Italy,19,52,41,1984,2025,1.1397823577571797,True
-96,"Calace, Raffaele I",Italy,19,22,44,1981,2025,1.1260964880077662,True
-441,"Messori, Pietro",Italy,19,19,39,1984,2023,1.1259757897893907,True
-226,"Grulli, Pietro",Italy,19,12,31,1995,2026,0.6163828809415017,True
-631,"Rovatti, Luigi",Italy,19,11,36,1988,2024,0.5123146804968837,True
-171,"Farotti, Celeste",Italy,19,21,40,1986,2026,0.28771674235053,True
-476,"Muncher, Romedio",Italy,19,21,29,1991,2020,-0.08734709832217691,True
-78,"Blanchi, Alberto Luigi",Italy,19,56,41,1985,2026,-0.128949952262436,True
-562,"Postacchini, Andrea",Italy,19,13,37,1987,2024,-0.1794825001457223,True
-415,"Mandelli, Camillo 'da Calco'",Italy,19,12,24,1999,2023,-0.2783993046815536,True
-1829,"Sgarbi, Giuseppe",Italy,19,15,39,1980,2019,-0.48134521769400695,True
-637,"Saccani, Benigno",Italy,19,14,36,1988,2024,-0.5354500695981756,True
-123,"Celani, Constantino",Italy,19,16,41,1984,2025,-0.5760815985910273,True
-100,"Candi, Oreste",Italy,19,17,35,1990,2025,-0.5884594328134485,True
-570,"Praga, Eugenio",Italy,19,13,34,1988,2022,-1.0881983209426127,True
-13404,"Storioni, Carlo",Italy,19,77,49,1975,2024,-1.361688424111751,True
-69,"Bignami, Otello",Italy,20,18,24,1998,2022,7.185057726210409,True
-639,"Sacconi, Simone Fernando",Italy,20,17,41,1979,2020,6.93279145821295,True
-554,"Poggi, Ansaldo",Italy,20,26,44,1982,2026,5.665810083046541,True
-914,"Curletto, Anselmo",Italy,20,18,41,1984,2025,4.225184908680002,True
-1200,"Morassi, Giovanni Battista",Italy,20,45,45,1981,2026,4.212261803923845,True
-103,"Capicchioni, Marino",Italy,20,56,45,1980,2025,3.916297628026477,True
-501,"Ornati, Giuseppe",Italy,20,28,47,1979,2026,3.8817329997656858,True
-699,"Soffritti, Ettore",Italy,20,30,45,1979,2024,3.7380254332895824,True
-561,"Pollastri, Gaetano",Italy,20,26,46,1976,2022,3.592743659413089,True
-621,"Rocchi, Sesto",Italy,20,30,40,1986,2026,3.5821774638393977,True
-446,"Michetti, Plinio",Italy,20,30,37,1984,2021,3.434144708905973,True
-670,"Sderci, Igino",Italy,20,66,43,1981,2024,3.360138826791337,True
-201,"Garimberti, Ferdinando",Italy,20,24,39,1987,2026,3.07951209409143,True
-2005,"Gamberini, Claudio",Italy,20,10,40,1985,2025,2.9397381757997776,True
-75,"Bissolotti, Francesco",Italy,20,25,44,1982,2026,2.938164386205,True
-645,"Sannino, Vincenzo",Italy,20,65,43,1983,2026,2.927961472590024,True
-540,"Piccagliani, Armando",Italy,20,19,36,1985,2021,2.902696816786654,True
-215,"Gotti, Anselmo",Italy,20,12,42,1983,2025,2.8449141644182996,True
-194,"Gaibisso, Giovanni Battista",Italy,20,25,40,1985,2025,2.8346513888041214,True
-492,"Novelli, Natale",Italy,20,20,35,1984,2019,2.55525095009852,True
-184,"Gadda, Gaetano",Italy,20,75,49,1976,2025,2.506161907429405,True
-528,"Pellacani, Giuseppe",Italy,20,28,44,1978,2022,2.4676823037933726,True
-137,"Contino, Alfredo",Italy,20,65,41,1984,2025,2.4496369984546407,True
-71,"Bisiach, Carlo",Italy,20,36,46,1980,2026,2.42875382873462,True
-401,"Lucci, Giuseppe",Italy,20,79,49,1977,2026,2.4281273677958515,True
-2765,"Guastalla, Dante & Alfredo",Italy,20,25,41,1984,2025,2.3622827125339807,True
-52,"Bellafontana, Lorenzo",Italy,20,17,35,1989,2024,2.1350432198975033,True
-517,"Pareschi, Gaetano",Italy,20,11,38,1983,2021,2.0936609056621425,True
-376,"Lecchi, Giuseppe Bernardo",Italy,20,22,47,1979,2026,2.078340993699701,True
-677,"Sgarabotto, Pietro",Italy,20,16,45,1979,2024,2.031657064471304,True
-524,"Pedrazzini, Giuseppe",Italy,20,118,51,1975,2026,1.9231391249752816,True
-776,"Varagnolo, Ferruccio",Italy,20,14,39,1985,2024,1.903418870955842,True
-197,"Galimberti, Luigi",Italy,20,14,38,1988,2026,1.8442855840756112,True
-73,"Bisiach, Giacomo & Leandro",Italy,20,35,43,1983,2026,1.7918604857997122,True
-518,"Parravicini, Piero",Italy,20,24,41,1984,2025,1.7677953609350094,True
-180,"Fracassi, Arturo",Italy,20,13,47,1978,2025,1.7252937944275848,True
-6,"Altavilla, Armando",Italy,20,27,40,1986,2026,1.7014481650198032,True
-717,"Stefanini, Giuseppe",Italy,20,33,32,1993,2025,1.6901991950952988,True
-995,"Vettori, Carlo",Italy,20,19,42,1983,2025,1.6673744620082864,True
-157,"Degani, Giulio Ettore",Italy,20,113,50,1976,2026,1.6438836156692505,True
-3716,"Bargelli, Giuseppe (di Saladino)",Italy,20,12,37,1986,2023,1.4972551775682241,True
-161,"Dobretsovich, Marco",Italy,20,23,42,1984,2026,1.4933893137851095,True
-53,"Bellarosa, Vittorio",Italy,20,24,40,1985,2025,1.4357624385996859,True
-771,"Vaccari, Raffaele",Italy,20,14,30,1987,2017,1.3956837529999433,True
-150,"De Barbieri, Paolo",Italy,20,38,42,1984,2026,1.345407265714793,True
-20,"Auciello, Luigi",Italy,20,16,39,1985,2024,1.3043981818145145,True
-41,"Barbieri, Bruno",Italy,20,33,39,1984,2023,1.3030361933004775,True
-926,"Lechi, Antonio",Italy,20,99,49,1975,2024,1.2827521821457077,True
-931,"Orlandini, Archimede",Italy,20,16,37,1984,2021,1.2640509816631118,True
-245,"Guerra, Evasio Emilio",Italy,20,28,39,1987,2026,1.2366006491592696,True
-502,"Orselli, Enrico",Italy,20,10,29,1996,2025,1.1853723808320504,True
-357,"Lanaro, Umberto",Italy,20,24,40,1986,2026,1.0647397025586036,True
-102,"Capellini, Virgilio",Italy,20,13,43,1980,2023,1.0522729329546454,True
-117,"Cavalazzi, Antonino",Italy,20,13,21,1997,2018,1.0028257364436577,True
-2299,"Castelli, Cesare",Italy,20,12,23,2003,2026,0.9926000118946732,True
-632,"Rovescalli, Azzo",Italy,20,15,41,1984,2025,0.9426120678444061,True
-3,"Albanelli, Franco",Italy,20,54,32,1993,2025,0.9310902171627333,True
-534,"Pevere, Ernesto",Italy,20,17,35,1988,2023,0.902906003167403,True
-897,"Gianotti, Alfredo",Italy,20,30,46,1980,2026,0.8493203337808231,True
-27,"Azzola, Luigi",Italy,20,12,32,1988,2020,0.7059328946716459,True
-1455,"Salsedo, Luigi",Italy,20,30,41,1977,2018,0.6559934833995529,True
-676,"Sgarabotto, Gaetano",Italy,20,56,42,1984,2026,0.6333027857238882,True
-51,"Bedocchi, Mario",Italy,20,18,26,1996,2022,0.6324174431842078,True
-429,"Martini, Oreste",Italy,20,10,38,1985,2023,0.5275996680553785,True
-559,"Politi, Enrico",Italy,20,24,32,1994,2026,0.5176245550208014,True
-146,"Dal Canto, Giustino",Italy,20,10,36,1989,2025,0.3688650209559663,True
-1254,"Peternella, Jago",Italy,20,16,38,1984,2022,0.3458374628869665,True
-686,"Simonazzi, Amadeo",Italy,20,17,32,1993,2025,0.32729156975586093,True
-1411,"Casini, Lapo",Italy,20,11,33,1985,2018,0.25697588343742694,True
-121,"Cavani, Vincenzo",Italy,20,22,39,1987,2026,0.12918480453341097,True
-172,"Farotto, Celestino",Italy,20,23,41,1985,2026,0.09224162492438293,True
-1467,"Erician, Martin",Italy,20,11,21,2000,2021,0.03185755698886794,True
-669,"Sderci, Luciano",Italy,20,19,37,1984,2021,0.00560850546751368,True
-39,"Barbieri, Enzo",Italy,20,24,48,1978,2026,-0.11292370490263437,True
-838,"Zani, Aldo",Italy,20,13,38,1988,2026,-0.13894393192910304,True
-113,"Castagnino, Giuseppe",Italy,20,23,39,1987,2026,-0.17095251732101024,True
-587,"Radighieri, Otello",Italy,20,16,32,1992,2024,-0.2853879607535692,True
-984,"Maggiali, Cesare",Italy,20,22,30,1996,2026,-0.29057819339929347,True
-448,"Militello, Mariano",Italy,20,11,27,1995,2022,-0.30991024157088765,True
-185,"Gadda, Mario",Italy,20,85,43,1983,2026,-0.4200466970477157,True
-207,"Genovese, Riccardo",Italy,20,28,29,1994,2023,-0.47202808185448086,True
-581,"Puglisi, Concetto",Italy,20,19,38,1985,2023,-0.4918028539452446,True
-790,"Verne, Dario",Italy,20,27,29,1996,2025,-0.578379683471153,True
-580,"Puglisi, Michelangelo",Italy,20,14,35,1989,2024,-0.7413052587883939,True
-769,"Ullmann, Georg",Italy,20,13,28,1997,2025,-1.4378261971834005,True
-1631,"Goss, Walter Solon",North America,19,12,18,1995,2013,5.432399943957833,True
-1345,"Friedrich, John",North America,19,28,33,1989,2022,3.9660830792578317,True
-822,"White, Asa Warren",North America,19,29,38,1986,2024,3.3814332210617914,True
-206,"Gemünder, George I",North America,19,45,39,1985,2024,2.9116390296643813,True
-709,"Squier, Jerome Bonaparte",North America,19,23,35,1989,2024,1.7716292175207204,True
-205,"Gemünder, August Martin",North America,19,26,31,1987,2018,1.6297741659684783,True
-336,"Knopf, Heinrich (Henry) Richard",North America,19,21,34,1989,2023,0.7789557876072051,True
-31,"Baker, Calvin",North America,19,11,28,1993,2021,0.5835507924390804,True
-598,"Reindahl, Knute",North America,19,17,35,1984,2019,0.17042879328661442,True
-89,"Bryant, Ole H.",North America,19,17,35,1990,2025,0.07223701055851794,True
-1238,"Handley, Henry",North America,19,12,48,1976,2024,-1.4900534971017176,True
-110,"Carlisle, James Reynold",North America,20,27,35,1987,2022,3.8076761434079565,True
-54,"Bellini, Luiz",North America,20,14,23,2003,2026,3.058923661953039,True
-1520,"Erdesz, Otto A.",North America,20,16,23,1996,2019,2.572188190122504,True
-9541,"Martino, Giuseppe",North America,20,12,35,1990,2025,2.419032955260536,True
-1559,"Hall, Roscoe G.",North America,20,11,26,1984,2010,0.8480114696757024,True
-57,"Berger, Karl August",North America,20,40,42,1984,2026,0.011500314196455363,True
-531,"Peresson, Sergio",North America,20,15,30,1995,2025,-0.27477623379040805,True
-826,"Wilkanowski, William",North America,20,47,45,1980,2025,-0.3972846546723585,True
-49,"Becker, Carl Sr.",North America,20,38,25,2000,2025,-0.6145293465307011,True
-1742,"Cornelissen, Marten",North America,20,12,31,1995,2026,-0.7398196817157809,True
-2025,"De Luccia, Gennaro",North America,20,17,20,2005,2025,-0.8801225600901574,True
-814,"Walker, John Harold",North America,20,12,32,1986,2018,-1.081168344788641,True
-1540,"Wamsley, Peter",UK & Ireland,17,25,34,1980,2014,-3.607778033593967,True
-1421,Longman & Co. Firm,UK & Ireland,18,16,35,1978,2013,4.8133171011709885,True
-1466,"Dearlove, Mark",UK & Ireland,18,10,43,1976,2019,4.52109142349566,True
-1294,"Banks, James & Henry",UK & Ireland,18,13,34,1987,2021,3.7521081755807595,True
-259,"Hardie, Matthew",UK & Ireland,18,28,46,1977,2023,3.556978870178984,True
-1420,Longman & Broderip Firm,UK & Ireland,18,26,31,1976,2007,3.4681970170909127,True
-1616,"Perry, Thomas II",UK & Ireland,18,50,48,1978,2026,2.720619614606856,True
-1610,"Cahusac, Thomas",UK & Ireland,18,21,42,1977,2019,2.7184822061186775,True
-748,"Thompson, Charles & Samuel",UK & Ireland,18,91,51,1975,2026,2.2449401182728312,True
-1378,"Panormo, Joseph",UK & Ireland,18,10,40,1977,2017,2.152195157961345,True
-316,"Johnson, John",UK & Ireland,18,45,47,1979,2026,2.0160065684900808,True
-694,"Smith, Thomas",UK & Ireland,18,19,42,1977,2019,1.9535885220964166,True
-752,"Tobin, Richard",UK & Ireland,18,13,42,1979,2021,1.6671766066686633,True
-67,"Betts, John I",UK & Ireland,18,48,49,1977,2026,1.6231007985142432,True
-34,"Banks, Benjamin",UK & Ireland,18,47,42,1983,2025,1.4819167536682443,True
-1040,"Parker, Daniel",UK & Ireland,18,17,40,1978,2018,1.3844768391334528,True
-166,"Duke, Richard",UK & Ireland,18,130,50,1975,2025,1.3009689889356801,True
-1340,"Barrett, John",UK & Ireland,18,30,44,1977,2021,1.242011524974762,True
-2607,"Forster, William III",UK & Ireland,18,18,28,1989,2017,1.1409433626152765,True
-1350,"Marshall, John",UK & Ireland,18,14,43,1975,2018,0.9501283036778219,True
-1354,"Simpson, John",UK & Ireland,18,10,40,1983,2023,0.5814142456151972,True
-179,"Forster, William II or Sr",UK & Ireland,18,29,45,1980,2025,0.34541254554689704,True
-1274,"Ford, Jacob",UK & Ireland,18,11,47,1979,2026,0.01149350348661482,True
-1373,"Hill, Joseph I",UK & Ireland,18,43,51,1975,2026,-0.11227162522607914,True
-1282,"Brown, James I",UK & Ireland,18,23,48,1977,2025,-0.12900883976626476,True
-1166,"Barton, George",UK & Ireland,18,10,32,1986,2018,-1.8627877110470537,True
-1419,"Hill, Lockey",UK & Ireland,18,32,45,1981,2026,-1.8960448004091135,True
-1713,"Hill, Henry Lockey",UK & Ireland,18,10,36,1985,2021,-2.1297050381698157,True
-1068,"Withers, Edward I",UK & Ireland,19,17,39,1984,2023,3.7145155521617346,True
-1007,"Cramond, Charles",UK & Ireland,19,10,36,1984,2020,3.6816699156185795,True
-1346,"Furber, John",UK & Ireland,19,16,37,1984,2021,2.4178221815437384,True
-1661,"Hill, William Ebsworth",UK & Ireland,19,24,46,1975,2021,2.0272178023309273,True
-1209,Goulding & Co.,UK & Ireland,19,32,39,1977,2016,1.8312609604880459,True
-1011,"Harris, Charles II",UK & Ireland,19,24,47,1975,2022,1.6054530155753088,True
-1344,"Day, John",UK & Ireland,19,11,30,1986,2016,1.485537211411403,True
-1614,"Hardie, Thomas",UK & Ireland,19,10,40,1984,2024,1.4821056598274485,True
-278,"Hesketh, Thomas Earle",UK & Ireland,19,90,50,1975,2025,1.4675128516516533,True
-1353,"Rae, John",UK & Ireland,19,16,47,1976,2023,1.43390034322044,True
-962,"Fendt, Bernard Simon II",UK & Ireland,19,18,37,1984,2021,1.4182674204961998,True
-1349,"Lott, John Frederick II",UK & Ireland,19,15,45,1981,2026,1.3555234854649045,True
-692,"Smillie, Alexander",UK & Ireland,19,34,49,1975,2024,1.3218717200661256,True
-1385,"Chanot, Joseph Anthony",UK & Ireland,19,27,42,1984,2026,1.2572283691479225,True
-1296,"Briggs, James William",UK & Ireland,19,46,48,1975,2023,1.2261453240099751,True
-1352,"Priestnall, John",UK & Ireland,19,17,39,1982,2021,1.220975598380858,True
-1640,"Atkinson, William",UK & Ireland,19,64,45,1976,2021,1.0777214007233749,True
-127,"Chanot, Georges Adolphe",UK & Ireland,19,69,44,1982,2026,0.7288298115845082,True
-1314,"Gilbert, Jeffrey James",UK & Ireland,19,65,51,1975,2026,0.6206647993403092,True
-195,"Gaida, Giovanni",UK & Ireland,19,34,50,1975,2025,0.41032980661723784,True
-141,"Craske, George",UK & Ireland,19,240,51,1975,2026,0.3951338531523074,True
-1664,"Blyth, Williamson",UK & Ireland,19,11,19,1984,2003,0.3532782351526764,True
-1075,"Whitmarsh, Emanuel",UK & Ireland,19,109,51,1975,2026,0.34099002245768784,True
-1287,"Hardie, James II",UK & Ireland,19,41,49,1976,2025,0.2615695171833021,True
-1178,"Buckman, George Hatton",UK & Ireland,19,10,34,1980,2014,0.24529219884994458,True
-1181,"Wulme-Hudson, George",UK & Ireland,19,84,48,1978,2026,0.10800189268669325,True
-584,"Pyne, George",UK & Ireland,19,95,50,1976,2026,0.10718318147877604,True
-1316,"Ardern, Job",UK & Ireland,19,70,50,1975,2025,0.02283008172137002,True
-1363,"Monk, John King",UK & Ireland,19,20,45,1976,2021,-0.03454279782665326,True
-1145,"Chanot, Frederick William",UK & Ireland,19,34,42,1984,2026,-0.10603023105045795,True
-1538,Perry & Wilkinson Firm,UK & Ireland,19,86,49,1977,2026,-0.1212184237461722,True
-1273,"Fendt, Jacob",UK & Ireland,19,13,50,1976,2026,-0.43913264381052475,True
-1615,"Kennedy, Thomas",UK & Ireland,19,43,50,1976,2026,-0.5297369860877699,True
-1230,Hart & Son,UK & Ireland,19,26,37,1978,2015,-0.5336452523958757,True
-1356,"Smith, John",UK & Ireland,19,15,41,1983,2024,-0.5505377237915776,True
-9643,"Mayson, Walter H.",UK & Ireland,19,159,51,1975,2026,-0.5607275678723211,True
-1654,"Tarr, William",UK & Ireland,19,11,39,1976,2015,-0.6536797626331303,True
-7950,"Hudson, George",UK & Ireland,19,29,45,1980,2025,-1.0280315051825362,True
-1646,"Heaton, William",UK & Ireland,19,22,44,1980,2024,-1.1322420213048079,True
-1090,"Mumby, Ernest",UK & Ireland,19,18,31,1981,2012,-1.7068561633657664,True
-970,"Voller, William, Charles & Alfred",UK & Ireland,19,21,36,1990,2026,-1.7297748012265024,True
-1283,"Cole, James",UK & Ireland,19,16,46,1977,2023,-1.907725776985536,True
-1286,"Gilchrist, James",UK & Ireland,19,11,37,1988,2025,-2.058569852069325,True
-1047,"Stirrat, David",UK & Ireland,19,10,36,1977,2013,-3.107871122990724,True
-816,"Warrick, A.",UK & Ireland,20,17,31,1985,2016,3.8218787616019823,True
-1586,"Rushworth, Rushworth & Dreaper",UK & Ireland,20,37,37,1975,2012,2.9503219082506194,True
-767,"Tweedale, Charles L.",UK & Ireland,20,29,36,1975,2011,2.9394070748942847,True
-1142,"Channon, Frederick William",UK & Ireland,20,13,36,1975,2011,2.2312455937926856,True
-1176,"Withers, George Thomas Henry",UK & Ireland,20,13,31,1976,2007,2.186218265697759,True
-801,"Voigt, Paul",UK & Ireland,20,18,41,1983,2024,2.026017996779661,True
-1231,"Hawkes, Hawkes & Sons",UK & Ireland,20,83,46,1975,2021,2.0233715425558962,True
-1367,"Owen, John William",UK & Ireland,20,29,37,1983,2020,1.9323817429186096,True
-1032,"Hoing, Clifford A.",UK & Ireland,20,17,44,1977,2021,1.7969641083216858,True
-4077,"Bird, Richmond Henry",UK & Ireland,20,13,32,1975,2007,1.5827518196155133,True
-1574,"Riviere, Riviere & Hawkes",UK & Ireland,20,12,40,1976,2016,1.3080337985599266,True
-1626,"Hill & Sons, W. E. Firm",UK & Ireland,20,127,50,1976,2026,1.0828741192289382,True
-1656,"Walker, William",UK & Ireland,20,16,43,1980,2023,0.704734729605172,True
-14638,"Weller, Frederick",UK & Ireland,20,14,45,1975,2020,0.6225694023315853,True
-1412,"Cocker, Lawrence",UK & Ireland,20,19,43,1983,2026,0.4106870893676673,True
-1144,"Braund, Frederick T.",UK & Ireland,20,13,25,1990,2015,0.3552180487883305,True
-884,"Hume, Andrew (Alexander)",UK & Ireland,20,17,41,1980,2021,0.09270053263670253,True
-894,"Vincent, Alfred",UK & Ireland,20,90,50,1975,2025,-0.09917072570690966,True
-14796,"Wilkinson, Charles John",UK & Ireland,20,10,38,1988,2026,-0.18980297863950835,True
-1248,"Moya, Hidalgo",UK & Ireland,20,17,48,1976,2024,-0.20157197516021963,True
-607,"Richardson, Arthur",UK & Ireland,20,71,49,1975,2024,-0.2895139684054304,True
-1445,"Milton, Louis Frank",UK & Ireland,20,21,49,1977,2026,-0.3191782962322476,True
-1644,"Glenister, William",UK & Ireland,20,42,40,1980,2020,-0.5029949736552464,True
-618,"Robinson, William",UK & Ireland,20,101,50,1975,2025,-0.6237989250725384,True
-1226,"Dobbs, Harry",UK & Ireland,20,14,46,1977,2023,-1.0470730523165384,True
-711,"Stanley, Robert A.",UK & Ireland,20,11,43,1980,2023,-1.1211132118954859,True
-1648,"Luff, William H.",UK & Ireland,20,40,41,1985,2026,-1.5907615517516405,True
-963,"Smith, Bert",UK & Ireland,20,12,36,1989,2025,-1.9327335692652436,True
-1127,"Harlow, Frank",UK & Ireland,20,10,37,1986,2023,-1.9861296134777273,True
-1657,"Walton, William",UK & Ireland,20,14,48,1977,2025,-2.2999635066623947,True
-1409,"Perry, L.A.",UK & Ireland,20,10,26,1980,2006,-3.4305120846100823,True
-1391,"Emery, Julian",UK & Ireland,20,17,40,1985,2025,-3.971491448870068,True
-247,"Guillami, Juan I",World (Rest of),18,11,43,1975,2018,1.1648086995831752,True
-1109,"Gonzalez, Solar Fernando",World (Rest of),20,10,39,1986,2025,2.2032775093931978,True
-922,"Capela, Antonio",World (Rest of),20,69,42,1984,2026,0.4900788984740334,True
-1076,"Hjorth & Sons, Emil",World (Rest of),20,43,40,1986,2026,0.0411045431954582,True
-1535,"Merling, Pauli",World (Rest of),20,20,43,1983,2026,-0.7549052884040841,True
+﻿maker_id,maker_name,country,century,N_Sales,Span_Years,First_Sale,Last_Sale,Real_CAGR_%,Is_Dead,Real_CAGR_SE
+1476,"Hofmans, Matthias III",Benelux,17,11,44,1977,2021,3.724389334052236,True,1.2912045548310787
+309,"Jacobs, Hendrik",Benelux,17,22,36,1983,2019,2.0660675099680725,True,1.0991240372121465
+2599,"De Comble, Ambroise",Benelux,18,12,47,1977,2024,1.936363117892781,True,1.2013882694741205
+1338,"Cuypers, Johannes Theodorus",Benelux,18,75,48,1978,2026,0.7967095162994653,True,0.3700836228773123
+469,"Mougenot, Georges",Benelux,19,40,49,1977,2026,1.0733017325002203,True,0.8804988313071292
+148,"Darche, Hilaire",Benelux,19,29,39,1987,2026,-0.39438223970618136,True,0.770297534641862
+145,"Cuypers, Johannes Bernardus",Benelux,19,14,33,1992,2025,-0.661813126620181,True,1.7595150317868604
+1638,"Kunze, Wilhelm Paul",Benelux,20,16,41,1984,2025,1.029843780533013,True,1.1897900861977888
+1482,"Möller, Max Sr.",Benelux,20,20,40,1985,2025,0.9523866556239824,True,1.221955646051413
+1479,"Bourguignon, Maurice",Benelux,20,10,38,1986,2024,0.880789597081888,True,1.3936880361014838
+1415,"Mougenot-Gauche, Léon",Benelux,20,23,50,1975,2025,-0.9794449988992704,True,0.627454105633619
+950,"Falisse, Auguste",Benelux,20,35,39,1986,2025,-1.0209409059189434,True,0.4695675360577313
+900,"van Hoof, Alphonse",Benelux,20,12,25,1999,2024,-1.9227084114571968,True,1.2994514918148838
+1276,"Stainer, Jacob",Central Europe,17,34,49,1975,2024,2.596703087725616,True,0.9655215677751756
+1331,"Ficker, Johann Gottlob",Central Europe,18,21,37,1984,2021,3.538607907315927,True,1.6222822612703653
+536,"Pfretzschner, Carl Friedrich I",Central Europe,18,10,40,1976,2016,2.6809575458728974,True,0.8650846798004143
+1136,"Geissenhof, Franz",Central Europe,18,48,44,1982,2026,2.5381090962226294,True,0.6298029959100003
+1160,"Buchstetter, Gabriel David",Central Europe,18,15,34,1985,2019,2.50679002882781,True,1.514728157286928
+1471,"Thir, Mathias",Central Europe,18,19,36,1987,2023,2.318535606388661,True,1.4961040690748388
+1330,"Thir, Johann Georg",Central Europe,18,43,42,1984,2026,1.5561053518947654,True,0.7056168904533053
+1322,"Klotz, Johann Carl",Central Europe,18,28,42,1979,2021,1.5076888465627603,True,0.9186566099656666
+2966,"Klotz, Georg Karl II",Central Europe,18,36,39,1985,2024,1.330626282861358,True,0.6824507402786559
+1165,"Kloz, Georg I",Central Europe,18,17,49,1976,2025,1.2191323364953766,True,0.7385444945387019
+1595,"Dallinger, Sebastian",Central Europe,18,21,50,1975,2025,0.9168883775967585,True,0.86346385120654
+389,"Lippold, Carl Friedrich",Central Europe,18,10,44,1981,2025,0.8028164296434159,True,1.3526582306552963
+254,"Hamm, Johann Gottfried",Central Europe,18,32,47,1976,2023,0.7802178409236582,True,0.9186311373479141
+1375,"Klotz, Joseph Thomas",Central Europe,18,26,35,1985,2020,0.7094751966983504,True,0.979719438915204
+1333,"Eberle, Johann Ulrich",Central Europe,18,25,46,1975,2021,0.6517367201752222,True,1.249046402627713
+1324,"Ficker, Johann Christian II",Central Europe,18,33,49,1975,2024,0.5108110000903832,True,0.9310147407157549
+333,"Klotz, Aegidius Sebastian",Central Europe,18,77,47,1978,2025,0.4760868927170092,True,0.5430836938755855
+2256,"Leeb, Johann Georg",Central Europe,18,11,49,1975,2024,0.41897638547019334,True,2.7853346893507296
+824,"Widhalm, Leopold I",Central Europe,18,72,49,1977,2026,0.3268968336125333,True,0.569626741230222
+8551,"Klotz, Matthias I",Central Europe,18,10,20,1985,2005,0.2437106634210373,True,3.621268200076444
+8558,"Klotz, Sebastian I",Central Europe,18,71,50,1975,2025,-0.0009415659716571767,True,0.6413500956481463
+484,"Neuner, Mathias II",Central Europe,18,53,45,1977,2022,-0.18698421560044975,True,1.10428767624045
+381,"Leidolff, Johann Christoph",Central Europe,18,27,42,1983,2025,-0.2722986078580236,True,0.8519346519623052
+911,"Mayr, Andreas Ferdinand",Central Europe,18,14,46,1979,2025,-0.42977473897869434,True,1.1163810889649441
+2654,"Kloz, Aegidius",Central Europe,18,10,43,1978,2021,-0.6595010888557185,True,0.9437081904315753
+292,"Hopf, David Christian",Central Europe,18,17,48,1976,2024,-0.7213620309334479,True,1.9122198903008278
+1417,"Maussiell, Leonhard",Central Europe,18,10,39,1985,2024,-0.7448510570484346,True,1.668184257271511
+918,"Jais, Anton",Central Europe,18,12,41,1980,2021,-0.7760841079146652,True,1.349956430452924
+1470,"Hornsteiner, Mathias II",Central Europe,18,20,39,1984,2023,-0.7881611286443158,True,0.9404837458073063
+825,"Widhalm, Martin Leopold (Leopold II)",Central Europe,18,29,28,1987,2015,-0.881977583777005,True,1.3476066673758442
+661,"Schönfelder, Johann Georg",Central Europe,18,25,41,1978,2019,-1.418435319288469,True,1.3165199149363243
+1332,"Stadlmann, Johann Josef",Central Europe,18,11,39,1984,2023,-1.702251742230243,True,1.5303513236579072
+1334,"Fichtl, Johann Ulrich",Central Europe,18,10,28,1984,2012,-3.036776386610396,True,3.4276040285980733
+1161,"Lemböck, Gabriel (Gábor)",Central Europe,19,27,50,1976,2026,3.552158232881153,True,0.7913348391199532
+1374,"Hornsteiner, Joseph",Central Europe,19,11,27,1986,2013,3.382815327143529,True,2.705658569689738
+999,"Dvorák, Carolus Boromäus",Central Europe,19,11,34,1983,2017,2.3803297037698234,True,1.2198626907679466
+1234,"Schwarz, Heinrich",Central Europe,19,10,41,1980,2021,2.3545560514447894,True,0.833082714677525
+210,"Glass, Johann",Central Europe,19,14,34,1985,2019,2.2510166211274774,True,2.031156123095984
+265,"Heberlein, Heinrich Theodore Jr.",Central Europe,19,23,44,1977,2021,1.969239004657397,True,1.0211082726870258
+486,"Neuner, Ludwig",Central Europe,19,10,34,1984,2018,1.956492192757464,True,0.7418936576999665
+1516,"Möckel, Otto",Central Europe,19,21,38,1986,2024,1.7553110962845286,True,0.831428065663127
+1518,"Seifert, Otto",Central Europe,19,14,47,1975,2022,1.722204635417679,True,1.045246443620422
+799,"Voigt, Arnold",Central Europe,19,30,45,1977,2022,1.4799330747398143,True,0.8934678979225132
+2762,"Todt, Heinrich Hermann",Central Europe,19,13,34,1988,2022,1.352498287423054,True,3.038047573346828
+1449,"Glaesel, Ludwig I",Central Europe,19,13,38,1983,2021,1.3263387008617178,True,1.4455436548018332
+398,"Lowendall, Louis",Central Europe,19,201,51,1975,2026,1.309500017448939,True,0.34162836646025746
+12533,"Schmidt, Ernst Reinhold",Central Europe,19,85,50,1975,2025,1.1930880471261451,True,0.584954279004215
+352,"Kulik, Johann",Central Europe,19,17,41,1984,2025,1.1581716606804626,True,1.132415709622355
+893,"Moritz, Alfred",Central Europe,19,49,42,1975,2017,1.0624919522949305,True,0.8168714174176015
+1401,"Hofner, Karl",Central Europe,19,23,37,1984,2021,1.0624894491970238,True,1.574158338394573
+447,"Migge, Otto",Central Europe,19,11,49,1976,2025,0.999423830918289,True,1.1944383846427296
+578,"Prokop, Ladislav",Central Europe,19,25,23,1994,2017,0.9021631397611252,True,2.039767643885503
+12671,"Schuster, Carl Friedrich",Central Europe,19,13,43,1977,2020,0.8927005062256299,True,1.225032144031036
+1298,"Dvorak, Jan Baptista",Central Europe,19,16,34,1991,2025,0.7180455800107843,True,0.6088448229743465
+1246,"Dolling, Hermann Moritz I",Central Europe,19,14,41,1984,2025,0.5627377164310943,True,1.5135513027436749
+1488,"Strobl, Michael",Central Europe,19,25,39,1985,2024,0.5021187191420751,True,0.8631041184490165
+1150,"Glass, Friedrich August I",Central Europe,19,10,50,1975,2025,0.4840573332153264,True,0.9246831995171777
+266,"Heberlein, Heinrich Theodore",Central Europe,19,67,41,1984,2025,0.4708646300298769,True,0.5299997279602489
+956,"Szepessy, Béla",Central Europe,19,66,45,1978,2023,0.344955477244957,True,0.4362826941526195
+1394,"Zimmermann, Julius Heinrich",Central Europe,19,16,49,1977,2026,0.16278026094442843,True,1.2948260576704493
+971,"Wolff, Brothers",Central Europe,19,192,50,1975,2025,0.14454300451880453,True,0.30510818112343363
+11195,"Pilát, Paul (Pál) I",Central Europe,19,23,41,1983,2024,0.02409500370423867,True,0.803677323211963
+1634,"Durrschmidt, Wilhelm August",Central Europe,19,12,34,1991,2025,-0.10728470087500996,True,2.4541742729677285
+1096,"Gartner, Eugen",Central Europe,19,18,39,1985,2024,-0.23715857009868335,True,1.036939862415514
+1496,Neuner & Hornsteiner,Central Europe,19,172,50,1975,2025,-0.2770473611682478,True,0.5291062801492117
+270,"Heinicke, Mathias",Central Europe,19,45,49,1976,2025,-0.5775205614034551,True,0.6269166991896923
+1270,"Schult, Johann Heinrich",Central Europe,19,11,39,1985,2024,-0.7069163119726385,True,2.003694064743316
+829,"Winterling, Georg",Central Europe,19,42,41,1985,2026,-1.1380897017467806,True,0.5843746294362873
+1247,"Schlosser, Herrmann",Central Europe,19,21,49,1975,2024,-1.4345179827177423,True,0.7019251560497749
+1440,"Otto, Louis",Central Europe,19,10,29,1989,2018,-1.565064304044661,True,1.474642961122079
+1107,"Homolka, Ferdinand August Vincenz",Central Europe,19,14,30,1987,2017,-1.6085720153807603,True,2.3622409621252296
+403,"Lutschg, Gustav",Central Europe,19,15,34,1990,2024,-1.6169035364243745,True,0.8763626889371341
+1637,"Hammig, Wilhelm Hermann",Central Europe,19,15,42,1980,2022,-1.803570116547737,True,1.473806647177578
+794,"Viertel, Holm",Central Europe,19,13,39,1984,2023,-1.809218867725082,True,1.0718142931731849
+211,"Glier, Robert C. I",Central Europe,19,17,21,1998,2019,-2.971148806788504,True,1.5052866810536234
+1818,"Drozen, Frantisek Xavier",Central Europe,20,10,40,1978,2018,4.205770373708684,True,1.3197758194247315
+1207,Glaesel & Mossner,Central Europe,20,35,15,1976,1991,2.6922102306773166,True,1.877712505382756
+628,"Roth, Ernst Heinrich",Central Europe,20,300,50,1975,2025,2.5475315325250714,True,0.323582896097293
+757,"Tóth, Johannes (János)",Central Europe,20,14,38,1983,2021,2.374726198894317,True,1.7789282944735652
+1551,"Spidlen, Premysl Otakar",Central Europe,20,12,42,1984,2026,1.8709195640247867,True,1.7640517074615791
+1215,"Ficker, Gustav August",Central Europe,20,14,38,1988,2026,1.5013509835674288,True,2.004584938099927
+917,"Hertel, Anton",Central Europe,20,12,22,1978,2000,1.3042171602100305,True,1.9108126350731578
+704,"Spiegel, János",Central Europe,20,20,38,1987,2025,0.48843914044209846,True,0.9409759048182906
+1531,"Knorr, Paul",Central Europe,20,45,38,1988,2026,0.4650365571874371,True,0.5587728750309073
+1519,"Viener, Otto",Central Europe,20,10,38,1981,2019,0.30551993724097226,True,0.8887778951388055
+1633,"Duerer, Wilhelm",Central Europe,20,17,34,1982,2016,0.19605437193435105,True,1.1430750437094763
+456,"Moennig, Fritz",Central Europe,20,22,34,1986,2020,0.12143696590454223,True,1.0692884602453678
+10900,"Paulus, Albin Ludwig",Central Europe,20,22,39,1980,2019,0.08859519056738652,True,1.1785481787978815
+663,"Schuster, Hans",Central Europe,20,10,47,1978,2025,-0.027473149210699432,True,1.0807366239778693
+3029,"Schuster, Edouard",Central Europe,20,12,48,1977,2025,-0.22040391012940752,True,1.5567894305588044
+337,"Koch, Franz Joseph",Central Europe,20,22,34,1992,2026,-0.3593989041386414,True,0.8231304114540712
+275,"Herclik, Josef Bohumil",Central Europe,20,10,32,1989,2021,-0.5209058947527434,True,1.8070020192777259
+11435,"Prokop, Ladislav F.",Central Europe,20,12,24,1985,2009,-0.9187639429810601,True,4.190935122617513
+837,"Zach, Carl",Central Europe,20,11,28,1996,2024,-0.9417103280016437,True,1.735254208529124
+1091,"Glaesel, Ernst",Central Europe,20,39,47,1977,2024,-0.9751648634238719,True,0.6846731178712477
+988,"Meyer, Carl",Central Europe,20,12,43,1977,2020,-1.1475386753276307,True,1.6332830802438338
+597,"Reichert, Eduard",Central Europe,20,11,22,1995,2017,-1.4998948244144716,True,1.3102604511008042
+1307,"Werro, Jean",Central Europe,20,15,30,1985,2015,-1.575302169378734,True,2.546092958189967
+783,"Vávra, Karel",Central Europe,20,11,33,1988,2021,-1.6426827788769138,True,1.288909677641445
+249,"Gütter, Kurt Arno",Central Europe,20,23,31,1989,2020,-1.784762321149691,True,1.1171497257587046
+8303,"Juzek, Jan (John)",Central Europe,20,44,37,1982,2019,-2.172183584213483,True,1.356721120589497
+1757,"Fuchs, Wenzl",Central Europe,20,20,33,1986,2019,-4.036284125173983,True,1.6815134173542456
+1393,"Hubicka, Julius A.",Central Europe,20,13,31,1992,2023,-4.119182703785795,True,2.2544645239552272
+924,"Galla, Anton",Central Europe,20,12,29,1995,2024,-4.747122269474502,True,1.6825455041029644
+1400,"Herrmann, Karl",Central Europe,20,18,19,2002,2021,-4.812075751383659,True,2.4881077972378636
+1264,"Baader & Co., J. A.",Central Europe,20,22,24,1988,2012,-5.699940490420941,True,2.2581830450896843
+1436,"Guersan, Louis",France,18,54,42,1984,2026,2.9362012407325278,True,0.9846585507914446
+641,"Salomon, Jean Baptiste Deshayes",France,18,34,42,1983,2025,2.703625647492136,True,0.897251638377885
+2161,"Boquay, Jacques",France,18,46,44,1977,2021,2.1873348454835018,True,0.9355856666481134
+958,"Fleury, Benoit",France,18,17,40,1985,2025,2.0123160009648533,True,1.9650936789946214
+1122,"Pique, François-Louis",France,18,38,41,1984,2025,1.9237532900314935,True,0.6871560721795001
+1387,"LeClerc, Joseph Nicolas",France,18,12,38,1987,2025,1.35936993831538,True,1.4984500212930942
+1507,"Chappuy, Nicolas Augustin",France,18,162,48,1977,2025,1.1180772616745438,True,0.4640667777761581
+1119,"Lupot, François I",France,18,23,46,1978,2024,0.8974858356487037,True,0.9391339384365619
+1308,"Aldric, Jean-François",France,18,31,49,1976,2025,0.8452587753174479,True,0.6941552186289798
+1028,"Vuillaume, Claude-François IV",France,18,21,34,1986,2020,0.8116841712047185,True,1.4817567320029772
+112,"Castagneri, Andrea",France,18,48,47,1978,2025,0.5094865087274636,True,0.8382077128800269
+402,"Lupot, Nicolas",France,18,48,50,1975,2025,0.47638523817552514,True,0.7451681117779393
+43,"Bassot, Joseph",France,18,17,46,1978,2024,0.3526231696866722,True,1.2530279787159646
+1371,"Gaffino, Joseph",France,18,10,42,1980,2022,0.34234441820619743,True,1.5922713022519943
+1117,"Fent, François",France,18,12,42,1978,2020,0.19867305227214693,True,1.1901956046030762
+1312,"Lambert, Jean Nicolas",France,18,11,42,1983,2025,0.15905494242032248,True,1.6645899129668063
+1025,"Pierray, Claude",France,18,35,51,1975,2026,0.13260692418071152,True,0.6311991434012139
+1006,"Claudot, Charles I",France,18,18,37,1986,2023,-0.006919559279450205,True,1.3356151880157672
+487,"Nicolas, Didier l'aîné",France,18,304,51,1975,2026,-0.09968749928869203,True,0.3696184538572752
+1311,"Remy, Jean Mathurin",France,18,11,49,1975,2024,-0.21966711892241753,True,1.6597341064094475
+2342,"Gavinies, François",France,18,13,38,1985,2023,-0.5717418472927616,True,1.6054683069440987
+1505,"Mathieu, Nicolas",France,18,35,38,1984,2022,-0.6264284651846141,True,1.2246125489768915
+1313,"Frebrunet, Jean-Baptiste",France,18,29,38,1987,2025,-0.7916494678161912,True,0.9480742594930034
+2236,"Mast, Jean Laurent",France,18,17,40,1984,2024,-1.0976180602280894,True,1.3993769720394813
+14239,"Vissenaire, Louis Nicolas",France,19,16,37,1985,2022,5.060444874873071,True,1.9110265653054488
+10077,Joseph Mougel,France,19,10,49,1975,2024,4.135586730803209,True,1.938599681913405
+196,"Gaillard, Charles",France,19,26,39,1985,2024,3.6080457472613903,True,1.2601316644777605
+1302,"Gosselin, Jean",France,19,14,33,1984,2017,3.1111269831915367,True,1.3153990176067623
+1004,"Boullangier, Charles",France,19,48,45,1981,2026,3.027658375048481,True,0.8098003768685129
+809,"Vuillaume, Jean-Baptiste",France,19,338,51,1975,2026,2.907723489102665,True,0.2686789783983062
+1597,"Deroux, Sébastien Auguste",France,19,12,35,1987,2022,2.858193182429636,True,1.6364028668194839
+221,"Grandjon, Jules Joseph",France,19,67,50,1976,2026,2.8546291722239436,True,0.6978441414092806
+6284,"Fischesser, Léon",France,19,10,29,1995,2024,2.6994833574259802,True,2.7557310581767527
+1012,"Maucotel, Charles",France,19,15,23,1983,2006,1.8762005899666034,True,1.6256706762835242
+1459,"Couturieux, Michel",France,19,42,48,1976,2024,1.8738016601435925,True,0.6266901060682117
+2544,"Vuillaume (St. Cecile mark), Jean-Baptiste & Nicolas",France,19,11,41,1983,2024,1.6856582471564074,True,0.8589678853717234
+1027,"Miremont, Claude Augustin",France,19,44,41,1984,2025,1.650526927955287,True,0.6809284934587863
+2238,"Mauchant, Nicolas",France,19,14,42,1983,2025,1.509033340432464,True,1.1900354940089606
+1116,"Chanot, François",France,19,10,43,1976,2019,1.3737144969604431,True,1.0650343190525837
+806,"Vuillaume, Nicolas François",France,19,65,50,1975,2025,1.21174818278027,True,0.7470175391226251
+1555,"Cabasse, Prosper II",France,19,14,32,1990,2022,1.1996757069761887,True,1.5306066574162103
+128,"Chanot, Georges I",France,19,81,43,1983,2026,1.1965932394591539,True,0.5925293128539977
+1437,"Joly, Louis",France,19,18,47,1975,2022,1.1907665025407743,True,1.2239267088110226
+887,"Delanoy, Alexandre",France,19,13,40,1985,2025,1.1784746075826247,True,1.4232652016193763
+22,"Audinot, Nestor Dominique",France,19,79,51,1975,2026,1.0826930776042687,True,0.3576845255655335
+158,"Derazey, Honoré (Jean-Joseph)",France,19,230,51,1975,2026,1.0737408855851838,True,0.3087451629640528
+438,"Mennesson, Emile",France,19,86,42,1982,2024,1.0001073886751533,True,0.4531913231974452
+1115,"Caussin, François",France,19,118,49,1976,2025,0.9423137695225847,True,0.6286048649331256
+317,"Jombar, Paul",France,19,29,46,1979,2025,0.8910037467066534,True,0.6569100826485877
+133,"Collin-Mézin, Charles Jean-Baptiste père",France,19,275,51,1975,2026,0.8780375725654599,True,0.20759271053527023
+807,"Vuillaume, Sebastien",France,19,19,46,1980,2026,0.8504992361680674,True,1.0719029003036864
+1265,"Grand-Gérard, Jean-Baptiste",France,19,20,48,1977,2025,0.7844612749755564,True,1.1003736473390913
+810,"Vuillaume, Nicolas III",France,19,77,42,1984,2026,0.7840615995384548,True,0.6589887293607268
+30,"Bailly, Paul",France,19,229,50,1976,2026,0.6485034908335408,True,0.2625273397235994
+547,"Pirot, Claude",France,19,32,38,1987,2025,0.6467015687531497,True,0.8303816287345391
+356,"Thibouville-Lamy, Jérôme Firm",France,19,1407,50,1975,2025,0.6138035359598115,True,0.14709801650574988
+1250,"Silvestre, Hippolyte Chrétien",France,19,70,51,1975,2026,0.5412608804745034,True,0.4655622559122839
+134,"Collin-Mézin, Charles fils",France,19,235,49,1977,2026,0.49942462027130485,True,0.2233233221843965
+159,"Derazey, Justin Amedée",France,19,109,46,1979,2025,0.4943047177094817,True,0.4213180709796106
+1281,"Thibout, Jacques-Pierre",France,19,33,43,1981,2024,0.47187034797513405,True,0.7539779928787245
+1172,"Lotte, Georges",France,19,21,47,1977,2024,0.3779682763343839,True,0.7346421843320154
+1533,"Mangenot, Paul Alexandre",France,19,60,46,1980,2026,0.352067939862466,True,0.5287279198164894
+1506,"Morlot, Nicolas",France,19,31,47,1978,2025,0.32865389169520753,True,0.9684207398339475
+1020,"Gand, Charles François père",France,19,32,40,1985,2025,0.3112594227254739,True,0.9090367292050504
+848,"Chipot-Vuillaume, Jean-Baptiste",France,19,122,50,1975,2025,0.2825069103969735,True,0.3544652177792591
+1123,"Salzard, François",France,19,31,47,1977,2024,0.16943331159091635,True,0.8086209925093119
+683,"Silvestre, Pierre & Hippolyte",France,19,31,43,1979,2022,0.13152178514450608,True,0.7992204496563552
+1388,"Gaillard-Lajoue, Jules",France,19,20,19,2006,2025,0.10798099582609577,True,1.907459504834888
+1438,"Moitessier, Louis",France,19,48,48,1977,2025,0.10523554717405403,True,0.5937878685273952
+950012,"Pailliot, Paul François",France,19,20,29,1995,2024,0.0171583732889502,True,1.5605984628062761
+682,"Silvestre, Pierre",France,19,51,41,1985,2026,0.00034495271457046783,True,0.5895834998507621
+871,"Caressa, Albert",France,19,15,36,1990,2026,-0.03888435951492353,True,0.9881675859283209
+1431,"Collenot, Louis",France,19,36,46,1979,2025,-0.07022175315886114,True,0.7429852019707173
+81,"Boulangeot, Jules Camille (Gabriel)",France,19,10,32,1993,2025,-0.07262034320156818,True,1.413123418973096
+1023,"Chevrier, Claude",France,19,39,40,1985,2025,-0.09487830274077513,True,0.6770931127950672
+1768,"Nicolas, Joseph (fils)",France,19,11,40,1985,2025,-0.11613804142232009,True,0.8399380537887299
+63,"Bernardel, Gustave Adolphe",France,19,67,51,1975,2026,-0.11917840482902342,True,0.3523785068656978
+28,"Bailly, Jenny",France,19,62,45,1981,2026,-0.16284686846216312,True,0.7604654855954646
+1813,"Claudot, Charles II",France,19,15,37,1988,2025,-0.1741969111642594,True,2.305604022276651
+1094,"Perrin, Étienne",France,19,10,39,1985,2024,-0.18241245532393258,True,1.6305497356402612
+93,"Buthod, Charles",France,19,66,50,1975,2025,-0.19850483566157262,True,0.4962999487773799
+64,"Bernardel, Léon",France,19,86,50,1975,2025,-0.2273065809643926,True,0.4735522690033009
+1121,"Pillement, François",France,19,49,50,1975,2025,-0.24561663092940167,True,0.7900931125299049
+86,"Breton, François",France,19,98,51,1975,2026,-0.3337321593378073,True,0.5095909493525707
+440,"Mermillot, Maurice",France,19,47,40,1985,2025,-0.3390556647708043,True,1.247409442248159
+199,"Gand, Charles Adolphe",France,19,18,37,1987,2024,-0.36228205319023266,True,0.4997140006879567
+2577,Gand Frères Firm,France,19,34,38,1988,2026,-0.38620059912741755,True,0.9283575907726063
+1494,"Florentin, Nicolas",France,19,10,39,1986,2025,-0.4390680149378601,True,1.805055173506163
+1263,"Mast, Joseph Laurent",France,19,10,42,1983,2025,-0.444101953241538,True,2.19643522788843
+951,"Bernardel, Auguste Sébastien Philippe père",France,19,90,49,1977,2026,-0.4608144134105929,True,0.4471553442162031
+116,"Caussin, Nicolas",France,19,11,28,1996,2024,-0.5056900239860718,True,2.20577815991048
+149,"Darte, Jean-Auguste",France,19,23,38,1987,2025,-0.5224158414732671,True,0.9870078789202402
+1005,"Brugère, Charles Georges",France,19,59,40,1985,2025,-0.5587682964764529,True,0.7673684214605241
+949,"Delivet, Auguste",France,19,35,49,1977,2026,-0.5744719174860524,True,0.6442079299576808
+1369,"Aubry, Joseph",France,19,34,43,1981,2024,-0.6090180714742432,True,0.5440038688086127
+311,"Jacquot, Charles",France,19,36,37,1988,2025,-0.6260627399042873,True,0.6578408435944106
+1162,Gand & Bernardel Firm,France,19,117,45,1981,2026,-0.632636922665264,True,0.2600168776115436
+1465,"Didier, Marius",France,19,26,40,1986,2026,-0.6655220041142162,True,0.44654815635291706
+1079,"Germain, Émile",France,19,54,41,1985,2026,-0.675824357885646,True,0.46879539558170047
+12975,"Simonin, Charles II",France,19,20,41,1985,2026,-0.7458719789545709,True,1.2024519060043493
+2574,"Silvestre, Hippolyte",France,19,10,45,1978,2023,-0.8097080061709394,True,0.8656945202321388
+1838,"Hel, Pierre Joseph",France,19,157,49,1977,2026,-0.9011777350776073,True,0.27799277567129943
+749,"Thouvenel, Charles",France,19,11,38,1987,2025,-1.0124118773027435,True,1.2715320091457432
+367,"Laurent, Émile père",France,19,36,38,1985,2023,-1.0347465406413625,True,0.9786261931769588
+77,"Blanchard, Paul Francois",France,19,127,46,1980,2026,-1.0839900089681387,True,0.3231052920538694
+154,"Deblaye, Albert",France,19,177,49,1977,2026,-1.0924201509467713,True,0.29958374179480574
+37,"Barbé, François",France,19,33,41,1981,2022,-1.0931614550624191,True,0.8513630729679107
+1259,"Charotte-Millot, Joseph",France,19,11,31,1987,2018,-1.1450699675052967,True,1.1947360152251736
+1054,"Salzard, Dominique",France,19,20,38,1984,2022,-1.1555331223108811,True,1.249262517770159
+10093,"Mougenot, Léon Victor",France,19,301,49,1976,2025,-1.3344512734629221,True,0.2314097243552194
+8754,"L'Humbert, Emile",France,19,15,40,1986,2026,-1.447194086745096,True,0.7088916541088736
+1184,"Cunault, Georges",France,19,23,39,1986,2025,-1.4788145570598488,True,0.9117011549871686
+23,"Audinot, Victor",France,19,43,37,1987,2024,-1.5117260498715757,True,0.7377105309204433
+288,"Holder, Thomas James",France,19,10,31,1988,2019,-1.6697260335234554,True,1.7783502573504397
+687,"Simoutre, Nicolas",France,19,13,33,1985,2018,-1.8380530293228725,True,1.5252462007571976
+2303,"Charotte, Joseph",France,19,12,36,1989,2025,-1.9903405243392291,True,1.0158980075315835
+409,"Magniere, Gabriel",France,19,39,37,1981,2018,-2.07463848310927,True,0.9509010354074334
+555,"Poirson, Elophe",France,19,29,28,1998,2026,-2.2311739113920592,True,1.000188308873654
+1241,"Thouvenel, Nicolas Henry dit Paganini",France,19,13,36,1989,2025,-2.308903413034036,True,1.0311052343423064
+1390,"Remy, Jules",France,19,12,37,1988,2025,-2.5179018939500586,True,1.6978202650850847
+952,"Claudot, Augustin",France,19,24,36,1989,2025,-2.6801698221400105,True,0.8641202899887476
+2227,"Jacquot, Pierre Charles",France,19,10,17,2007,2024,-2.738132933396975,True,1.6681685307355132
+1395,"Maucotel, Justin",France,19,11,41,1985,2026,-2.8283610130608094,True,1.2921176114787385
+4871,"Caussin, François Hippolyte",France,19,28,18,2007,2025,-3.0696345754328003,True,1.8995262651245923
+675,"Serdet, Paul",France,19,22,38,1988,2026,-3.4771777308755025,True,0.9407189283805156
+507,"Pacherele, Pierre",France,19,14,39,1987,2026,-3.7152466743837764,True,1.1753510789222175
+1924,"Delignon, Louis",France,20,10,29,1997,2026,1.6475326965774917,True,1.38182446839943
+15617,"Nadegini, Jean-Baptiste Léonidas",France,20,20,39,1987,2026,1.5864324414718078,True,1.160522085516197
+1003,Chardon & Fils. Firm,France,20,14,39,1986,2025,1.3469207690230522,True,1.5151894116106417
+950008,"Cune, René",France,20,12,29,1995,2024,1.332038399785218,True,1.694185909901949
+186,"Gaggini, Pierre",France,20,37,50,1975,2025,1.044539391956123,True,0.6046212572285229
+5062,"Clotelle, H.",France,20,14,38,1984,2022,0.8099174705940682,True,1.9000672498790692
+2191,"Charotte, Victor Joseph",France,20,18,30,1996,2026,0.7693305495755975,True,2.024669437377433
+1599,Silvestre & Maucotel,France,20,29,51,1975,2026,0.704490911685185,True,0.8324730133669472
+780,"Vautrin, Joseph",France,20,31,40,1985,2025,0.5578935997329948,True,0.9647124146693944
+660,"Schmitt, Lucien",France,20,43,37,1988,2025,0.539556530629004,True,0.8568808775698983
+1260,"Didelot, J.",France,20,14,38,1984,2022,0.5127023726325675,True,0.9549809196103431
+1671,"Laurent, Émile fils",France,20,13,33,1988,2021,0.3847826418688971,True,1.1257456534060948
+3763,"Barzoni, François",France,20,141,44,1975,2019,0.3746090998659968,True,0.405446517017492
+1152,"Cerpi, G.",France,20,12,25,1976,2001,0.3161327256951063,True,1.7896980254569472
+83,"Boulangeot, Emile",France,20,35,38,1985,2023,0.31220460491030444,True,1.080830518244374
+449,"Millant, Roger & Max Firm",France,20,42,43,1983,2026,0.19301138984857413,True,0.5223206686591664
+418,"Mangenot, Amati",France,20,33,41,1984,2025,0.09424949644656344,True,0.6931888418609671
+797,"Villaume, Gustave",France,20,75,45,1981,2026,0.08037099622311139,True,0.3508604882345532
+1008,"Drouin, Charles",France,20,19,46,1978,2024,0.053307262847646086,True,0.979840350133777
+2041,"Mortin, Leon",France,20,10,40,1986,2026,-0.02307708944389031,True,1.551001290385162
+372,"Le Lyonnais, Charles",France,20,20,36,1985,2021,-0.09203673333086915,True,0.8781183791530494
+872,"Claudot, Albert",France,20,13,37,1986,2023,-0.19933517678821788,True,0.8402379710556195
+569,"Pouzol, Émile",France,20,11,27,1994,2021,-0.3027380775819988,True,1.1521789773532523
+2827,"Collin-Mézin, Charles Jean-Baptiste III",France,20,143,46,1980,2026,-0.5245646854899699,True,0.32984347843316203
+1432,"Courtier, Louis Charles",France,20,22,40,1985,2025,-0.5910586031839582,True,0.7187237917094327
+19,"Apparut, Georges",France,20,178,43,1983,2026,-0.6022391106366931,True,0.27500097938307544
+168,"Enel, Charles",France,20,26,40,1985,2025,-0.6025842612830346,True,0.6256643998204412
+1099,"Marchand, Eugène",France,20,11,45,1980,2025,-0.660584815551013,True,2.3977671985184994
+281,"Hilaire, Paul",France,20,21,34,1991,2025,-0.7074421186480717,True,0.8700837165562959
+903,"Dieudonné, Amédée",France,20,312,42,1984,2026,-0.7296836926051764,True,0.19244186798972548
+1568,"Morizot, René",France,20,36,41,1984,2025,-0.8293831497166337,True,0.8025986788027226
+1039,"Moinel, Daniel",France,20,11,31,1994,2025,-0.9012964208084728,True,1.6364661071346611
+727,"Striebig, Jean",France,20,54,34,1991,2025,-0.9111266104926852,True,0.5760928780482644
+1125,"Maline, François Alexandre",France,20,12,38,1986,2024,-0.9135249944348334,True,1.272344821134792
+985,Caressa & Français Firm,France,20,55,41,1985,2026,-0.9158780572945724,True,0.4567375010208587
+1534,"Chipot, Paul Jean Baptiste",France,20,22,42,1984,2026,-0.9372964997565569,True,0.8884568338471179
+310,"Jacquemin, Rene",France,20,15,41,1984,2025,-0.9636468563066658,True,0.7776937899794839
+1812,"Résuche, Charles",France,20,25,41,1984,2025,-0.9813821280631796,True,0.7105566496024375
+1214,"Bazin, Gustave",France,20,50,49,1976,2025,-1.0059700791811177,True,0.48611386313614097
+2799,"Billottet, Louis Fernand",France,20,11,40,1985,2025,-1.0111115762030054,True,0.7084567721858921
+852,Laberte-Humbert Frères Firm,France,20,771,51,1975,2026,-1.0151310484949327,True,0.1499643254585446
+135,"Cone, Georges",France,20,17,31,1994,2025,-1.0176563594428867,True,1.153213276279723
+271,"Hel, Pierre Jean Henri",France,20,35,36,1988,2024,-1.0723740848721852,True,0.7087369965397318
+11564,"Ragot, Lucien André I",France,20,15,37,1989,2026,-1.0991519711534892,True,0.8843065389459256
+1481,"Millant, Max",France,20,12,24,1999,2023,-1.1183997872421636,True,1.5024320369300121
+29,"Bailly, Charles",France,20,85,47,1979,2026,-1.240584847218884,True,0.48889203011651794
+1430,"Cherpitel, Louis",France,20,11,37,1985,2022,-1.2593701394566947,True,2.1736783272826004
+1492,Moinel & Cherpitel Firm,France,20,15,38,1987,2025,-1.2989656465401622,True,0.9177301566680164
+8755,"L'Humbert, Lucien",France,20,11,31,1991,2022,-1.3102854282095788,True,1.3840960221296774
+1299,"Bauer, Jean",France,20,23,29,1996,2025,-1.3358617471380563,True,0.49011529191075043
+79,"Blondelet, Hugues Emile",France,20,179,49,1976,2025,-1.3377281952388298,True,0.24337593541440555
+1530,"Didier, Paul",France,20,12,41,1985,2026,-1.5859897664775469,True,1.0617196175287416
+1769,"Delprato, François Joseph",France,20,13,41,1984,2025,-1.7848578989422048,True,0.7376345891782674
+369,"Lavest, Jules",France,20,75,36,1989,2025,-1.804187284363734,True,0.4965851612173634
+322,"Kaul, Paul",France,20,83,41,1985,2026,-1.8131836773467414,True,0.3726852271716724
+1532,"Lorange, Paul II",France,20,22,37,1989,2026,-1.974444190580349,True,1.2671884063638967
+1218,"Denis, H.",France,20,11,49,1976,2025,-2.010658649963837,True,1.2436317599777766
+1009,"Fétique, Charles Claude",France,20,10,33,1989,2022,-2.256116661491936,True,1.4061253706601964
+1303,"Larcher, Jean",France,20,15,31,1992,2023,-2.3475392907848835,True,1.6746939233340488
+11516,"Quenoil, Victor",France,20,13,35,1990,2025,-2.384709999538015,True,0.9827611939620035
+1529,"Bisch, Paul",France,20,29,40,1985,2025,-2.4587430312078107,True,0.6551719370585021
+1566,"Bailly, René",France,20,15,35,1990,2025,-2.816364095210977,True,0.7233199432285681
+1527,"Beuscher, Paul",France,20,10,31,1988,2019,-2.8539955391641447,True,1.8084733187912927
+975,"Olivier & Bisch, Christian & Paul",France,20,17,27,1997,2024,-3.0368020230304826,True,1.2511545500158192
+360,"Langonet, Eugene",France,20,21,34,1992,2026,-3.1172997674137726,True,0.8583276329735618
+722,"Stradivari, Antonio",Italy,17,84,49,1976,2025,5.983906466460387,True,0.5959949051352823
+1674,"Rugeri, Vincenzo",Italy,17,12,35,1988,2023,4.442101572676016,True,1.8547467854509039
+220,"Grancino, Giovanni Battista I",Italy,17,54,48,1978,2026,3.975947333420571,True,0.7210294311068138
+1383,"Guarneri, Giuseppe 'filius Andreae'",Italy,17,32,48,1975,2023,2.56452159711662,True,0.934080358281876
+187,"Gagliano, Alessandro",Italy,17,32,51,1975,2026,2.536620370351228,True,0.848829807893752
+1475,"Albani, Matthias II",Italy,17,30,45,1978,2023,2.403253549174811,True,1.089559100391749
+8,"Amati, Antonio & Girolamo",Italy,17,40,49,1976,2025,2.354755194220104,True,0.6554633571086541
+737,"Tecchler, David",Italy,17,35,48,1977,2025,2.1568894487020707,True,0.8302612570966246
+756,"Tononi, Giovanni",Italy,17,23,47,1979,2026,2.0167162323400323,True,0.9649424312050254
+741,"Testore, Carlo Giuseppe",Italy,17,33,48,1978,2026,1.8899400550501655,True,0.6902157029828591
+1852,"Mariani, Antonio",Italy,17,10,46,1980,2026,1.830414710777939,True,1.8113410179548504
+241,"Guarneri, Andrea",Italy,17,60,48,1976,2024,1.4981075924192844,True,0.58963970785413
+407,"Maggini, Giovanni Paolo",Italy,17,23,43,1976,2019,1.4346708591135293,True,1.1318473623770415
+1547,"Guarneri, Pietro of Mantua",Italy,17,27,49,1976,2025,1.3257097206270219,True,1.2652298460665092
+623,"Rogeri, Giovanni Battista",Italy,17,31,49,1976,2025,0.9940409468943256,True,1.0213987910554894
+12,"Amati, Nicolò",Italy,17,58,51,1975,2026,0.8126474252529992,True,0.867152200517831
+636,"Rugeri, Francesco",Italy,17,42,50,1975,2025,0.7040701413363104,True,0.7257373013130958
+10,"Marchioni, Don Nicola 'Don Nicolo Amati'",Italy,17,18,48,1976,2024,0.4494835610075132,True,0.8974608840141156
+1195,"Cappa, Gioffredo",Italy,17,47,49,1975,2024,-0.19439859787422353,True,0.7542101400787068
+1473,"Goffriller, Matteo",Italy,17,31,48,1975,2023,-0.20636738398318588,True,0.7787118466903357
+1202,"Celoniato, Giovanni Francesco",Italy,18,11,42,1978,2020,4.564516076510894,True,0.8611814250720132
+443,"Mezzadri, Alessandro",Italy,18,10,33,1983,2016,4.068391579933817,True,2.2360063997500004
+193,"Gagliano, Raffaele & Antonio",Italy,18,23,45,1980,2025,3.9982238951668414,True,1.0948981767819317
+1164,"Vinaccia, Gennaro",Italy,18,12,42,1983,2025,3.9351732023162,True,1.180400795217583
+240,"Guarneri, Bartolomeo Giuseppe 'del Gesù'",Italy,18,15,49,1976,2025,3.756268640040683,True,0.8702982391868811
+191,"Gagliano, Giovanni I",Italy,18,15,37,1977,2014,3.7297449023585783,True,1.1979884840717858
+720,"Storioni, Lorenzo",Italy,18,36,46,1978,2024,3.452999315992633,True,1.3221959016032732
+235,"Guadagnini, Giuseppe I",Italy,18,11,50,1975,2025,3.136103922847422,True,1.1043686759301876
+1621,"Balestrieri, Tommaso",Italy,18,43,49,1976,2025,3.1252165167157786,True,0.8065867438490282
+126,"Ceruti, Giovanni Battista",Italy,18,26,48,1978,2026,3.0146607365022726,True,0.8964062958100513
+234,"Guadagnini, Giovanni Battista",Italy,18,92,51,1975,2026,2.603377737431889,True,0.526259907079
+1497,"Gagliano, Nicolò",Italy,18,129,51,1975,2026,2.386337449596221,True,0.3732422047716003
+104,"Carcassi, Tomaso",Italy,18,14,43,1980,2023,2.349689342525396,True,1.1140038092233226
+218,"Gragnani, Antonio",Italy,18,61,50,1975,2025,2.24378971333985,True,0.44978396979948154
+359,"Landolfi, Carlo Ferdinando",Italy,18,50,50,1976,2026,2.231977753318426,True,0.5187066303721799
+189,"Gagliano, Ferdinando",Italy,18,60,49,1977,2026,2.172826837020936,True,0.6207852332340245
+242,"Guarneri, Pietro of Venice",Italy,18,11,46,1977,2023,2.1001328355114923,True,0.9276270929225431
+190,"Gagliano, Gennaro",Italy,18,55,49,1977,2026,1.9798088032377592,True,0.5650734891141461
+551,"Platner, Michele",Italy,18,13,44,1975,2019,1.91830679237317,True,1.6601185706681394
+742,"Testore, Paolo Antonio",Italy,18,23,45,1979,2024,1.8773746911187272,True,1.0759463210121472
+192,"Gagliano, Giuseppe",Italy,18,68,50,1976,2026,1.8659360741775322,True,0.46709876855598403
+98,"Camilli, Camillo",Italy,18,36,51,1975,2026,1.8559986076358115,True,0.6950360325457446
+114,"Castello, Paolo",Italy,18,26,48,1976,2024,1.790215019189323,True,1.1187687010362415
+743,"Testore, Carlo Antonio",Italy,18,84,49,1976,2025,1.701494397388581,True,0.3556475181519841
+1426,"Carcassi, Lorenzo & Tomaso",Italy,18,61,48,1975,2023,1.5370647131686788,True,0.6507979369848513
+105,"Carcassi, Lorenzo",Italy,18,15,45,1979,2024,1.3802385446231025,True,1.5089444827630383
+1594,"Serafin, Santo",Italy,18,26,36,1986,2022,1.208793126861396,True,0.9491570196133139
+155,"Deconet, Michele",Italy,18,32,46,1978,2024,1.155797730264485,True,0.6175969956051228
+515,"Panormo, Vincenzo Trusiano",Italy,18,51,46,1978,2024,1.0649475708647271,True,0.6108321697923107
+1549,"Dalla Costa, Pietro Antonio",Italy,18,11,36,1988,2024,1.0286691823285121,True,1.0570025815894104
+167,"Eberle, Tomaso",Italy,18,43,48,1975,2023,1.004086556227124,True,0.7791712759809151
+1820,"Odoardi, Giuseppe",Italy,18,10,42,1975,2017,0.8960163109802854,True,1.354615229415576
+1548,"Landolfi, Pietro Antonio",Italy,18,18,46,1978,2024,0.8308245466599029,True,1.0746765029540095
+1112,"Gobetti, Francesco",Italy,18,10,36,1988,2024,0.778006134557474,True,1.4868683411081247
+97,"Calcagno, Bernardo",Italy,18,30,48,1975,2023,0.6142947074593952,True,0.7186189262379141
+1201,"Guidanti, Giovanni",Italy,18,22,47,1977,2024,0.5383522564584853,True,0.8675034219758596
+1851,"Calvarola, Bartolomeo",Italy,18,11,46,1978,2024,0.48485324641074357,True,1.6506141478940133
+183,"Gabrielli, Giovanni Battista",Italy,18,55,49,1975,2024,0.3817565407790324,True,0.5551893957074819
+1052,"Montagnana, Domenico",Italy,18,18,49,1977,2026,0.36690304629987125,True,1.4698134064164101
+147,"Dall'Aglio, Giuseppe",Italy,18,16,44,1980,2024,0.27487620860164874,True,1.215542460002732
+755,"Tononi, Carlo Annibale",Italy,18,19,46,1979,2025,0.07942889325023295,True,2.2134781150228355
+701,"Sorsana, Spirito",Italy,18,16,44,1979,2023,-0.5791090486675476,True,1.7489423208676464
+17,"Antoniazzi, Gaetano",Italy,19,10,27,1991,2018,5.685665996298961,True,1.8348644140564117
+160,"D'Espine, Alessandro",Italy,19,12,36,1978,2014,5.30682244129006,True,1.9090503666579037
+177,"Fiorini, Giuseppe",Italy,19,34,47,1978,2025,5.132653251713082,True,0.6986369379466779
+16,"Antoniazzi, Riccardo",Italy,19,44,42,1980,2022,4.019936000459934,True,0.8156786928129539
+653,"Scarampella, Stefano",Italy,19,70,50,1976,2026,3.9880526331908195,True,0.4750290106214786
+620,"Rocca, Giuseppe Antonio",Italy,19,56,50,1976,2026,3.673002930591762,True,0.5691789621282118
+232,"Guadagnini, Francesco",Italy,19,13,29,1983,2012,3.593232000190749,True,1.173102025464698
+153,"De Zorzi, Valentino",Italy,19,14,27,1993,2020,3.5761003671542335,True,2.2079635759820575
+497,"Oddone, Carlo Giuseppe",Italy,19,50,42,1981,2023,3.507555817426833,True,0.5982466428497532
+678,"Sgarbi, Antonio",Italy,19,13,43,1980,2023,3.4670446613012995,True,1.2865396627288397
+548,"Pistucci, Giovanni",Italy,19,38,48,1977,2025,3.3795143757798574,True,0.6660957569603374
+619,"Rocca, Enrico",Italy,19,28,37,1986,2023,3.025277843520069,True,0.6686985643184252
+573,"Pressenda, Giovanni Francesco",Italy,19,74,50,1975,2025,2.998947588068046,True,0.4557449476908491
+734,"Tarasconi, Giuseppe",Italy,19,30,36,1990,2026,2.9618660361199867,True,0.8617582929358534
+18,"Antoniazzi, Romeo",Italy,19,67,45,1979,2024,2.935602059827147,True,0.6042227667283838
+74,"Bisiach, Leandro I",Italy,19,98,51,1975,2026,2.892198451070316,True,0.41267088243079725
+170,"Fagnola, Annibale",Italy,19,109,50,1976,2026,2.4935765860789605,True,0.31682093242646764
+12714,"Schwarz, Giovanni",Italy,19,16,38,1984,2022,2.4759068998184253,True,0.6304333847664622
+156,"Degani, Eugenio",Italy,19,115,49,1976,2025,2.4377022852825947,True,0.32109484580489855
+433,"Maurizi, Francesco",Italy,19,14,41,1980,2021,2.38764617911873,True,1.118217133683057
+1206,"Gagliano, Giuseppe & Antonio",Italy,19,35,45,1975,2020,2.3793487735026098,True,0.8912644294523958
+424,"Marchetti, Enrico",Italy,19,71,45,1981,2026,2.2900123700170694,True,0.6470004864593998
+109,"Carletti, Carlo",Italy,19,32,36,1988,2024,2.2219924305304284,True,0.6628972887396722
+120,"Cavani, Giovanni",Italy,19,17,38,1986,2024,2.1812473164824153,True,0.9025961696471925
+563,"Postiglione, Vincenzo II",Italy,19,56,49,1975,2024,2.05327046449435,True,0.685417324912633
+1106,"Ferroni, Fernandino",Italy,19,13,32,1978,2010,2.0336194132399843,True,1.3122049506837299
+202,"Gatti, Giorgio",Italy,19,24,36,1985,2021,2.0229918611779585,True,1.321828475630373
+611,"Marengo Rinaldi, Romano",Italy,19,12,37,1977,2014,1.5736742504218748,True,1.701496712938579
+124,"Ceruti, Enrico",Italy,19,24,45,1980,2025,1.4558729024573003,True,0.6907261987819967
+119,"Cavalli, Aristide",Italy,19,57,50,1975,2025,1.4543479098995782,True,0.45057286634133403
+182,"Fredi, Rodolfo",Italy,19,15,47,1977,2024,1.4134527071659075,True,1.073885638899135
+788,"Ventapane, Lorenzo",Italy,19,49,51,1975,2026,1.3186952274785613,True,0.5679411950711654
+101,"Candi, Cesare",Italy,19,35,46,1980,2026,1.311487970696179,True,0.4527799176839072
+437,"Melegari, Enrico Clodoveo",Italy,19,24,48,1975,2023,1.2327235677842552,True,0.5950483714928184
+471,"Mozzani, Luigi",Italy,19,52,41,1984,2025,1.1397823577571797,True,0.45231660068875523
+96,"Calace, Raffaele I",Italy,19,22,44,1981,2025,1.1260964880077662,True,0.8590795615204465
+441,"Messori, Pietro",Italy,19,19,39,1984,2023,1.1259757897893907,True,0.8877897014324817
+226,"Grulli, Pietro",Italy,19,12,31,1995,2026,0.6163828809415017,True,0.9209649831815652
+631,"Rovatti, Luigi",Italy,19,11,36,1988,2024,0.5123146804968837,True,1.6466780055862145
+171,"Farotti, Celeste",Italy,19,21,40,1986,2026,0.28771674235053,True,1.0755364200709316
+476,"Muncher, Romedio",Italy,19,21,29,1991,2020,-0.08734709832217691,True,1.3201071218124967
+78,"Blanchi, Alberto Luigi",Italy,19,56,41,1985,2026,-0.128949952262436,True,0.43316199711207787
+562,"Postacchini, Andrea",Italy,19,13,37,1987,2024,-0.1794825001457223,True,1.3952087529962953
+415,"Mandelli, Camillo 'da Calco'",Italy,19,12,24,1999,2023,-0.2783993046815536,True,1.008735630564378
+1829,"Sgarbi, Giuseppe",Italy,19,15,39,1980,2019,-0.48134521769400695,True,1.2806567672617954
+637,"Saccani, Benigno",Italy,19,14,36,1988,2024,-0.5354500695981756,True,0.9318434583684905
+123,"Celani, Constantino",Italy,19,16,41,1984,2025,-0.5760815985910273,True,0.7019911566229202
+100,"Candi, Oreste",Italy,19,17,35,1990,2025,-0.5884594328134485,True,0.9833908926491701
+570,"Praga, Eugenio",Italy,19,12,34,1988,2022,-1.0299952603229023,True,2.124984111797636
+13404,"Storioni, Carlo",Italy,19,77,49,1975,2024,-1.361688424111751,True,0.39543397909058003
+69,"Bignami, Otello",Italy,20,18,24,1998,2022,7.185057726210409,True,1.6066377892605308
+639,"Sacconi, Simone Fernando",Italy,20,16,41,1979,2020,6.949800574579257,True,0.9741545821950464
+554,"Poggi, Ansaldo",Italy,20,26,44,1982,2026,5.665810083046541,True,0.8758560014674853
+914,"Curletto, Anselmo",Italy,20,18,41,1984,2025,4.225184908680002,True,1.259100627887123
+1200,"Morassi, Giovanni Battista",Italy,20,45,45,1981,2026,4.212261803923845,True,0.6236020386770798
+103,"Capicchioni, Marino",Italy,20,55,45,1980,2025,3.8878942613977063,True,0.5135638759142472
+501,"Ornati, Giuseppe",Italy,20,25,42,1984,2026,3.817900089563153,True,0.6484438716288182
+699,"Soffritti, Ettore",Italy,20,29,45,1979,2024,3.737802016151015,True,0.4045970402105354
+621,"Rocchi, Sesto",Italy,20,30,40,1986,2026,3.5821774638393977,True,0.6549440136353746
+561,"Pollastri, Gaetano",Italy,20,25,46,1976,2022,3.4975589248853467,True,0.891273078088748
+446,"Michetti, Plinio",Italy,20,30,37,1984,2021,3.434144708905973,True,1.0764815806197938
+670,"Sderci, Igino",Italy,20,66,43,1981,2024,3.360138826791337,True,0.5013159576702014
+540,"Piccagliani, Armando",Italy,20,18,36,1985,2021,3.2735707288535476,True,1.4544342734360212
+201,"Garimberti, Ferdinando",Italy,20,22,39,1987,2026,3.092788303078886,True,0.9514039534843594
+2005,"Gamberini, Claudio",Italy,20,10,40,1985,2025,2.9397381757997776,True,1.3542521306736939
+75,"Bissolotti, Francesco",Italy,20,25,44,1982,2026,2.938164386205,True,0.5912208510428482
+645,"Sannino, Vincenzo",Italy,20,65,43,1983,2026,2.927961472590024,True,0.8205145620433285
+215,"Gotti, Anselmo",Italy,20,12,42,1983,2025,2.8449141644182996,True,0.8900351156006561
+194,"Gaibisso, Giovanni Battista",Italy,20,25,40,1985,2025,2.8346513888041214,True,1.4570578789955269
+492,"Novelli, Natale",Italy,20,20,35,1984,2019,2.55525095009852,True,1.1845937855598052
+184,"Gadda, Gaetano",Italy,20,75,49,1976,2025,2.506161907429405,True,0.393357861582094
+528,"Pellacani, Giuseppe",Italy,20,28,44,1978,2022,2.4676823037933726,True,0.9945678956619561
+137,"Contino, Alfredo",Italy,20,65,41,1984,2025,2.4496369984546407,True,0.5177294903815333
+401,"Lucci, Giuseppe",Italy,20,79,49,1977,2026,2.4281273677958515,True,0.36024005763161965
+71,"Bisiach, Carlo",Italy,20,35,46,1980,2026,2.4258845545228835,True,0.4509764907465278
+2765,"Guastalla, Dante & Alfredo",Italy,20,25,41,1984,2025,2.3622827125339807,True,0.6563293162414822
+52,"Bellafontana, Lorenzo",Italy,20,17,35,1989,2024,2.1350432198975033,True,0.9337071905566102
+517,"Pareschi, Gaetano",Italy,20,11,38,1983,2021,2.0936609056621425,True,0.990521641147887
+376,"Lecchi, Giuseppe Bernardo",Italy,20,22,47,1979,2026,2.078340993699701,True,0.9485697199783233
+677,"Sgarabotto, Pietro",Italy,20,15,45,1979,2024,2.0341033806206443,True,0.5672909203260877
+524,"Pedrazzini, Giuseppe",Italy,20,113,51,1975,2026,1.9276517287247996,True,0.327097506366822
+776,"Varagnolo, Ferruccio",Italy,20,14,39,1985,2024,1.903418870955842,True,1.1619182198396039
+197,"Galimberti, Luigi",Italy,20,14,38,1988,2026,1.8442855840756112,True,1.1843803629771286
+73,"Bisiach, Giacomo & Leandro",Italy,20,35,43,1983,2026,1.7918604857997122,True,0.7309451110579632
+161,"Dobretsovich, Marco",Italy,20,22,42,1984,2026,1.781889304129325,True,0.6239344458326397
+518,"Parravicini, Piero",Italy,20,24,41,1984,2025,1.7677953609350094,True,0.9563393114724159
+180,"Fracassi, Arturo",Italy,20,13,47,1978,2025,1.7252937944275848,True,1.2386238525987916
+6,"Altavilla, Armando",Italy,20,27,40,1986,2026,1.7014481650198032,True,0.7791956675141167
+717,"Stefanini, Giuseppe",Italy,20,33,32,1993,2025,1.6901991950952988,True,0.980440827515128
+995,"Vettori, Carlo",Italy,20,19,42,1983,2025,1.6673744620082864,True,0.7044541383349769
+157,"Degani, Giulio Ettore",Italy,20,110,50,1976,2026,1.5999885849353301,True,0.357977001420434
+3716,"Bargelli, Giuseppe (di Saladino)",Italy,20,12,37,1986,2023,1.4972551775682241,True,1.0439908218988496
+53,"Bellarosa, Vittorio",Italy,20,24,40,1985,2025,1.4357624385996859,True,0.7289048119141287
+771,"Vaccari, Raffaele",Italy,20,14,30,1987,2017,1.3956837529999433,True,1.1332490491846583
+150,"De Barbieri, Paolo",Italy,20,38,42,1984,2026,1.345407265714793,True,0.9091665121432138
+20,"Auciello, Luigi",Italy,20,16,39,1985,2024,1.3043981818145145,True,1.0928488715165272
+41,"Barbieri, Bruno",Italy,20,33,39,1984,2023,1.3030361933004775,True,0.6185436816526063
+926,"Lechi, Antonio",Italy,20,99,49,1975,2024,1.2827521821457077,True,0.4035783951425216
+931,"Orlandini, Archimede",Italy,20,16,37,1984,2021,1.2640509816631118,True,1.1914291495834033
+245,"Guerra, Evasio Emilio",Italy,20,28,39,1987,2026,1.2366006491592696,True,0.9192311768476907
+502,"Orselli, Enrico",Italy,20,10,29,1996,2025,1.1853723808320504,True,1.5876252274579423
+357,"Lanaro, Umberto",Italy,20,24,40,1986,2026,1.0647397025586036,True,0.7485579759010309
+102,"Capellini, Virgilio",Italy,20,13,43,1980,2023,1.0522729329546454,True,0.45236931891302035
+117,"Cavalazzi, Antonino",Italy,20,13,21,1997,2018,1.0028257364436577,True,1.244064708431783
+2299,"Castelli, Cesare",Italy,20,12,23,2003,2026,0.9926000118946732,True,1.4642074875022988
+632,"Rovescalli, Azzo",Italy,20,15,41,1984,2025,0.9426120678444061,True,1.0937299315945597
+3,"Albanelli, Franco",Italy,20,54,32,1993,2025,0.9310902171627333,True,0.5744922516071077
+534,"Pevere, Ernesto",Italy,20,17,35,1988,2023,0.902906003167403,True,0.8922842256159094
+897,"Gianotti, Alfredo",Italy,20,30,46,1980,2026,0.8493203337808231,True,0.5957697797899911
+27,"Azzola, Luigi",Italy,20,12,32,1988,2020,0.7059328946716459,True,1.492029638725287
+676,"Sgarabotto, Gaetano",Italy,20,52,42,1984,2026,0.6665542720679429,True,0.8033018012710413
+1455,"Salsedo, Luigi",Italy,20,30,41,1977,2018,0.6559934833995529,True,0.5973494138128712
+51,"Bedocchi, Mario",Italy,20,18,26,1996,2022,0.6324174431842078,True,1.2590707620752333
+429,"Martini, Oreste",Italy,20,10,38,1985,2023,0.5275996680553785,True,1.2691150423018969
+559,"Politi, Enrico",Italy,20,24,32,1994,2026,0.5176245550208014,True,0.9463795293732655
+146,"Dal Canto, Giustino",Italy,20,10,36,1989,2025,0.3688650209559663,True,1.3882233011863947
+1254,"Peternella, Jago",Italy,20,16,38,1984,2022,0.3458374628869665,True,1.4200176568847411
+686,"Simonazzi, Amadeo",Italy,20,17,32,1993,2025,0.32729156975586093,True,1.3377468729763695
+1411,"Casini, Lapo",Italy,20,10,33,1985,2018,0.3206645292798349,True,1.0997471387857851
+121,"Cavani, Vincenzo",Italy,20,22,39,1987,2026,0.12918480453341097,True,0.9740784546661869
+172,"Farotto, Celestino",Italy,20,23,41,1985,2026,0.09224162492438293,True,1.5570889427921089
+1467,"Erician, Martin",Italy,20,11,21,2000,2021,0.03185755698886794,True,1.6372505590079764
+669,"Sderci, Luciano",Italy,20,19,37,1984,2021,0.00560850546751368,True,0.5844116681230781
+39,"Barbieri, Enzo",Italy,20,24,48,1978,2026,-0.11292370490263437,True,0.3639950774934285
+838,"Zani, Aldo",Italy,20,13,38,1988,2026,-0.13894393192910304,True,0.9560504800398651
+113,"Castagnino, Giuseppe",Italy,20,23,39,1987,2026,-0.17095251732101024,True,0.7931644349751558
+587,"Radighieri, Otello",Italy,20,16,32,1992,2024,-0.2853879607535692,True,1.036861650742367
+984,"Maggiali, Cesare",Italy,20,22,30,1996,2026,-0.29057819339929347,True,0.6898176388389665
+448,"Militello, Mariano",Italy,20,11,27,1995,2022,-0.30991024157088765,True,1.4868498177585865
+185,"Gadda, Mario",Italy,20,85,43,1983,2026,-0.4200466970477157,True,0.3466766107133117
+207,"Genovese, Riccardo",Italy,20,28,29,1994,2023,-0.47202808185448086,True,0.8208609060896623
+581,"Puglisi, Concetto",Italy,20,19,38,1985,2023,-0.4918028539452446,True,1.283654491843181
+790,"Verne, Dario",Italy,20,27,29,1996,2025,-0.578379683471153,True,1.0563069842072863
+580,"Puglisi, Michelangelo",Italy,20,14,35,1989,2024,-0.7413052587883939,True,1.3721505492325854
+769,"Ullmann, Georg",Italy,20,13,28,1997,2025,-1.4378261971834005,True,0.9100575616515817
+1631,"Goss, Walter Solon",North America,19,12,18,1995,2013,5.432399943957833,True,2.949709305891759
+1345,"Friedrich, John",North America,19,28,33,1989,2022,3.9660830792578317,True,1.539854981723395
+822,"White, Asa Warren",North America,19,29,38,1986,2024,3.3814332210617914,True,0.8479243242802444
+206,"Gemünder, George I",North America,19,44,39,1985,2024,2.8826986222246775,True,0.7631009791667791
+709,"Squier, Jerome Bonaparte",North America,19,23,35,1989,2024,1.7716292175207204,True,1.3213029617298924
+205,"Gemünder, August Martin",North America,19,26,31,1987,2018,1.6297741659684783,True,1.373253951623259
+336,"Knopf, Heinrich (Henry) Richard",North America,19,21,34,1989,2023,0.7789557876072051,True,1.0562409945056692
+31,"Baker, Calvin",North America,19,11,28,1993,2021,0.5835507924390804,True,1.8294230163857597
+598,"Reindahl, Knute",North America,19,17,35,1984,2019,0.17042879328661442,True,1.7928135672159833
+89,"Bryant, Ole H.",North America,19,17,35,1990,2025,0.07223701055851794,True,1.3336547524383302
+1238,"Handley, Henry",North America,19,12,48,1976,2024,-1.4900534971017176,True,0.7832958175057386
+110,"Carlisle, James Reynold",North America,20,27,35,1987,2022,3.8076761434079565,True,1.3855444832605985
+54,"Bellini, Luiz",North America,20,14,23,2003,2026,3.058923661953039,True,1.222844826727025
+1520,"Erdesz, Otto A.",North America,20,16,23,1996,2019,2.572188190122504,True,0.9143855617111794
+9541,"Martino, Giuseppe",North America,20,12,35,1990,2025,2.419032955260536,True,0.6519240517065841
+1559,"Hall, Roscoe G.",North America,20,11,26,1984,2010,0.8480114696757024,True,3.8706903870672287
+57,"Berger, Karl August",North America,20,40,42,1984,2026,0.011500314196455363,True,0.6516699747103529
+531,"Peresson, Sergio",North America,20,15,30,1995,2025,-0.27477623379040805,True,0.622851536971132
+826,"Wilkanowski, William",North America,20,47,45,1980,2025,-0.3972846546723585,True,0.5952374035510815
+49,"Becker, Carl Sr.",North America,20,38,25,2000,2025,-0.6145293465307011,True,0.4922983178187668
+1742,"Cornelissen, Marten",North America,20,12,31,1995,2026,-0.7398196817157809,True,1.735049909516593
+2025,"De Luccia, Gennaro",North America,20,17,20,2005,2025,-0.8801225600901574,True,1.5704720115733657
+814,"Walker, John Harold",North America,20,12,32,1986,2018,-1.081168344788641,True,1.4240148073989525
+1540,"Wamsley, Peter",UK & Ireland,17,25,34,1980,2014,-3.607778033593967,True,1.9527899334647751
+1421,Longman & Co. Firm,UK & Ireland,18,16,35,1978,2013,4.8133171011709885,True,2.7833260616774775
+1466,"Dearlove, Mark",UK & Ireland,18,10,43,1976,2019,4.52109142349566,True,1.9816117674543325
+1294,"Banks, James & Henry",UK & Ireland,18,13,34,1987,2021,3.7521081755807595,True,2.614307619420671
+259,"Hardie, Matthew",UK & Ireland,18,28,46,1977,2023,3.556978870178984,True,1.0084530112602859
+1420,Longman & Broderip Firm,UK & Ireland,18,26,31,1976,2007,3.4681970170909127,True,1.8208142681159303
+1616,"Perry, Thomas II",UK & Ireland,18,50,48,1978,2026,2.720619614606856,True,0.8891255382213523
+1610,"Cahusac, Thomas",UK & Ireland,18,21,42,1977,2019,2.7184822061186775,True,1.20139196513514
+748,"Thompson, Charles & Samuel",UK & Ireland,18,91,51,1975,2026,2.2449401182728312,True,0.8891081238042843
+1378,"Panormo, Joseph",UK & Ireland,18,10,40,1977,2017,2.152195157961345,True,3.1030958067597156
+316,"Johnson, John",UK & Ireland,18,45,47,1979,2026,2.0160065684900808,True,1.000576587542658
+694,"Smith, Thomas",UK & Ireland,18,19,42,1977,2019,1.9535885220964166,True,1.1728587766790184
+752,"Tobin, Richard",UK & Ireland,18,13,42,1979,2021,1.6671766066686633,True,1.574263164505857
+67,"Betts, John I",UK & Ireland,18,48,49,1977,2026,1.6231007985142432,True,1.0325388954662107
+1040,"Parker, Daniel",UK & Ireland,18,16,40,1978,2018,1.523787506599894,True,1.4088476439759876
+34,"Banks, Benjamin",UK & Ireland,18,47,42,1983,2025,1.4819167536682443,True,0.8604821137451434
+166,"Duke, Richard",UK & Ireland,18,130,50,1975,2025,1.3009689889356801,True,0.46513037049693423
+1340,"Barrett, John",UK & Ireland,18,30,44,1977,2021,1.242011524974762,True,1.3343304575449488
+2607,"Forster, William III",UK & Ireland,18,18,28,1989,2017,1.1409433626152765,True,1.3679447468840682
+1350,"Marshall, John",UK & Ireland,18,14,43,1975,2018,0.9501283036778219,True,2.109334483365181
+1354,"Simpson, John",UK & Ireland,18,10,40,1983,2023,0.5814142456151972,True,1.2830301416850882
+179,"Forster, William II or Sr",UK & Ireland,18,29,45,1980,2025,0.34541254554689704,True,0.7354273184605339
+1274,"Ford, Jacob",UK & Ireland,18,11,47,1979,2026,0.01149350348661482,True,1.7588695962894547
+1373,"Hill, Joseph I",UK & Ireland,18,43,51,1975,2026,-0.11227162522607914,True,0.6517768716789458
+1282,"Brown, James I",UK & Ireland,18,23,48,1977,2025,-0.12900883976626476,True,1.4308784406160038
+1166,"Barton, George",UK & Ireland,18,10,32,1986,2018,-1.8627877110470537,True,3.0564999310094407
+1419,"Hill, Lockey",UK & Ireland,18,32,45,1981,2026,-1.8960448004091135,True,0.8780947437711789
+1713,"Hill, Henry Lockey",UK & Ireland,18,10,36,1985,2021,-2.1297050381698157,True,1.4926595414401147
+1068,"Withers, Edward I",UK & Ireland,19,17,39,1984,2023,3.7145155521617346,True,1.0009305236811226
+1007,"Cramond, Charles",UK & Ireland,19,10,36,1984,2020,3.6816699156185795,True,1.263381246744236
+1346,"Furber, John",UK & Ireland,19,16,37,1984,2021,2.4178221815437384,True,1.2061258861337043
+1661,"Hill, William Ebsworth",UK & Ireland,19,24,46,1975,2021,2.0272178023309273,True,1.4185064200370436
+1209,Goulding & Co.,UK & Ireland,19,32,39,1977,2016,1.8312609604880459,True,1.4250064283539623
+1011,"Harris, Charles II",UK & Ireland,19,24,47,1975,2022,1.6054530155753088,True,1.1000001864176163
+1344,"Day, John",UK & Ireland,19,11,30,1986,2016,1.485537211411403,True,1.2015911162950375
+1614,"Hardie, Thomas",UK & Ireland,19,10,40,1984,2024,1.4821056598274485,True,1.8318946151527966
+278,"Hesketh, Thomas Earle",UK & Ireland,19,89,50,1975,2025,1.4673696849091256,True,0.3960672150075727
+1353,"Rae, John",UK & Ireland,19,16,47,1976,2023,1.43390034322044,True,0.6556332515110154
+1349,"Lott, John Frederick II",UK & Ireland,19,15,45,1981,2026,1.3555234854649045,True,1.0647288540700093
+692,"Smillie, Alexander",UK & Ireland,19,34,49,1975,2024,1.3218717200661256,True,0.7423931937172762
+1385,"Chanot, Joseph Anthony",UK & Ireland,19,27,42,1984,2026,1.2572283691479225,True,1.0348471134752997
+1296,"Briggs, James William",UK & Ireland,19,46,48,1975,2023,1.2261453240099751,True,0.7420689005151123
+1352,"Priestnall, John",UK & Ireland,19,17,39,1982,2021,1.220975598380858,True,1.1798221984183555
+1640,"Atkinson, William",UK & Ireland,19,64,45,1976,2021,1.0777214007233749,True,0.5578491541387873
+962,"Fendt, Bernard Simon II",UK & Ireland,19,16,37,1984,2021,1.0642395740214194,True,1.9455877055999222
+127,"Chanot, Georges Adolphe",UK & Ireland,19,69,44,1982,2026,0.7288298115845082,True,0.5906625113754642
+1314,"Gilbert, Jeffrey James",UK & Ireland,19,65,51,1975,2026,0.6206647993403092,True,0.5431857331917841
+195,"Gaida, Giovanni",UK & Ireland,19,34,50,1975,2025,0.41032980661723784,True,0.7018523962401013
+141,"Craske, George",UK & Ireland,19,240,51,1975,2026,0.3951338531523074,True,0.22052660746826572
+1664,"Blyth, Williamson",UK & Ireland,19,11,19,1984,2003,0.3532782351526764,True,2.387116918699977
+1075,"Whitmarsh, Emanuel",UK & Ireland,19,109,51,1975,2026,0.34099002245768784,True,0.43310333010538515
+1287,"Hardie, James II",UK & Ireland,19,41,49,1976,2025,0.2615695171833021,True,0.6215089068161921
+1178,"Buckman, George Hatton",UK & Ireland,19,10,34,1980,2014,0.24529219884994458,True,0.9627832104137358
+1181,"Wulme-Hudson, George",UK & Ireland,19,84,48,1978,2026,0.10800189268669325,True,0.3338276520734685
+584,"Pyne, George",UK & Ireland,19,95,50,1976,2026,0.10718318147877604,True,0.39949057860650855
+1316,"Ardern, Job",UK & Ireland,19,70,50,1975,2025,0.02283008172137002,True,0.4846321376596128
+1363,"Monk, John King",UK & Ireland,19,20,45,1976,2021,-0.03454279782665326,True,0.7090492009726835
+1145,"Chanot, Frederick William",UK & Ireland,19,34,42,1984,2026,-0.10603023105045795,True,0.8135360138037849
+1538,Perry & Wilkinson Firm,UK & Ireland,19,86,49,1977,2026,-0.1212184237461722,True,0.4981389204326391
+1273,"Fendt, Jacob",UK & Ireland,19,12,50,1976,2026,-0.5265540455862694,True,1.439110583461553
+1615,"Kennedy, Thomas",UK & Ireland,19,43,50,1976,2026,-0.5297369860877699,True,0.5178403812707715
+1230,Hart & Son,UK & Ireland,19,26,37,1978,2015,-0.5336452523958757,True,1.8819018116760395
+1356,"Smith, John",UK & Ireland,19,15,41,1983,2024,-0.5505377237915776,True,2.0487907864679205
+9643,"Mayson, Walter H.",UK & Ireland,19,159,51,1975,2026,-0.5607275678723211,True,0.3362935980652296
+1654,"Tarr, William",UK & Ireland,19,11,39,1976,2015,-0.6536797626331303,True,1.3529772394417094
+7950,"Hudson, George",UK & Ireland,19,29,45,1980,2025,-1.0280315051825362,True,1.1786169015905261
+1646,"Heaton, William",UK & Ireland,19,22,44,1980,2024,-1.1322420213048079,True,0.8776855177673836
+1090,"Mumby, Ernest",UK & Ireland,19,18,31,1981,2012,-1.7068561633657664,True,1.0745695016240218
+970,"Voller, William, Charles & Alfred",UK & Ireland,19,21,36,1990,2026,-1.7297748012265024,True,1.552824227436249
+1283,"Cole, James",UK & Ireland,19,16,46,1977,2023,-1.907725776985536,True,1.0438639964794594
+1286,"Gilchrist, James",UK & Ireland,19,11,37,1988,2025,-2.058569852069325,True,0.8779095338111503
+1047,"Stirrat, David",UK & Ireland,19,10,36,1977,2013,-3.107871122990724,True,2.2578846499068486
+816,"Warrick, A.",UK & Ireland,20,17,31,1985,2016,3.8218787616019823,True,1.5077244995277133
+1586,"Rushworth, Rushworth & Dreaper",UK & Ireland,20,37,37,1975,2012,2.9503219082506194,True,1.1410157358776372
+767,"Tweedale, Charles L.",UK & Ireland,20,29,36,1975,2011,2.9394070748942847,True,0.9148497635186745
+1142,"Channon, Frederick William",UK & Ireland,20,13,36,1975,2011,2.2312455937926856,True,1.0155497262510667
+1176,"Withers, George Thomas Henry",UK & Ireland,20,13,31,1976,2007,2.186218265697759,True,2.578705835011859
+801,"Voigt, Paul",UK & Ireland,20,18,41,1983,2024,2.026017996779661,True,1.2741448256788892
+1231,"Hawkes, Hawkes & Sons",UK & Ireland,20,83,46,1975,2021,2.0233715425558962,True,0.4758752885811488
+1367,"Owen, John William",UK & Ireland,20,29,37,1983,2020,1.9323817429186096,True,1.0599029278755758
+1032,"Hoing, Clifford A.",UK & Ireland,20,17,44,1977,2021,1.7969641083216858,True,0.8577649309848424
+4077,"Bird, Richmond Henry",UK & Ireland,20,13,32,1975,2007,1.5827518196155133,True,1.7935816573332097
+1574,"Riviere, Riviere & Hawkes",UK & Ireland,20,12,40,1976,2016,1.3080337985599266,True,1.87700807280229
+1626,"Hill & Sons, W. E. Firm",UK & Ireland,20,127,50,1976,2026,1.0828741192289382,True,0.48796527358638137
+1656,"Walker, William",UK & Ireland,20,16,43,1980,2023,0.704734729605172,True,1.2428375281606368
+14638,"Weller, Frederick",UK & Ireland,20,14,45,1975,2020,0.6225694023315853,True,1.0188358823267005
+1412,"Cocker, Lawrence",UK & Ireland,20,19,43,1983,2026,0.4106870893676673,True,0.9383181188482753
+1144,"Braund, Frederick T.",UK & Ireland,20,13,25,1990,2015,0.3552180487883305,True,1.3695100158051923
+884,"Hume, Andrew (Alexander)",UK & Ireland,20,17,41,1980,2021,0.09270053263670253,True,0.8762833402028037
+894,"Vincent, Alfred",UK & Ireland,20,90,50,1975,2025,-0.09917072570690966,True,0.47525188731014584
+14796,"Wilkinson, Charles John",UK & Ireland,20,10,38,1988,2026,-0.18980297863950835,True,0.5715912885031088
+1248,"Moya, Hidalgo",UK & Ireland,20,17,48,1976,2024,-0.20157197516021963,True,0.70691974241943
+607,"Richardson, Arthur",UK & Ireland,20,71,49,1975,2024,-0.2895139684054304,True,0.4161096805619536
+1445,"Milton, Louis Frank",UK & Ireland,20,21,49,1977,2026,-0.3191782962322476,True,0.9296028025513596
+1644,"Glenister, William",UK & Ireland,20,42,40,1980,2020,-0.5029949736552464,True,0.7081112545285109
+618,"Robinson, William",UK & Ireland,20,101,50,1975,2025,-0.6237989250725384,True,0.39010941617191397
+1226,"Dobbs, Harry",UK & Ireland,20,14,46,1977,2023,-1.0470730523165384,True,0.4652208139187733
+711,"Stanley, Robert A.",UK & Ireland,20,11,43,1980,2023,-1.1211132118954859,True,2.4596175439892765
+1648,"Luff, William H.",UK & Ireland,20,40,41,1985,2026,-1.5907615517516405,True,0.344324293595599
+963,"Smith, Bert",UK & Ireland,20,12,36,1989,2025,-1.9327335692652436,True,0.910770873682232
+1127,"Harlow, Frank",UK & Ireland,20,10,37,1986,2023,-1.9861296134777273,True,0.5402749399926016
+1657,"Walton, William",UK & Ireland,20,14,48,1977,2025,-2.2999635066623947,True,1.1093976607052478
+1409,"Perry, L.A.",UK & Ireland,20,10,26,1980,2006,-3.4305120846100823,True,1.3298106019528968
+1391,"Emery, Julian",UK & Ireland,20,17,40,1985,2025,-3.971491448870068,True,2.4086659720215273
+247,"Guillami, Juan I",World (Rest of),18,11,43,1975,2018,1.1648086995831752,True,1.7551460227853144
+1109,"Gonzalez, Solar Fernando",World (Rest of),20,10,39,1986,2025,2.2032775093931978,True,1.411908161097252
+922,"Capela, Antonio",World (Rest of),20,69,42,1984,2026,0.4900788984740334,True,0.3449017804445971
+1076,"Hjorth & Sons, Emil",World (Rest of),20,43,40,1986,2026,0.0411045431954582,True,0.7353382441817616
+1535,"Merling, Pauli",World (Rest of),20,20,43,1983,2026,-0.7549052884040841,True,0.9902648135202543

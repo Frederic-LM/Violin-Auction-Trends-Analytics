@@ -66,8 +66,8 @@ wherever one turns up.
 - *Cross-checked*: a secondary price that a second, separate record gives alike (the same price, or one differing only
   by the house's premium). Two records count as one where one visibly copies the other.
 
-Version 1.17 holds 128 948 lots (1829–2026). Of the 77 499 lots counted in the analysis, 45 % come from the house's
-own documents and 22 % are cross-checked; 3 % rest on the yearbook or the press alone, and 30 % on a single compiled
+Version 1.18 holds 128 948 lots (1829–2026). Of the 77 243 lots counted in the analysis, 47 % come from the house's
+own documents and 20 % are cross-checked; 3 % rest on the yearbook or the press alone, and 30 % on a single compiled
 record of another house's sale (for example a Sotheby's lot known only from Tarisio's archive). The results hold
 without these last (section 10).
 
@@ -103,7 +103,7 @@ or withdrawn is not a sale, whatever another record says.
   not a house.
 - **A house inferred from the day.** A lot with an exact day but no house name takes the house that sold on that day,
   when only one is known, and is marked as inferred. Houses whose results we hold in full are never inferred.
-- **Lots with no house are not counted** (15 673 lots): a lot that cannot be placed in a real sale cannot be checked.
+- **Lots with no house are not counted** (15 675 lots): a lot that cannot be placed in a real sale cannot be checked.
   Almost all are records that give only the month.
 - **Trade sales are not counted** (4 060 lots). Some houses sell trade instruments (for restoration, workshop stock,
   cheap instruments) in separate sales or on a separate day: Tarisio's T2 online sales and its earlier "speculative,
@@ -176,22 +176,22 @@ instrument sold as "school of" may be attributed later.
 
 A lot is counted when all of the following hold (a lot left out is listed under the first rule it fails):
 
-| Rule | Why | Lots left out (v1.17) |
+| Rule | Why | Lots left out (v1.18) |
 |---|---|---|
 | attribution accepted | the market for a maker's own work | 27 024 |
-| auction house known | a lot that cannot be placed in a sale cannot be checked | 15 673 |
+| auction house known | a lot that cannot be placed in a sale cannot be checked | 15 675 |
 | not a trade sale or trade day | another market (section 4) | 4 060 |
 | the maker is known for certain (no family name alone; Collin-Mézin by year) | which maker is not known | 1 009 |
 | full size (no ½, ¾, 7/8 violins or violin bows) | another market | 969 |
 | no description of a student, damaged, repaired or non-pernambuco instrument | not the maker's normal work | 767 |
-| not a second record of a lot already counted | one lot, one count | 507 |
+| not a second record of a lot already counted | one lot, one count | 752 |
 | not implausibly cheap: under a tenth of the maker's usual price **and** under half the maker's cheapest sale (same type, within 10 years); or under 0.3 times the maker's cheapest sale in Tarisio's archive | a broken or doubtful instrument, or a reading error | 440 |
 | cracks or missing parts, below high value (read one by one) | not the maker's normal work | 107 |
-| not bought in, withdrawn, or another lot according to the house's documents | the house's own result wins | 94 |
+| not bought in, withdrawn, or another lot according to the house's documents | the house's own result wins | 104 |
 
-A further 799 accepted lots have no maker identifier yet. Lots left out stay in the data. **77 499 lots are counted**:
-violins 34 564, violin bows 26 233, cello bows 5 733, violas 3 777, cellos 3 404, viola bows 3 274, double basses and
-their bows 513.
+A further 798 accepted lots have no maker identifier yet. Lots left out stay in the data. **77 243 lots are counted**:
+violins 34 378, violin bows 26 204, cello bows 5 729, violas 3 767, cellos 3 385, viola bows 3 267, double basses and
+their bows 512.
 
 ## 9. The growth measure
 
@@ -239,28 +239,28 @@ chosen by name: keeping the early press only for a chosen group would choose the
 Each test changes one thing; the tables are in [ROBUSTNESS.md](ROBUSTNESS.md).
 
 - **Other data choices** (major houses only, hammer prices, other windows, press reports added): Italy leads and
-  France trails in almost every version; the median moves between 0.34 (hammer prices) and 1.36 (seven
+  France trails in almost every version; the median moves between 0.35 (hammer prices) and 1.36 (seven
   major houses only). The more of the ordinary market is included, the lower the median: recent lots of ordinary
   instruments sell below the same makers' lots at the major houses, and their share of the record grows after 2000.
   Neither version is "the" market: the counted lots aim at the whole public market, the major-house versions at its
   upper part.
 - **Without the lots resting on a single compiled record:** the same spread of fates (15 / 43 / 42 %), Italy first and
   France last, makers in nearly the same order (rank correlation 0.83).
-- **Other eligibility minimums** (5 sales over 10 years to 20 over 20): median 0.42 to 0.70; Italy first and France
+- **Other eligibility minimums** (5 sales over 10 years to 20 over 20): median 0.42 to 0.71; Italy first and France
   last at every threshold.
-- **The implausibly cheap lots put back:** median 0.59 instead of 0.58.
-- **Stricter definitions of deceased** (no-date makers out; death year known only): median 0.65 and 0.79; Italy first
+- **The implausibly cheap lots put back:** median 0.60 instead of 0.61.
+- **Stricter definitions of deceased** (no-date makers out; death year known only): median 0.69 and 0.80; Italy first
   and France last.
 - **Price paid or hammer price.** The results use the price paid (the cost of acquiring the instrument); the hammer is
-  closer to what the room bid. Premiums rose over the period, so the two do not grow alike: median 0.58 with the price
-  paid, 0.34 with the hammer. Part of the growth of what buyers pay is the growth of the premium.
+  closer to what the room bid. Premiums rose over the period, so the two do not grow alike: median 0.61 with the price
+  paid, 0.35 with the hammer. Part of the growth of what buyers pay is the growth of the premium.
 - **A robust slope** (Theil–Sen, which a few outlying sales cannot pull): median 0.57, rank correlation 0.92 with the
   least-squares rates.
 - **Precision of each maker's rate.** Median standard error 0.9 point a year (1.3 for makers with 10 to 19 sales, 0.5
   with 50 or more); allowing for lots of the same sale changes almost nothing. For two thirds of makers the 95 %
   interval includes zero: single makers' rates are often imprecise.
 - **Precision of the summary figures:** a bootstrap that resamples whole auction sales (5 000 resamples): median
-  0.58 (95 %: 0.45 to 0.79); Italy minus France 1.88 (1.63 to 2.27), Italy above France in every resample; France's
+  0.61 (95 %: 0.45 to 0.80); Italy minus France 1.88 (1.62 to 2.26), Italy above France in every resample; France's
   median near zero (−0.47 to 0.00); the three groups vary by about 1.5 points. The same with the selection of makers
   rerun in each resample.
 
@@ -319,3 +319,4 @@ Each version of the data is frozen, never changed afterwards, and tagged; result
 | 1.9 | 23 Oct 2026 | the same lot counted twice removed | 629 | 0.53 |
 | 1.12 | 2 Nov 2026 | sales from 1975 on for every maker | 638 | 0.57 |
 | 1.17 | 3 Nov 2026 | house names cleaned | 639 | 0.58 |
+| 1.18 | 4 Nov 2026 | lots listed twice by a record, and recorded sales of lots the house did not sell, removed | 639 | 0.61 |

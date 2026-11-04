@@ -15986,7 +15986,7 @@
     {
         "maker_name": "Collin, Claude Nicolas",
         "maker_id": 2137,
-        "birth": 1800,
+        "birth": 1817,
         "death": 1864,
         "century": "19",
         "country": "France",
@@ -34434,15 +34434,6 @@
         "bio": null
     },
     {
-        "maker_name": "Allen, Joseph S.",
-        "maker_id": 961190,
-        "birth": null,
-        "death": null,
-        "century": "Unknown",
-        "country": "Unknown",
-        "bio": null
-    },
-    {
         "maker_name": "Allison, John L.",
         "maker_id": 961191,
         "birth": null,
@@ -34481,15 +34472,6 @@
     {
         "maker_name": "Bruet, Nicholas",
         "maker_id": 961198,
-        "birth": null,
-        "death": null,
-        "century": "Unknown",
-        "country": "Unknown",
-        "bio": null
-    },
-    {
-        "maker_name": "Bruneau, Simon",
-        "maker_id": 961199,
         "birth": null,
         "death": null,
         "century": "Unknown",
@@ -34659,15 +34641,6 @@
         "bio": null
     },
     {
-        "maker_name": "Thompson, Claude",
-        "maker_id": 961240,
-        "birth": null,
-        "death": null,
-        "century": "Unknown",
-        "country": "Unknown",
-        "bio": null
-    },
-    {
         "maker_name": "Tomas, Otis A.",
         "maker_id": 961241,
         "birth": null,
@@ -34688,15 +34661,6 @@
     {
         "maker_name": "VINCENT ARTHUR",
         "maker_id": 961244,
-        "birth": null,
-        "death": null,
-        "century": "Unknown",
-        "country": "Unknown",
-        "bio": null
-    },
-    {
-        "maker_name": "Wade, H. F.",
-        "maker_id": 961247,
         "birth": null,
         "death": null,
         "century": "Unknown",

@@ -1,6 +1,6 @@
-# Results, data version 1.17
+# Results, data version 1.18
 
-Frozen 2026-11-03. Every figure below is computed from that version (`tools/figures.py`); the per-maker lists are
+Frozen 2026-11-04. Every figure below is computed from that version (`tools/figures.py`); the per-maker lists are
 `maker_cagr_master_list.csv` (violins) and `maker_cagr_master_list_bows.csv` (violin bows). Violins and bows are
 measured separately and never mixed.
 
@@ -11,7 +11,7 @@ at least 10 counted sales over at least 15 years are measured. Method: [METHODOL
 
 ## Violins
 
-639 makers measured, out of 3,898 with at least one counted sale. Median real growth: **0.58 % a year**.
+639 makers measured, out of 3,893 with at least one counted sale. Median real growth: **0.61 % a year**.
 
 | Fate | Makers | Share |
 |---|---|---|
@@ -19,7 +19,7 @@ at least 10 counted sales over at least 15 years are measured. Method: [METHODOL
 | Roughly held (-1 % to +1 %) | 270 | 42.3 % |
 | Gained real value (above +1 %) | 269 | 42.1 % |
 
-228 makers (35.7 %) are below zero; 143 above +2 %, 34 below -2 %.
+227 makers (35.5 %) are below zero; 143 above +2 %, 34 below -2 %.
 
 | Region | Median growth (% a year) | Makers |
 |---|---|---|
@@ -33,10 +33,10 @@ at least 10 counted sales over at least 15 years are measured. Method: [METHODOL
 
 | Century of the maker | Median growth (% a year) | Makers |
 |---|---|---|
-| 17th c. | 1.98 | 24 |
+| 17th c. | 1.95 | 24 |
 | 18th c. | 1.09 | 128 |
-| 19th c. | 0.47 | 252 |
-| 20th c. | 0.31 | 235 |
+| 19th c. | 0.48 | 252 |
+| 20th c. | 0.32 | 235 |
 
 Region and century (cells with at least 10 makers):
 
@@ -45,16 +45,16 @@ Region and century (cells with at least 10 makers):
 | Central Europe | 18th c. | 0.45 | 32 |
 | Central Europe | 19th c. | 0.64 | 42 |
 | Central Europe | 20th c. | -0.36 | 31 |
-| France | 18th c. | 0.43 | 24 |
+| France | 18th c. | 0.41 | 24 |
 | France | 19th c. | -0.11 | 102 |
 | France | 20th c. | -0.91 | 65 |
 | Italy | 17th c. | 1.86 | 20 |
-| Italy | 18th c. | 1.87 | 42 |
-| Italy | 19th c. | 2.05 | 50 |
+| Italy | 18th c. | 1.86 | 42 |
+| Italy | 19th c. | 2.04 | 50 |
 | Italy | 20th c. | 1.44 | 85 |
 | North America | 19th c. | 1.63 | 11 |
 | North America | 20th c. | -0.13 | 12 |
-| UK & Ireland | 18th c. | 1.48 | 27 |
+| UK & Ireland | 18th c. | 1.52 | 27 |
 | UK & Ireland | 19th c. | 0.35 | 44 |
 | UK & Ireland | 20th c. | 0.22 | 32 |
 
@@ -62,7 +62,7 @@ Long run: 40 makers have at least 5 sales before 1950; their growth over all the
 
 ## Violin bows
 
-198 makers measured, out of 780 with at least one counted sale. Median real growth: **0.89 % a year**.
+198 makers measured, out of 778 with at least one counted sale. Median real growth: **0.89 % a year**.
 
 | Fate | Makers | Share |
 |---|---|---|
@@ -74,7 +74,7 @@ Long run: 40 makers have at least 5 sales before 1950; their growth over all the
 
 | Region | Median growth (% a year) | Makers |
 |---|---|---|
-| France | 1.32 | 98 |
+| France | 1.38 | 98 |
 | Central Europe | 0.80 | 60 |
 | UK & Ireland | 0.57 | 27 |
 | World (Rest of) | -0.10 | 13 |
@@ -82,7 +82,7 @@ Long run: 40 makers have at least 5 sales before 1950; their growth over all the
 | Century of the maker | Median growth (% a year) | Makers |
 |---|---|---|
 | 18th c. | 2.10 | 10 |
-| 19th c. | 1.51 | 80 |
+| 19th c. | 1.53 | 80 |
 | 20th c. | 0.50 | 108 |
 
 Region and century (cells with at least 10 makers):
@@ -91,7 +91,7 @@ Region and century (cells with at least 10 makers):
 |---|---|---|---|
 | Central Europe | 19th c. | 1.81 | 17 |
 | Central Europe | 20th c. | 0.63 | 42 |
-| France | 19th c. | 1.41 | 51 |
+| France | 19th c. | 1.50 | 51 |
 | France | 20th c. | 0.53 | 39 |
 | UK & Ireland | 20th c. | -0.13 | 17 |
 | World (Rest of) | 20th c. | -0.36 | 10 |
