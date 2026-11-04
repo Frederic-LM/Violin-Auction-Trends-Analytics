@@ -1,7 +1,5 @@
 # Methodology
 
-> **DRAFT for the author's review (4 Nov 2026). Not final.**
-
 How the auction data are built and how the results in [RESULTS.md](RESULTS.md) are measured. Every rule is given with
 its reason. The detailed checks, with their tables, are in [ROBUSTNESS.md](ROBUSTNESS.md). Figures are those of data
 version 1.18 (frozen 4 November 2026).
