@@ -2,10 +2,10 @@
 
 Interactive results: https://www.ruederome.com/trend.php
 
-**Data version 1.17** (frozen 3 November 2026). `maker_cagr_master_list.csv` holds the violin results of that version:
+**Data version 1.18** (frozen 4 November 2026). `maker_cagr_master_list.csv` holds the violin results of that version:
 639 deceased makers with at least 10 sales over 15 years, each measured on their sales from 1975 on (the same years
 for every maker), counted lots only (accepted attributions, house known, no small sizes, no student or damaged lots).
-The violin-bow results are in `maker_cagr_master_list_bows.csv` (198 makers). `makers_meta.json` holds 4 322 makers (every maker with a
+The violin-bow results are in `maker_cagr_master_list_bows.csv` (198 makers). `makers_meta.json` holds 4 318 makers (every maker with a
 counted violin or violin-bow sale, and those of the earlier file: names, dates, country, century; no biographies). Running `analyze.py`
 on the counted sales with this maker file gives each list exactly (violins and bows run separately).
 

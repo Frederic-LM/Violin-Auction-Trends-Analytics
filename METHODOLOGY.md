@@ -4,7 +4,7 @@
 
 How the auction data are built and how the results in [RESULTS.md](RESULTS.md) are measured. Every rule is given with
 its reason. The detailed checks, with their tables, are in [ROBUSTNESS.md](ROBUSTNESS.md). Figures are those of data
-version 1.17 (frozen 3 November 2026).
+version 1.18 (frozen 4 November 2026).
 
 The lots themselves are public, one file per sale, in
 [Historical Violin Trade Datasets](https://github.com/Frederic-LM/Historical-Violin-Trade-Datasets) (`Auctions/`).
